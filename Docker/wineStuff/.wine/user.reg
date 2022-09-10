@@ -1,0 +1,1304 @@
+WINE REGISTRY Version 2
+;; All keys relative to \\User\\S-1-5-21-0-0-0-1000
+
+#arch=win64
+
+[AppEvents\\Schemes\\Apps\\Explorer\\Navigating\\.Current] 1662002865
+#time=1d8bdb2cd96725c
+@=""
+
+[Control Panel\\Accessibility\\AudioDescription] 1662002857
+#time=1d8bdb2c899a486
+"Locale"=dword:00000000
+"On"="0"
+
+[Control Panel\\Accessibility\\Blind Access] 1662002857
+#time=1d8bdb2c8999f4a
+"On"="0"
+
+[Control Panel\\Accessibility\\Keyboard Preference] 1662002857
+#time=1d8bdb2c8999806
+"On"="1"
+
+[Control Panel\\Accessibility\\ShowSounds] 1662002857
+#time=1d8bdb2c899a0c6
+"On"="0"
+
+[Control Panel\\Colors] 1662002857
+#time=1d8bdb2c8ad3910
+
+[Control Panel\\Desktop] 1662002857
+#time=1d8bdb2c899a35a
+"ActiveWndTrackTimeout"=dword:00000000
+"BlockSendInputResets"="0"
+"CaretWidth"=dword:00000001
+"ClickLockTime"=dword:000004b0
+"DoubleClickHeight"="4"
+"DoubleClickWidth"="4"
+"DragFullWindows"="0"
+"DragHeight"="4"
+"DragWidth"="4"
+"FocusBorderHeight"=dword:00000001
+"FocusBorderWidth"=dword:00000001
+"FontSmoothing"="2"
+"FontSmoothingGamma"=dword:00000000
+"FontSmoothingOrientation"=dword:00000001
+"FontSmoothingType"=dword:00000001
+"ForegroundFlashCount"=dword:00000003
+"ForegroundLockTimeout"=dword:00000000
+"IconTitleWrap"="1"
+"LowPowerActive"="0"
+"MenuShowDelay"="400"
+"UserPreferencesMask"=hex:30,00,00,80,12,00,00,00
+"Wallpaper"=""
+"WheelScrollChars"="3"
+"WheelScrollLines"="3"
+
+[Control Panel\\Desktop\\WindowMetrics] 1662002857
+#time=1d8bdb2c899a1a2
+"BorderWidth"="-15"
+"CaptionHeight"="-270"
+"CaptionWidth"="-270"
+"IconSpacing"="-1125"
+"IconTitleWrap"="1"
+"IconVerticalSpacing"="-1125"
+"MenuHeight"="-270"
+"MenuWidth"="-270"
+"PaddedBorderWidth"="0"
+"ScrollHeight"="-240"
+"ScrollWidth"="-240"
+"SmCaptionHeight"="-225"
+"SmCaptionWidth"="-225"
+
+[Control Panel\\International] 1662002857
+#time=1d8bdb2c8957622
+"iCalendarType"="1"
+"iCountry"="1"
+"iCurrDigits"="2"
+"iCurrency"="0"
+"iDate"="0"
+"iDigits"="2"
+"iFirstDayOfWeek"="6"
+"iFirstWeekOfYear"="0"
+"iLDate"="0"
+"iLZero"="1"
+"iMeasure"="1"
+"iNegCurr"="0"
+"iNegNumber"="1"
+"iPaperSize"="1"
+"iTime"="0"
+"iTimePrefix"="0"
+"iTLZero"="0"
+"Locale"="00000409"
+"LocaleName"="en-US"
+"Numshape"="1"
+"s1159"="AM"
+"s2359"="PM"
+"sCountry"="United States"
+"sCurrency"="$"
+"sDate"="/"
+"sDecimal"="."
+"sGrouping"="3;0"
+"sLanguage"="ENU"
+"sList"=","
+"sLongDate"="dddd, MMMM dd, yyyy"
+"sMonDecimalSep"="."
+"sMonGrouping"="3;0"
+"sMonThousandSep"=","
+"sNativeDigits"="0123456789"
+"sNegativeSign"="-"
+"sPositiveSign"=""
+"sShortDate"="M/d/yyyy"
+"sThousand"=","
+"sTime"=":"
+"sTimeFormat"="h:mm:ss tt"
+"sYearMonth"="MMMM, yyyy"
+
+[Control Panel\\International\\Geo] 1662002857
+#time=1d8bdb2c8956c18
+"Name"="US"
+"Nation"="244"
+
+[Control Panel\\Keyboard] 1662002857
+#time=1d8bdb2c8999874
+"KeyboardDelay"="1"
+"KeyboardSpeed"="31"
+
+[Control Panel\\Mouse] 1662002857
+#time=1d8bdb2c899a210
+"ActiveWindowTracking"=dword:00000000
+"DoubleClickHeight"="4"
+"DoubleClickSpeed"="500"
+"DoubleClickWidth"="4"
+"MouseHoverHeight"="4"
+"MouseHoverTime"="400"
+"MouseHoverWidth"="4"
+"MouseSensitivity"="10"
+"MouseSpeed"="1"
+"MouseThreshold1"="6"
+"MouseThreshold2"="10"
+"SnapToDefaultButton"="0"
+"SwapMouseButtons"="0"
+
+[Control Panel\\Sound] 1662002857
+#time=1d8bdb2c8998adc
+"Beep"="Yes"
+
+[Environment] 1662002898
+#time=1d8bdb2e0c6f98c
+"PATH"="C:\\users\\root\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\;C:\\users\\root\\AppData\\Local\\Programs\\Python\\Python310\\;"
+"TEMP"="C:\\users\\root\\Temp"
+"TMP"="C:\\users\\root\\Temp"
+
+[Keyboard Layout\\Preload] 1662002857
+#time=1d8bdb2c8998578
+"1"="00000409"
+
+[Software\\Classes\\Installer\\Dependencies\\CPython-3.10] 1662002882
+#time=1d8bdb2d7a2dfce
+@="{1fab56ed-b241-47a3-9abc-d51dc01b8dff}"
+"DisplayName"="Python 3.10.6 (64-bit)"
+"Version"="3.10.6150.0"
+
+[Software\\Classes\\Installer\\Dependencies\\CPython-3.10\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662002882
+#time=1d8bdb2d7a2e0fa
+
+[Software\\Classes\\Installer\\Dependencies\\{07CDAC2C-737C-4D8A-AF42-6BCE111699AE}] 1662002883
+#time=1d8bdb2d7f3b110
+@="{07CDAC2C-737C-4D8A-AF42-6BCE111699AE}"
+"DisplayName"="Python 3.10.6 Development Libraries (64-bit)"
+"Version"="3.10.6150.0"
+
+[Software\\Classes\\Installer\\Dependencies\\{07CDAC2C-737C-4D8A-AF42-6BCE111699AE}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662002883
+#time=1d8bdb2d7f3b188
+
+[Software\\Classes\\Installer\\Dependencies\\{1204E654-144E-4FBA-ACA0-558F6E54FC5A}] 1662002886
+#time=1d8bdb2d9cab13c
+@="{1204E654-144E-4FBA-ACA0-558F6E54FC5A}"
+"DisplayName"="Python 3.10.6 Test Suite (64-bit)"
+"Version"="3.10.6150.0"
+
+[Software\\Classes\\Installer\\Dependencies\\{1204E654-144E-4FBA-ACA0-558F6E54FC5A}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662002886
+#time=1d8bdb2d9cab196
+
+[Software\\Classes\\Installer\\Dependencies\\{1D60E386-848D-45D1-BB0A-7E26A3E32011}] 1662002886
+#time=1d8bdb2d9f08592
+@="{1D60E386-848D-45D1-BB0A-7E26A3E32011}"
+"DisplayName"="Python 3.10.6 Utility Scripts (64-bit)"
+"Version"="3.10.6150.0"
+
+[Software\\Classes\\Installer\\Dependencies\\{1D60E386-848D-45D1-BB0A-7E26A3E32011}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662002886
+#time=1d8bdb2d9f08600
+
+[Software\\Classes\\Installer\\Dependencies\\{3983F17E-1088-46F9-BB00-53B888FF3835}] 1662002898
+#time=1d8bdb2e0c227ea
+@="{3983F17E-1088-46F9-BB00-53B888FF3835}"
+"DisplayName"="Python 3.10.6 pip Bootstrap (64-bit)"
+"Version"="3.10.6150.0"
+
+[Software\\Classes\\Installer\\Dependencies\\{3983F17E-1088-46F9-BB00-53B888FF3835}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662002898
+#time=1d8bdb2e0c22858
+
+[Software\\Classes\\Installer\\Dependencies\\{4306E3B9-B285-4747-B84D-9FAF08AA412D}] 1662002886
+#time=1d8bdb2d9d6e72c
+@="{4306E3B9-B285-4747-B84D-9FAF08AA412D}"
+"DisplayName"="Python 3.10.6 Documentation (64-bit)"
+"Version"="3.10.6150.0"
+
+[Software\\Classes\\Installer\\Dependencies\\{4306E3B9-B285-4747-B84D-9FAF08AA412D}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662002886
+#time=1d8bdb2d9d6e790
+
+[Software\\Classes\\Installer\\Dependencies\\{541B7582-6B11-4457-ACB7-AAC2058B3229}] 1662002898
+#time=1d8bdb2e0c85dea
+@="{541B7582-6B11-4457-ACB7-AAC2058B3229}"
+"DisplayName"="Python 3.10.6 Add to Path (64-bit)"
+"Version"="3.10.6150.0"
+
+[Software\\Classes\\Installer\\Dependencies\\{541B7582-6B11-4457-ACB7-AAC2058B3229}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662002898
+#time=1d8bdb2e0c85e62
+
+[Software\\Classes\\Installer\\Dependencies\\{750538B5-3E77-4F94-A64A-D3F09E608CA2}] 1662002882
+#time=1d8bdb2d7cf3042
+@="{750538B5-3E77-4F94-A64A-D3F09E608CA2}"
+"DisplayName"="Python 3.10.6 Executables (64-bit)"
+"Version"="3.10.6150.0"
+
+[Software\\Classes\\Installer\\Dependencies\\{750538B5-3E77-4F94-A64A-D3F09E608CA2}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662002882
+#time=1d8bdb2d7cf309c
+
+[Software\\Classes\\Installer\\Dependencies\\{A551B92B-102D-45DC-8050-5CE10DE81CD0}] 1662002888
+#time=1d8bdb2db2b4b22
+@="{A551B92B-102D-45DC-8050-5CE10DE81CD0}"
+"DisplayName"="Python 3.10.6 Tcl/Tk Support (64-bit)"
+"Version"="3.10.6150.0"
+
+[Software\\Classes\\Installer\\Dependencies\\{A551B92B-102D-45DC-8050-5CE10DE81CD0}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662002888
+#time=1d8bdb2db2b4b90
+
+[Software\\Classes\\Installer\\Dependencies\\{C3A057F3-209B-4244-9697-D69031B81AAB}] 1662002884
+#time=1d8bdb2d8bcc7ee
+@="{C3A057F3-209B-4244-9697-D69031B81AAB}"
+"DisplayName"="Python 3.10.6 Standard Library (64-bit)"
+"Version"="3.10.6150.0"
+
+[Software\\Classes\\Installer\\Dependencies\\{C3A057F3-209B-4244-9697-D69031B81AAB}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662002884
+#time=1d8bdb2d8bcc852
+
+[Software\\Classes\\Installer\\Dependencies\\{C91F8E4B-F9C1-4FD1-BCF3-4A91CDAD4B72}] 1662002882
+#time=1d8bdb2d7c12aa6
+@="{C91F8E4B-F9C1-4FD1-BCF3-4A91CDAD4B72}"
+"DisplayName"="Python 3.10.6 Core Interpreter (64-bit)"
+"Version"="3.10.6150.0"
+
+[Software\\Classes\\Installer\\Dependencies\\{C91F8E4B-F9C1-4FD1-BCF3-4A91CDAD4B72}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662002882
+#time=1d8bdb2d7c12b1e
+
+[Software\\Microsoft\\Installer\\Features\\02757FEBF32E20A50BF1ECB922A0B129] 1662002865
+#time=1d8bdb2cd71086e
+"wine_mono"=""
+
+[Software\\Microsoft\\Installer\\Features\\2857B14511B67544CA7BAA2C50B82392] 1662002898
+#time=1d8bdb2e0c789e2
+"DefaultFeature"=""
+
+[Software\\Microsoft\\Installer\\Features\\3F750A3CB902442469796D09138BA1BA] 1662002884
+#time=1d8bdb2d8bb86ea
+"DefaultFeature"=""
+
+[Software\\Microsoft\\Installer\\Features\\456E4021E441ABF4CA0A55F8E645CFA5] 1662002886
+#time=1d8bdb2d9c95eae
+"DefaultFeature"=""
+
+[Software\\Microsoft\\Installer\\Features\\5B83505777E349F46AA43D0FE906C82A] 1662002882
+#time=1d8bdb2d7ce891c
+"DefaultFeature"=""
+"Shortcuts"=""
+
+[Software\\Microsoft\\Installer\\Features\\6653DC9B51164DF569F095FE483561CE] 1662002865
+#time=1d8bdb2cd6ecee6
+"wine_mono"=""
+
+[Software\\Microsoft\\Installer\\Features\\683E06D1D8481D54BBA0E7623A3E0211] 1662002886
+#time=1d8bdb2d9efc7ba
+"DefaultFeature"=""
+
+[Software\\Microsoft\\Installer\\Features\\9B3E6034582B74748BD4F9FA80AA14D2] 1662002886
+#time=1d8bdb2d9d63e1c
+"DefaultFeature"=""
+"Shortcuts"=""
+
+[Software\\Microsoft\\Installer\\Features\\B29B155AD201CD540805C51ED08EC10D] 1662002888
+#time=1d8bdb2db29e1e2
+"AssociateFiles"=""
+"DefaultFeature"=""
+"Shortcuts"=""
+
+[Software\\Microsoft\\Installer\\Features\\B4E8F19C1C9F1DF4CB3FA419DCDAB427] 1662002882
+#time=1d8bdb2d7c08cea
+"DefaultFeature"=""
+
+[Software\\Microsoft\\Installer\\Features\\C2CADC70C737A8D4FA24B6EC116199EA] 1662002883
+#time=1d8bdb2d7f30198
+"DefaultFeature"=""
+
+[Software\\Microsoft\\Installer\\Features\\E71F389388019F64BB00358B88FF8353] 1662002888
+#time=1d8bdb2db47a858
+"DefaultFeature"=""
+
+[Software\\Microsoft\\Installer\\Products\\02757FEBF32E20A50BF1ECB922A0B129] 1662002865
+#time=1d8bdb2cd713136
+"AdvertiseFlags"=dword:00000184
+"Assignment"=dword:00000000
+"AuthorizedLUAApp"=dword:00000000
+"Clients"=str(7):":\0"
+"InstanceType"=dword:00000000
+"Language"=dword:00000000
+"PackageCode"="41B2B611BD283B0579CFEA54DF055CB1"
+"ProductName"="Wine Mono Runtime"
+"Version"=dword:07000000
+
+[Software\\Microsoft\\Installer\\Products\\02757FEBF32E20A50BF1ECB922A0B129\\SourceList] 1662002865
+#time=1d8bdb2cd714446
+"LastUsedSource"="n;1;\\\\?\\Z:\\root\\.cache\\wine\\"
+"PackageName"="wine-mono-7.0.0-x86.msi"
+
+[Software\\Microsoft\\Installer\\Products\\02757FEBF32E20A50BF1ECB922A0B129\\SourceList\\Media] 1662002865
+#time=1d8bdb2cd7146b2
+"1"=";"
+"DiskPrompt"=""
+"MediaPackage"=""
+
+[Software\\Microsoft\\Installer\\Products\\02757FEBF32E20A50BF1ECB922A0B129\\SourceList\\Net] 1662002865
+#time=1d8bdb2cd713c1c
+"1"=str(2):"\\\\?\\Z:\\root\\.cache\\wine\\"
+
+[Software\\Microsoft\\Installer\\Products\\2857B14511B67544CA7BAA2C50B82392] 1662002898
+#time=1d8bdb2e0c7a724
+"AdvertiseFlags"=dword:00000184
+"Assignment"=dword:00000000
+"AuthorizedLUAApp"=dword:00000000
+"Clients"=str(7):":\0"
+"InstanceType"=dword:00000000
+"Language"=dword:00000409
+"PackageCode"="D104D56420F5CAA4A882D73499C274ED"
+"ProductName"="Python 3.10.6 Add to Path (64-bit)"
+"Version"=dword:030a1806
+
+[Software\\Microsoft\\Installer\\Products\\2857B14511B67544CA7BAA2C50B82392\\SourceList] 1662002898
+#time=1d8bdb2e0c82d7a
+"PackageName"="path.msi"
+
+[Software\\Microsoft\\Installer\\Products\\2857B14511B67544CA7BAA2C50B82392\\SourceList\\Media] 1662002898
+#time=1d8bdb2e0c7ae5e
+"DiskPrompt"=""
+"MediaPackage"=""
+
+[Software\\Microsoft\\Installer\\Products\\2857B14511B67544CA7BAA2C50B82392\\SourceList\\Net] 1662002898
+#time=1d8bdb2e0c82e6a
+"1"=str(2):"C:\\users\\root\\AppData\\Local\\Package Cache\\{541B7582-6B11-4457-ACB7-AAC2058B3229}v3.10.6150.0\\"
+
+[Software\\Microsoft\\Installer\\Products\\3F750A3CB902442469796D09138BA1BA] 1662002884
+#time=1d8bdb2d8bba652
+"AdvertiseFlags"=dword:00000184
+"Assignment"=dword:00000000
+"AuthorizedLUAApp"=dword:00000000
+"Clients"=str(7):":\0"
+"InstanceType"=dword:00000000
+"Language"=dword:00000409
+"PackageCode"="814AE2D3FC5F50549B6A3AD932F47373"
+"ProductName"="Python 3.10.6 Standard Library (64-bit)"
+"Version"=dword:030a1806
+
+[Software\\Microsoft\\Installer\\Products\\3F750A3CB902442469796D09138BA1BA\\SourceList] 1662002884
+#time=1d8bdb2d8bbb660
+"LastUsedSource"="n;1;C:\\users\\root\\AppData\\Local\\Package Cache\\{C3A057F3-209B-4244-9697-D69031B81AAB}v3.10.6150.0\\"
+"PackageName"="lib.msi"
+
+[Software\\Microsoft\\Installer\\Products\\3F750A3CB902442469796D09138BA1BA\\SourceList\\Media] 1662002884
+#time=1d8bdb2d8bbb872
+"1"=";"
+"DiskPrompt"=""
+"MediaPackage"=""
+
+[Software\\Microsoft\\Installer\\Products\\3F750A3CB902442469796D09138BA1BA\\SourceList\\Net] 1662002884
+#time=1d8bdb2d8bbaf8a
+"1"=str(2):"C:\\users\\root\\AppData\\Local\\Package Cache\\{C3A057F3-209B-4244-9697-D69031B81AAB}v3.10.6150.0\\"
+
+[Software\\Microsoft\\Installer\\Products\\456E4021E441ABF4CA0A55F8E645CFA5] 1662002886
+#time=1d8bdb2d9c97bd2
+"AdvertiseFlags"=dword:00000184
+"Assignment"=dword:00000000
+"AuthorizedLUAApp"=dword:00000000
+"Clients"=str(7):":\0"
+"InstanceType"=dword:00000000
+"Language"=dword:00000409
+"PackageCode"="C3508792A596C13479EC71BD486950F2"
+"ProductName"="Python 3.10.6 Test Suite (64-bit)"
+"Version"=dword:030a1806
+
+[Software\\Microsoft\\Installer\\Products\\456E4021E441ABF4CA0A55F8E645CFA5\\SourceList] 1662002886
+#time=1d8bdb2d9c98aa0
+"LastUsedSource"="n;1;C:\\users\\root\\AppData\\Local\\Package Cache\\{1204E654-144E-4FBA-ACA0-558F6E54FC5A}v3.10.6150.0\\"
+"PackageName"="test.msi"
+
+[Software\\Microsoft\\Installer\\Products\\456E4021E441ABF4CA0A55F8E645CFA5\\SourceList\\Media] 1662002886
+#time=1d8bdb2d9c98c76
+"1"=";"
+"DiskPrompt"=""
+"MediaPackage"=""
+
+[Software\\Microsoft\\Installer\\Products\\456E4021E441ABF4CA0A55F8E645CFA5\\SourceList\\Net] 1662002886
+#time=1d8bdb2d9c98424
+"1"=str(2):"C:\\users\\root\\AppData\\Local\\Package Cache\\{1204E654-144E-4FBA-ACA0-558F6E54FC5A}v3.10.6150.0\\"
+
+[Software\\Microsoft\\Installer\\Products\\5B83505777E349F46AA43D0FE906C82A] 1662002882
+#time=1d8bdb2d7cea9e2
+"AdvertiseFlags"=dword:00000184
+"Assignment"=dword:00000000
+"AuthorizedLUAApp"=dword:00000000
+"Clients"=str(7):":\0"
+"InstanceType"=dword:00000000
+"Language"=dword:00000409
+"PackageCode"="6FD5452D2D64115478E428E0917237F8"
+"ProductName"="Python 3.10.6 Executables (64-bit)"
+"Version"=dword:030a1806
+
+[Software\\Microsoft\\Installer\\Products\\5B83505777E349F46AA43D0FE906C82A\\SourceList] 1662002882
+#time=1d8bdb2d7cebae0
+"LastUsedSource"="n;1;C:\\users\\root\\AppData\\Local\\Package Cache\\{750538B5-3E77-4F94-A64A-D3F09E608CA2}v3.10.6150.0\\"
+"PackageName"="exe.msi"
+
+[Software\\Microsoft\\Installer\\Products\\5B83505777E349F46AA43D0FE906C82A\\SourceList\\Media] 1662002882
+#time=1d8bdb2d7cebcca
+"1"=";"
+"DiskPrompt"=""
+"MediaPackage"=""
+
+[Software\\Microsoft\\Installer\\Products\\5B83505777E349F46AA43D0FE906C82A\\SourceList\\Net] 1662002882
+#time=1d8bdb2d7ceb450
+"1"=str(2):"C:\\users\\root\\AppData\\Local\\Package Cache\\{750538B5-3E77-4F94-A64A-D3F09E608CA2}v3.10.6150.0\\"
+
+[Software\\Microsoft\\Installer\\Products\\6653DC9B51164DF569F095FE483561CE] 1662002865
+#time=1d8bdb2cd6ef1a0
+"AdvertiseFlags"=dword:00000184
+"Assignment"=dword:00000000
+"AuthorizedLUAApp"=dword:00000000
+"Clients"=str(7):":\0"
+"InstanceType"=dword:00000000
+"Language"=dword:00000000
+"PackageCode"="AEE478CFC4D3A9059B062E75E17A25D8"
+"ProductName"="Wine Mono Windows Support"
+"Version"=dword:07000000
+
+[Software\\Microsoft\\Installer\\Products\\6653DC9B51164DF569F095FE483561CE\\SourceList] 1662002865
+#time=1d8bdb2cd6f0712
+"LastUsedSource"="n;1;C:\\windows\\mono\\mono-2.0\\support\\"
+"PackageName"="winemono-support.msi"
+
+[Software\\Microsoft\\Installer\\Products\\6653DC9B51164DF569F095FE483561CE\\SourceList\\Media] 1662002865
+#time=1d8bdb2cd6f0992
+"1"=";"
+"DiskPrompt"=""
+"MediaPackage"=""
+
+[Software\\Microsoft\\Installer\\Products\\6653DC9B51164DF569F095FE483561CE\\SourceList\\Net] 1662002865
+#time=1d8bdb2cd6efd80
+"1"=str(2):"C:\\windows\\mono\\mono-2.0\\support\\"
+
+[Software\\Microsoft\\Installer\\Products\\683E06D1D8481D54BBA0E7623A3E0211] 1662002886
+#time=1d8bdb2d9efe74a
+"AdvertiseFlags"=dword:00000184
+"Assignment"=dword:00000000
+"AuthorizedLUAApp"=dword:00000000
+"Clients"=str(7):":\0"
+"InstanceType"=dword:00000000
+"Language"=dword:00000409
+"PackageCode"="F8A34B01193E2AD4AB8E70F1C9751A47"
+"ProductName"="Python 3.10.6 Utility Scripts (64-bit)"
+"Version"=dword:030a1806
+
+[Software\\Microsoft\\Installer\\Products\\683E06D1D8481D54BBA0E7623A3E0211\\SourceList] 1662002886
+#time=1d8bdb2d9effa96
+"LastUsedSource"="n;1;C:\\users\\root\\AppData\\Local\\Package Cache\\{1D60E386-848D-45D1-BB0A-7E26A3E32011}v3.10.6150.0\\"
+"PackageName"="tools.msi"
+
+[Software\\Microsoft\\Installer\\Products\\683E06D1D8481D54BBA0E7623A3E0211\\SourceList\\Media] 1662002886
+#time=1d8bdb2d9effd98
+"1"=";"
+"DiskPrompt"=""
+"MediaPackage"=""
+
+[Software\\Microsoft\\Installer\\Products\\683E06D1D8481D54BBA0E7623A3E0211\\SourceList\\Net] 1662002886
+#time=1d8bdb2d9eff262
+"1"=str(2):"C:\\users\\root\\AppData\\Local\\Package Cache\\{1D60E386-848D-45D1-BB0A-7E26A3E32011}v3.10.6150.0\\"
+
+[Software\\Microsoft\\Installer\\Products\\9B3E6034582B74748BD4F9FA80AA14D2] 1662002886
+#time=1d8bdb2d9d6594c
+"AdvertiseFlags"=dword:00000184
+"Assignment"=dword:00000000
+"AuthorizedLUAApp"=dword:00000000
+"Clients"=str(7):":\0"
+"InstanceType"=dword:00000000
+"Language"=dword:00000409
+"PackageCode"="9160B498AF0B7014B873947C5450C34A"
+"ProductName"="Python 3.10.6 Documentation (64-bit)"
+"Version"=dword:030a1806
+
+[Software\\Microsoft\\Installer\\Products\\9B3E6034582B74748BD4F9FA80AA14D2\\SourceList] 1662002886
+#time=1d8bdb2d9d66a68
+"LastUsedSource"="n;1;C:\\users\\root\\AppData\\Local\\Package Cache\\{4306E3B9-B285-4747-B84D-9FAF08AA412D}v3.10.6150.0\\"
+"PackageName"="doc.msi"
+
+[Software\\Microsoft\\Installer\\Products\\9B3E6034582B74748BD4F9FA80AA14D2\\SourceList\\Media] 1662002886
+#time=1d8bdb2d9d66c52
+"1"=";"
+"DiskPrompt"=""
+"MediaPackage"=""
+
+[Software\\Microsoft\\Installer\\Products\\9B3E6034582B74748BD4F9FA80AA14D2\\SourceList\\Net] 1662002886
+#time=1d8bdb2d9d6632e
+"1"=str(2):"C:\\users\\root\\AppData\\Local\\Package Cache\\{4306E3B9-B285-4747-B84D-9FAF08AA412D}v3.10.6150.0\\"
+
+[Software\\Microsoft\\Installer\\Products\\B29B155AD201CD540805C51ED08EC10D] 1662002888
+#time=1d8bdb2db2a02a8
+"AdvertiseFlags"=dword:00000184
+"Assignment"=dword:00000000
+"AuthorizedLUAApp"=dword:00000000
+"Clients"=str(7):":\0"
+"InstanceType"=dword:00000000
+"Language"=dword:00000409
+"PackageCode"="3B8B70F258633B34989873B9607A3757"
+"ProductName"="Python 3.10.6 Tcl/Tk Support (64-bit)"
+"Version"=dword:030a1806
+
+[Software\\Microsoft\\Installer\\Products\\B29B155AD201CD540805C51ED08EC10D\\SourceList] 1662002888
+#time=1d8bdb2db2a1284
+"LastUsedSource"="n;1;C:\\users\\root\\AppData\\Local\\Package Cache\\{A551B92B-102D-45DC-8050-5CE10DE81CD0}v3.10.6150.0\\"
+"PackageName"="tcltk.msi"
+
+[Software\\Microsoft\\Installer\\Products\\B29B155AD201CD540805C51ED08EC10D\\SourceList\\Media] 1662002888
+#time=1d8bdb2db2a1478
+"1"=";"
+"DiskPrompt"=""
+"MediaPackage"=""
+
+[Software\\Microsoft\\Installer\\Products\\B29B155AD201CD540805C51ED08EC10D\\SourceList\\Net] 1662002888
+#time=1d8bdb2db2a0bd6
+"1"=str(2):"C:\\users\\root\\AppData\\Local\\Package Cache\\{A551B92B-102D-45DC-8050-5CE10DE81CD0}v3.10.6150.0\\"
+
+[Software\\Microsoft\\Installer\\Products\\B4E8F19C1C9F1DF4CB3FA419DCDAB427] 1662002882
+#time=1d8bdb2d7c0a8e2
+"AdvertiseFlags"=dword:00000184
+"Assignment"=dword:00000000
+"AuthorizedLUAApp"=dword:00000000
+"Clients"=str(7):":\0"
+"InstanceType"=dword:00000000
+"Language"=dword:00000409
+"PackageCode"="3F2A1A0BD110F9842A51CD64D0875890"
+"ProductName"="Python 3.10.6 Core Interpreter (64-bit)"
+"Version"=dword:030a1806
+
+[Software\\Microsoft\\Installer\\Products\\B4E8F19C1C9F1DF4CB3FA419DCDAB427\\SourceList] 1662002882
+#time=1d8bdb2d7c0bc24
+"LastUsedSource"="n;1;C:\\users\\root\\AppData\\Local\\Package Cache\\{C91F8E4B-F9C1-4FD1-BCF3-4A91CDAD4B72}v3.10.6150.0\\"
+"PackageName"="core.msi"
+
+[Software\\Microsoft\\Installer\\Products\\B4E8F19C1C9F1DF4CB3FA419DCDAB427\\SourceList\\Media] 1662002882
+#time=1d8bdb2d7c0be9a
+"1"=";"
+"DiskPrompt"=""
+"MediaPackage"=""
+
+[Software\\Microsoft\\Installer\\Products\\B4E8F19C1C9F1DF4CB3FA419DCDAB427\\SourceList\\Net] 1662002882
+#time=1d8bdb2d7c0b40e
+"1"=str(2):"C:\\users\\root\\AppData\\Local\\Package Cache\\{C91F8E4B-F9C1-4FD1-BCF3-4A91CDAD4B72}v3.10.6150.0\\"
+
+[Software\\Microsoft\\Installer\\Products\\C2CADC70C737A8D4FA24B6EC116199EA] 1662002883
+#time=1d8bdb2d7f31dea
+"AdvertiseFlags"=dword:00000184
+"Assignment"=dword:00000000
+"AuthorizedLUAApp"=dword:00000000
+"Clients"=str(7):":\0"
+"InstanceType"=dword:00000000
+"Language"=dword:00000409
+"PackageCode"="A5B062EC5C54157448975F0BF21CDFC4"
+"ProductName"="Python 3.10.6 Development Libraries (64-bit)"
+"Version"=dword:030a1806
+
+[Software\\Microsoft\\Installer\\Products\\C2CADC70C737A8D4FA24B6EC116199EA\\SourceList] 1662002883
+#time=1d8bdb2d7f32d9e
+"LastUsedSource"="n;1;C:\\users\\root\\AppData\\Local\\Package Cache\\{07CDAC2C-737C-4D8A-AF42-6BCE111699AE}v3.10.6150.0\\"
+"PackageName"="dev.msi"
+
+[Software\\Microsoft\\Installer\\Products\\C2CADC70C737A8D4FA24B6EC116199EA\\SourceList\\Media] 1662002883
+#time=1d8bdb2d7f32fa6
+"1"=";"
+"DiskPrompt"=""
+"MediaPackage"=""
+
+[Software\\Microsoft\\Installer\\Products\\C2CADC70C737A8D4FA24B6EC116199EA\\SourceList\\Net] 1662002883
+#time=1d8bdb2d7f32704
+"1"=str(2):"C:\\users\\root\\AppData\\Local\\Package Cache\\{07CDAC2C-737C-4D8A-AF42-6BCE111699AE}v3.10.6150.0\\"
+
+[Software\\Microsoft\\Installer\\Products\\E71F389388019F64BB00358B88FF8353] 1662002888
+#time=1d8bdb2db47c824
+"AdvertiseFlags"=dword:00000184
+"Assignment"=dword:00000000
+"AuthorizedLUAApp"=dword:00000000
+"Clients"=str(7):":\0"
+"InstanceType"=dword:00000000
+"Language"=dword:00000409
+"PackageCode"="CAE0EE8A37F413D4E89178D63B557131"
+"ProductName"="Python 3.10.6 pip Bootstrap (64-bit)"
+"Version"=dword:030a1806
+
+[Software\\Microsoft\\Installer\\Products\\E71F389388019F64BB00358B88FF8353\\SourceList] 1662002898
+#time=1d8bdb2e0c21750
+"PackageName"="pip.msi"
+
+[Software\\Microsoft\\Installer\\Products\\E71F389388019F64BB00358B88FF8353\\SourceList\\Media] 1662002888
+#time=1d8bdb2db47d076
+"DiskPrompt"=""
+"MediaPackage"=""
+
+[Software\\Microsoft\\Installer\\Products\\E71F389388019F64BB00358B88FF8353\\SourceList\\Net] 1662002898
+#time=1d8bdb2e0c21854
+"1"=str(2):"C:\\users\\root\\AppData\\Local\\Package Cache\\{3983F17E-1088-46F9-BB00-53B888FF3835}v3.10.6150.0\\"
+
+[Software\\Microsoft\\Installer\\UpgradeCodes\\014E0768F7FC48257A5E339DBD5FD59C] 1662002883
+#time=1d8bdb2d7f31502
+"C2CADC70C737A8D4FA24B6EC116199EA"=""
+
+[Software\\Microsoft\\Installer\\UpgradeCodes\\2CC501FD2AF876341B3D596CC39014CF] 1662002865
+#time=1d8bdb2cd711f7a
+"02757FEBF32E20A50BF1ECB922A0B129"=""
+
+[Software\\Microsoft\\Installer\\UpgradeCodes\\34DD5D4C148462B5C8A12BA558A34A3F] 1662002898
+#time=1d8bdb2e0c79eb4
+"2857B14511B67544CA7BAA2C50B82392"=""
+
+[Software\\Microsoft\\Installer\\UpgradeCodes\\6B4AD8A5CDE8A52599F1FC4253717A5C] 1662002886
+#time=1d8bdb2d9d650a0
+"9B3E6034582B74748BD4F9FA80AA14D2"=""
+
+[Software\\Microsoft\\Installer\\UpgradeCodes\\71AF789F0D1189452954214AC55B1329] 1662002886
+#time=1d8bdb2d9efdd4a
+"683E06D1D8481D54BBA0E7623A3E0211"=""
+
+[Software\\Microsoft\\Installer\\UpgradeCodes\\7BAB1151E4F63EB51B92E9E026C8A042] 1662002886
+#time=1d8bdb2d9c97290
+"456E4021E441ABF4CA0A55F8E645CFA5"=""
+
+[Software\\Microsoft\\Installer\\UpgradeCodes\\820053C45D3A37C51A8EC1E2868541B8] 1662002882
+#time=1d8bdb2d7cea12c
+"5B83505777E349F46AA43D0FE906C82A"=""
+
+[Software\\Microsoft\\Installer\\UpgradeCodes\\8404932DD4F6A475A95455405E338A69] 1662002884
+#time=1d8bdb2d8bb9bee
+"3F750A3CB902442469796D09138BA1BA"=""
+
+[Software\\Microsoft\\Installer\\UpgradeCodes\\906426ED5B6CA6842947FEB058F4B65C] 1662002865
+#time=1d8bdb2cd6ee80e
+"6653DC9B51164DF569F095FE483561CE"=""
+
+[Software\\Microsoft\\Installer\\UpgradeCodes\\936CFA3296DC1FD5F8CC1C0FC48B3C8E] 1662002888
+#time=1d8bdb2db47bd20
+"E71F389388019F64BB00358B88FF8353"=""
+
+[Software\\Microsoft\\Installer\\UpgradeCodes\\97B9E2B85EC0BE452AAB9109CB1AA356] 1662002888
+#time=1d8bdb2db29f998
+"B29B155AD201CD540805C51ED08EC10D"=""
+
+[Software\\Microsoft\\Installer\\UpgradeCodes\\9FFFDBEB3EA11B250850BF0B353D9F4A] 1662002882
+#time=1d8bdb2d7c09fbe
+"B4E8F19C1C9F1DF4CB3FA419DCDAB427"=""
+
+[Software\\Microsoft\\Internet Explorer\\Main] 1662002865
+#time=1d8bdb2cd91669a
+"Search Page"="https://www.google.com"
+"Start Page"="https://www.winehq.org"
+
+[Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl] 1662002858
+#time=1d8bdb2c978de76
+
+[Software\\Microsoft\\Internet Explorer\\Settings] 1662002865
+#time=1d8bdb2cd91692e
+"Text Color"="0,0,0"
+
+[Software\\Microsoft\\Protected Storage System Provider] 1662002865
+#time=1d8bdb2cd96732e
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1662002859
+#time=1d8bdb2c9aec900
+"Administrative Tools"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools"
+"AppData"="C:\\users\\root\\AppData\\Roaming"
+"Cache"="C:\\users\\root\\AppData\\Local\\Microsoft\\Windows\\INetCache"
+"Cookies"="C:\\users\\root\\AppData\\Local\\Microsoft\\Windows\\INetCookies"
+"Desktop"="C:\\users\\root\\Desktop"
+"Favorites"="C:\\users\\root\\Favorites"
+"Fonts"="C:\\windows\\Fonts"
+"History"="C:\\users\\root\\AppData\\Local\\Microsoft\\Windows\\History"
+"Local AppData"="C:\\users\\root\\AppData\\Local"
+"My Music"="C:\\users\\root\\Music"
+"My Pictures"="C:\\users\\root\\Pictures"
+"My Videos"="C:\\users\\root\\Videos"
+"NetHood"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Network Shortcuts"
+"Personal"="C:\\users\\root\\Documents"
+"PrintHood"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Printer Shortcuts"
+"Programs"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs"
+"Recent"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Recent"
+"SendTo"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\SendTo"
+"Start Menu"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+"StartUp"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp"
+"Templates"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Templates"
+"{374DE290-123F-4565-9164-39C4925E467B}"="C:\\users\\root\\Downloads"
+"{4C5C32FF-BB9D-43B0-B5B4-2D72E54EAAA4}"="C:\\users\\root\\Saved Games"
+"{56784854-C6CB-462B-8169-88E350ACB882}"="C:\\users\\root\\Contacts"
+"{7D1D3A04-DEBB-4115-95CF-2F29DA2920DA}"="C:\\users\\root\\Searches"
+"{A520A1A4-1780-4FF6-BD18-167343C5AF16}"="C:\\users\\root\\AppData\\LocalLow"
+"{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}"="C:\\users\\root\\Links"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders] 1662002859
+#time=1d8bdb2c9aec81a
+"Administrative Tools"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools"
+"AppData"=str(2):"%USERPROFILE%\\AppData\\Roaming"
+"Cache"=str(2):"%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\INetCache"
+"Cookies"=str(2):"%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\INetCookies"
+"Desktop"=str(2):"%USERPROFILE%\\Desktop"
+"Favorites"=str(2):"%USERPROFILE%\\Favorites"
+"Fonts"=str(2):"C:\\windows\\Fonts"
+"History"=str(2):"%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\History"
+"Local AppData"=str(2):"%USERPROFILE%\\AppData\\Local"
+"My Music"=str(2):"%USERPROFILE%\\Music"
+"My Pictures"=str(2):"%USERPROFILE%\\Pictures"
+"My Videos"=str(2):"%USERPROFILE%\\Videos"
+"NetHood"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Network Shortcuts"
+"Personal"=str(2):"%USERPROFILE%\\Documents"
+"PrintHood"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Printer Shortcuts"
+"Programs"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs"
+"Recent"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Recent"
+"SendTo"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\SendTo"
+"Start Menu"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+"StartUp"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp"
+"Templates"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Templates"
+"{374DE290-123F-4565-9164-39C4925E467B}"=str(2):"%USERPROFILE%\\Downloads"
+"{4C5C32FF-BB9D-43B0-B5B4-2D72E54EAAA4}"=str(2):"%USERPROFILE%\\Saved Games"
+"{56784854-C6CB-462B-8169-88E350ACB882}"=str(2):"%USERPROFILE%\\Contacts"
+"{7D1D3A04-DEBB-4115-95CF-2F29DA2920DA}"=str(2):"%USERPROFILE%\\Searches"
+"{A520A1A4-1780-4FF6-BD18-167343C5AF16}"=str(2):"%USERPROFILE%\\AppData\\LocalLow"
+"{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}"=str(2):"%USERPROFILE%\\Links"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings] 1662002865
+#time=1d8bdb2cd7d5088
+"User Agent"="Mozilla/4.0 (compatible; MSIE 8.0; Win32)"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap] 1662002865
+#time=1d8bdb2cd7d4c28
+@=""
+"IntranetName"=dword:00000001
+"ProxyByPass"=dword:00000001
+"UNCAsIntranet"=dword:00000001
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Domains] 1662002865
+#time=1d8bdb2cd7d48c2
+@=""
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\ProtocolDefaults] 1662002865
+#time=1d8bdb2cd7d44d0
+@=""
+"@ivt"=dword:00000001
+"file"=dword:00000003
+"ftp"=dword:00000003
+"http"=dword:00000003
+"https"=dword:00000003
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Ranges] 1662002865
+#time=1d8bdb2cd7d4ce6
+@=""
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones] 1662002865
+#time=1d8bdb2cd7fe190
+@=""
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\0] 1662002865
+#time=1d8bdb2cd7df74a
+@=""
+"1001"=dword:00000000
+"1004"=dword:00000000
+"1200"=dword:00000000
+"1201"=dword:00000001
+"1400"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000000
+"1407"=dword:00000000
+"1601"=dword:00000000
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1609"=dword:00000001
+"1800"=dword:00000000
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000000
+"1805"=dword:00000000
+"1A00"=dword:00000000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000000
+"1A05"=dword:00000000
+"1A06"=dword:00000000
+"1A10"=dword:00000000
+"1C00"=dword:00020000
+"1E05"=dword:00030000
+"CurrentLevel"=dword:00000000
+"Description"="Your computer"
+"DisplayName"="My Computer"
+"Flags"=dword:00000021
+"Icon"="explorer.exe#0100"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\1] 1662002865
+#time=1d8bdb2cd7ea6ea
+@=""
+"1001"=dword:00000001
+"1004"=dword:00000003
+"1200"=dword:00000000
+"1201"=dword:00000003
+"1400"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000001
+"1407"=dword:00000000
+"1601"=dword:00000000
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1609"=dword:00000001
+"1800"=dword:00000001
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000001
+"1805"=dword:00000000
+"1A00"=dword:00020000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000000
+"1A05"=dword:00000000
+"1A06"=dword:00000000
+"1A10"=dword:00000000
+"1C00"=dword:00020000
+"1E05"=dword:00020000
+"CurrentLevel"=dword:00010500
+"Description"="This zone contains all Web sites that are on your organization's intranet."
+"DisplayName"="Local intranet"
+"Flags"=dword:000000db
+"Icon"="shell32.dll#0018"
+"MinLevel"=dword:00010000
+"RecommendedLevel"=dword:00010500
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\2] 1662002865
+#time=1d8bdb2cd7f46cc
+@=""
+"1001"=dword:00000000
+"1004"=dword:00000001
+"1200"=dword:00000000
+"1201"=dword:00000001
+"1400"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000000
+"1407"=dword:00000000
+"1601"=dword:00000000
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1609"=dword:00000001
+"1800"=dword:00000000
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000000
+"1805"=dword:00000000
+"1A00"=dword:00000000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000000
+"1A05"=dword:00000000
+"1A06"=dword:00000000
+"1A10"=dword:00000000
+"1C00"=dword:00030000
+"1E05"=dword:00030000
+"CurrentLevel"=dword:00010000
+"Description"="This zone contains Web sites that you trust not to damage your computer or data."
+"DisplayName"="Trusted sites"
+"Flags"=dword:00000047
+"Icon"="inetcpl.cpl#00004480"
+"MinLevel"=dword:00010000
+"RecommendedLevel"=dword:00010000
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3] 1662002865
+#time=1d8bdb2cd7fde5c
+@=""
+"1001"=dword:00000001
+"1004"=dword:00000003
+"1200"=dword:00000000
+"1201"=dword:00000003
+"1400"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000003
+"1407"=dword:00000000
+"1601"=dword:00000001
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1609"=dword:00000001
+"1800"=dword:00000001
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000001
+"1805"=dword:00000001
+"1A00"=dword:00020000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000003
+"1A05"=dword:00000001
+"1A06"=dword:00000000
+"1A10"=dword:00000001
+"1C00"=dword:00010000
+"1E05"=dword:00020000
+"CurrentLevel"=dword:00011000
+"Description"="This zone contains all Web sites you haven't placed in other zones"
+"DisplayName"="Internet"
+"Flags"=dword:00000001
+"Icon"="inetcpl.cpl#001313"
+"MinLevel"=dword:00011000
+"RecommendedLevel"=dword:00011000
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4] 1662002865
+#time=1d8bdb2cd807948
+@=""
+"1001"=dword:00000003
+"1004"=dword:00000003
+"1200"=dword:00000003
+"1201"=dword:00000003
+"1400"=dword:00000003
+"1402"=dword:00000003
+"1405"=dword:00000003
+"1406"=dword:00000003
+"1407"=dword:00000003
+"1601"=dword:00000001
+"1604"=dword:00000001
+"1605"=dword:00000000
+"1606"=dword:00000003
+"1607"=dword:00000003
+"1608"=dword:00000003
+"1609"=dword:00000001
+"1800"=dword:00000003
+"1802"=dword:00000001
+"1803"=dword:00000003
+"1804"=dword:00000003
+"1805"=dword:00000001
+"1A00"=dword:00010000
+"1A02"=dword:00000003
+"1A03"=dword:00000003
+"1A04"=dword:00000003
+"1A05"=dword:00000003
+"1A06"=dword:00000003
+"1A10"=dword:00000003
+"1C00"=dword:00000000
+"1E05"=dword:00010000
+"CurrentLevel"=dword:00012000
+"Description"="This zone contains Web sites that could potentially damage your computer or data."
+"DisplayName"="Restricted sites"
+"Flags"=dword:00000003
+"Icon"="inetcpl.cpl#00004481"
+"MinLevel"=dword:00012000
+"RecommendedLevel"=dword:00012000
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Run] 1662002865
+#time=1d8bdb2cd94c01a
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce] 1662002898
+#time=1d8bdb2e0c884d2
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662002898
+#time=1d8bdb2e0c88540
+"BundleAddonCode"=hex(7):
+"BundleCachePath"="C:\\users\\root\\AppData\\Local\\Package Cache\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}\\python-3.10.6-amd64.exe"
+"BundleDetectCode"=hex(7):
+"BundlePatchCode"=hex(7):
+"BundleProviderKey"="CPython-3.10"
+"BundleTag"=hex(1):
+"BundleUpgradeCode"=str(7):"{E3BAA187-CE22-5D2A-92E4-3290DEC0FCAB}\0"
+"BundleVersion"="3.10.6150.0"
+"DisplayIcon"="C:\\users\\root\\AppData\\Local\\Package Cache\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}\\python-3.10.6-amd64.exe,0"
+"DisplayName"="Python 3.10.6 (64-bit)"
+"DisplayVersion"="3.10.6150.0"
+"EngineVersion"="3.11.1.2318"
+"EstimatedSize"=dword:00019d0e
+"Installed"=dword:00000001
+"ModifyPath"="\"C:\\users\\root\\AppData\\Local\\Package Cache\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}\\python-3.10.6-amd64.exe\" /modify"
+"NoElevateOnModify"=dword:00000001
+"Publisher"="Python Software Foundation"
+"QuietUninstallString"="\"C:\\users\\root\\AppData\\Local\\Package Cache\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}\\python-3.10.6-amd64.exe\" /uninstall /quiet"
+"Resume"=dword:00000003
+"UninstallString"="\"C:\\users\\root\\AppData\\Local\\Package Cache\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}\\python-3.10.6-amd64.exe\"  /uninstall"
+"URLInfoAbout"="https://www.python.org/"
+"VersionMajor"=dword:00000003
+"VersionMinor"=dword:0000000a
+
+[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\ftp\\UserChoice] 1662002865
+#time=1d8bdb2cd969624
+"ProgId"="ftp"
+
+[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\http\\UserChoice] 1662002865
+#time=1d8bdb2cd969d90
+"ProgId"="http"
+
+[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\https\\UserChoice] 1662002865
+#time=1d8bdb2cd96a4f2
+"ProgId"="https"
+
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon] 1662002865
+#time=1d8bdb2cd94c5a6
+
+[Software\\Python\\PythonCore] 1662002882
+#time=1d8bdb2d7cdeb6a
+"DisplayName"="Python Software Foundation"
+"SupportUrl"="https://www.python.org/"
+
+[Software\\Python\\PythonCore\\3.10] 1662002888
+#time=1d8bdb2db2432ec
+"DisplayName"="Python 3.10 (64-bit)"
+"SupportUrl"="https://www.python.org/"
+"SysArchitecture"="64bit"
+"SysVersion"="3.10"
+"Version"="3.10.6"
+
+[Software\\Python\\PythonCore\\3.10\\Help\\Main Python Documentation] 1662002886
+#time=1d8bdb2d9d5cd2e
+@="C:\\users\\root\\AppData\\Local\\Programs\\Python\\Python310\\Doc\\python3106.chm"
+
+[Software\\Python\\PythonCore\\3.10\\Idle] 1662002888
+#time=1d8bdb2db24223e
+@="C:\\users\\root\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\idlelib\\idle.pyw"
+
+[Software\\Python\\PythonCore\\3.10\\IdleShortcuts] 1662002888
+#time=1d8bdb2db243634
+@=dword:00000001
+
+[Software\\Python\\PythonCore\\3.10\\InstalledFeatures] 1662002898
+#time=1d8bdb2e0c6d178
+"dev"="3.10.6150.0"
+"doc"="3.10.6150.0"
+"doc_shortcut"="3.10.6150.0"
+"exe"="3.10.6150.0"
+"lib"="3.10.6150.0"
+"path"="3.10.6150.0"
+"pip"="3.10.6150.0"
+"Shortcuts"="3.10.6150.0"
+"tcltk"="3.10.6150.0"
+"test"="3.10.6150.0"
+"tools"="3.10.6150.0"
+
+[Software\\Python\\PythonCore\\3.10\\InstallPath] 1662002882
+#time=1d8bdb2d7cddf08
+@="C:\\users\\root\\AppData\\Local\\Programs\\Python\\Python310\\"
+"ExecutablePath"="C:\\users\\root\\AppData\\Local\\Programs\\Python\\Python310\\python.exe"
+"WindowedExecutablePath"="C:\\users\\root\\AppData\\Local\\Programs\\Python\\Python310\\pythonw.exe"
+
+[Software\\Python\\PythonCore\\3.10\\PythonPath] 1662002884
+#time=1d8bdb2d8ba040a
+@="C:\\users\\root\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\;C:\\users\\root\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\"
+
+[Software\\Wine\\AppDefaults] 1662002857
+#time=1d8bdb2c89a3572
+
+[Software\\Wine\\Debug] 1662002865
+#time=1d8bdb2cd958fb8
+"RelayExclude"="ntdll.RtlEnterCriticalSection;ntdll.RtlTryEnterCriticalSection;ntdll.RtlLeaveCriticalSection;kernel32.48;kernel32.49;kernel32.94;kernel32.95;kernel32.96;kernel32.97;kernel32.98;kernel32.TlsGetValue;kernel32.TlsSetValue;kernel32.FlsGetValue;kernel32.FlsSetValue;kernel32.SetLastError"
+"RelayFromExclude"="winex11.drv;winemac.drv;user32;gdi32;advapi32;kernel32"
+
+[Software\\Wine\\DllOverrides] 1662002857
+#time=1d8bdb2c89a2c26
+
+[Software\\Wine\\FileOpenAssociations\\.chm] 1662003281
+#time=1d8bdb3c53367ea
+"AppName"="hh"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-chm.desktop"
+"MimeType"="application/vnd.ms-htmlhelp"
+"OpenWithIcon"="D15F_hh.0"
+"ProgID"="chm.file"
+
+[Software\\Wine\\FileOpenAssociations\\.gif] 1662003281
+#time=1d8bdb3c537e2fc
+"AppName"="Wine Internet Explorer"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-gif.desktop"
+"MimeType"="image/gif"
+"OpenWithIcon"="ECB7_iexplore.0"
+"ProgID"="giffile"
+
+[Software\\Wine\\FileOpenAssociations\\.hlp] 1662003281
+#time=1d8bdb3c53bd470
+"AppName"="winhlp32"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-hlp.desktop"
+"MimeType"="application/winhlp"
+"OpenWithIcon"="C06E_winhlp32.0"
+"ProgID"="hlpfile"
+
+[Software\\Wine\\FileOpenAssociations\\.htm] 1662003281
+#time=1d8bdb3c53ecde2
+"AppName"="winebrowser"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-htm.desktop"
+"MimeType"="text/html"
+"OpenWithIcon"="81F5_winebrowser.0"
+"ProgID"="htmlfile"
+
+[Software\\Wine\\FileOpenAssociations\\.ini] 1662003281
+#time=1d8bdb3c5417556
+"AppName"="notepad"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-ini.desktop"
+"MimeType"="application/x-wine-extension-ini"
+"OpenWithIcon"="2E40_notepad.0"
+"ProgID"="inifile"
+
+[Software\\Wine\\FileOpenAssociations\\.jfif] 1662003281
+#time=1d8bdb3c5435c90
+"AppName"="Wine Internet Explorer"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-jfif.desktop"
+"MimeType"="image/jpeg"
+"OpenWithIcon"="ECB7_iexplore.0"
+"ProgID"="pjpegfile"
+
+[Software\\Wine\\FileOpenAssociations\\.jpe] 1662003281
+#time=1d8bdb3c54606e8
+"AppName"="Wine Internet Explorer"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-jpe.desktop"
+"MimeType"="image/jpeg"
+"OpenWithIcon"="ECB7_iexplore.0"
+"ProgID"="jpegfile"
+
+[Software\\Wine\\FileOpenAssociations\\.msp] 1662003281
+#time=1d8bdb3c54998da
+"AppName"="Wine Installer"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-msp.desktop"
+"MimeType"="application/x-wine-extension-msp"
+"OpenWithIcon"="D23E_msiexec.0"
+"ProgID"="Msi.Patch"
+
+[Software\\Wine\\FileOpenAssociations\\.pdf] 1662003281
+#time=1d8bdb3c54b46f8
+"AppName"="winebrowser"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-pdf.desktop"
+"MimeType"="application/pdf"
+"OpenWithIcon"="81F5_winebrowser.0"
+"ProgID"="pdffile"
+
+[Software\\Wine\\FileOpenAssociations\\.png] 1662003281
+#time=1d8bdb3c54d54f2
+"AppName"="Wine Internet Explorer"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-png.desktop"
+"MimeType"="image/png"
+"OpenWithIcon"="ECB7_iexplore.0"
+"ProgID"="pngfile"
+
+[Software\\Wine\\FileOpenAssociations\\.py] 1662003281
+#time=1d8bdb3c5503136
+"AppName"="Python"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-py.desktop"
+"MimeType"="text/x-python"
+"OpenWithIcon"="A12F_py.0"
+"ProgID"="Python.File"
+
+[Software\\Wine\\FileOpenAssociations\\.pyc] 1662003281
+#time=1d8bdb3c552a95c
+"AppName"="Python"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-pyc.desktop"
+"MimeType"="application/x-python-bytecode"
+"OpenWithIcon"="A12F_py.0"
+"ProgID"="Python.CompiledFile"
+
+[Software\\Wine\\FileOpenAssociations\\.pyw] 1662003281
+#time=1d8bdb3c558db92
+"AppName"="Python"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-pyw.desktop"
+"MimeType"="text/x-python"
+"OpenWithIcon"="D465_pyw.0"
+"ProgID"="Python.NoConFile"
+
+[Software\\Wine\\FileOpenAssociations\\.pyz] 1662003281
+#time=1d8bdb3c55cd490
+"AppName"="Python"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-pyz.desktop"
+"MimeType"="application/x-zip-compressed"
+"OpenWithIcon"="A12F_py.0"
+"ProgID"="Python.ArchiveFile"
+
+[Software\\Wine\\FileOpenAssociations\\.pyzw] 1662003281
+#time=1d8bdb3c5604238
+"AppName"="Python"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-pyzw.desktop"
+"MimeType"="application/x-zip-compressed"
+"OpenWithIcon"="D465_pyw.0"
+"ProgID"="Python.NoConArchiveFile"
+
+[Software\\Wine\\FileOpenAssociations\\.rtf] 1662003281
+#time=1d8bdb3c56224fe
+"AppName"="wordpad"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-rtf.desktop"
+"MimeType"="application/rtf"
+"OpenWithIcon"="3365_wordpad.0"
+"ProgID"="rtffile"
+
+[Software\\Wine\\FileOpenAssociations\\.txt] 1662003281
+#time=1d8bdb3c56415b6
+"AppName"="notepad"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-txt.desktop"
+"MimeType"="text/plain"
+"OpenWithIcon"="2E40_notepad.0"
+"ProgID"="txtfile"
+
+[Software\\Wine\\FileOpenAssociations\\.url] 1662003281
+#time=1d8bdb3c565aef8
+"AppName"="rundll32"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-url.desktop"
+"MimeType"="application/x-mswinurl"
+"OpenWithIcon"="5742_rundll32.0"
+"ProgID"="InternetShortcut"
+
+[Software\\Wine\\FileOpenAssociations\\.vbs] 1662003281
+#time=1d8bdb3c567adde
+"AppName"="wscript"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-vbs.desktop"
+"MimeType"="text/vbscript"
+"OpenWithIcon"="2905_wscript.0"
+"ProgID"="VBSFile"
+
+[Software\\Wine\\FileOpenAssociations\\.wri] 1662003281
+#time=1d8bdb3c569cd12
+"AppName"="wordpad"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-wri.desktop"
+"MimeType"="application/x-mswrite"
+"OpenWithIcon"="3365_wordpad.0"
+"ProgID"="wrifile"
+
+[Software\\Wine\\FileOpenAssociations\\.xml] 1662003281
+#time=1d8bdb3c56ba0f6
+"AppName"="winebrowser"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-xml.desktop"
+"MimeType"="application/xml"
+"OpenWithIcon"="81F5_winebrowser.0"
+"ProgID"="xmlfile"
+
+[Software\\Wine\\Fonts] 1662785564
+#time=1d8c4d12a6221fa
+"Codepages"="1252,437"
+"LogPixels"=dword:00000060
+
+[Software\\Wine\\Fonts\\External Fonts] 1662002857
+#time=1d8bdb2c8996c6e
+"DejaVu Sans (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\dejavu\\DejaVuSans.ttf"
+"DejaVu Sans Bold (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\dejavu\\DejaVuSans-Bold.ttf"
+"DejaVu Sans Mono (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\dejavu\\DejaVuSansMono.ttf"
+"DejaVu Sans Mono Bold (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\dejavu\\DejaVuSansMono-Bold.ttf"
+"DejaVu Serif (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\dejavu\\DejaVuSerif.ttf"
+"DejaVu Serif Bold (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\dejavu\\DejaVuSerif-Bold.ttf"
+"Marlett (TrueType)"="Z:\\opt\\wine-stable\\share\\wine\\fonts\\marlett.ttf"
+"Symbol (TrueType)"="Z:\\opt\\wine-stable\\share\\wine\\fonts\\symbol.ttf"
+"Tahoma (TrueType)"="Z:\\opt\\wine-stable\\share\\wine\\fonts\\tahoma.ttf"
+"Tahoma Bold (TrueType)"="Z:\\opt\\wine-stable\\share\\wine\\fonts\\tahomabd.ttf"
+"Webdings (TrueType)"="Z:\\opt\\wine-stable\\share\\wine\\fonts\\webdings.ttf"
+"Wingdings (TrueType)"="Z:\\opt\\wine-stable\\share\\wine\\fonts\\wingding.ttf"
+
+[Software\\Wine\\MenuFiles] 1662002901
+#time=1d8bdb2e2d1c874
+"\\\\?\\Z:\\root\\.config\\menus\\applications-merged\\wine-Programs-Python 3.10-IDLE (Python 3.10 64-bit).menu"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\IDLE (Python 3.10 64-bit).lnk"
+"\\\\?\\Z:\\root\\.config\\menus\\applications-merged\\wine-Programs-Python 3.10-Python 3.10 (64-bit).menu"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\Python 3.10 (64-bit).lnk"
+"\\\\?\\Z:\\root\\.config\\menus\\applications-merged\\wine-Programs-Python 3.10-Python 3.10 Manuals (64-bit).menu"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\Python 3.10 Manuals (64-bit).lnk"
+"\\\\?\\Z:\\root\\.config\\menus\\applications-merged\\wine-Programs-Python 3.10-Python 3.10 Module Docs (64-bit).menu"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\Python 3.10 Module Docs (64-bit).lnk"
+"\\\\?\\Z:\\root\\.local\\share\\applications\\wine\\Programs\\Python 3.10\\IDLE (Python 3.10 64-bit).desktop"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\IDLE (Python 3.10 64-bit).lnk"
+"\\\\?\\Z:\\root\\.local\\share\\applications\\wine\\Programs\\Python 3.10\\Python 3.10 (64-bit).desktop"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\Python 3.10 (64-bit).lnk"
+"\\\\?\\Z:\\root\\.local\\share\\applications\\wine\\Programs\\Python 3.10\\Python 3.10 Manuals (64-bit).desktop"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\Python 3.10 Manuals (64-bit).lnk"
+"\\\\?\\Z:\\root\\.local\\share\\applications\\wine\\Programs\\Python 3.10\\Python 3.10 Module Docs (64-bit).desktop"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\Python 3.10 Module Docs (64-bit).lnk"
+
+[Volatile Environment] 1662784864
+#time=1d8c4cf891a5b88
+"APPDATA"="C:\\users\\root\\AppData\\Roaming"
+"CLIENTNAME"="Console"
+"HOMEDRIVE"="C:"
+"HOMEPATH"="\\users\\root"
+"HOMESHARE"=""
+"LOCALAPPDATA"="C:\\users\\root\\AppData\\Local"
+"LOGONSERVER"="\\\\2476B6B984D8"
+"SESSIONNAME"="Console"
+"USERDOMAIN"="2476B6B984D8"
+"USERNAME"="root"
+"USERPROFILE"="C:\\users\\root"

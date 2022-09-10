@@ -1,0 +1,691 @@
+1: 0 2: 1033 3: 0 
+=== Logging started: 9/1/2022  3:28:03 ===
+Message type: 0, Argument: 1033, 0
+Message type: 1, Argument: Python 3.10.6 Development Libraries (64-bit)
+Action 3:28:03: INSTALL. 
+Action start 3:28:03: INSTALL.
+1: 0 2: 1033 3: 0 
+1: 0 2: 1033 3: 0 
+=== Logging started: 9/1/2022  3:28:03 ===
+Message type: 0, Argument: 1033, 0
+Message type: 1, Argument: Python 3.10.6 Development Libraries (64-bit)
+Action 3:28:03: INSTALL. 
+Action start 3:28:03: INSTALL.
+1: Python 3.10.6 Development Libraries (64-bit) 2: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 
+Action 3:28:03: FindRelatedProducts. Searching for related applications
+Action start 3:28:03: FindRelatedProducts.
+Action ended 3:28:03: FindRelatedProducts. Return value 1.
+Action 3:28:03: AppSearch. Searching for installed applications
+Action start 3:28:03: AppSearch.
+Property: TARGETDIR, Signature: PythonExe_Directory
+Action ended 3:28:03: AppSearch. Return value 1.
+Action 3:28:03: LaunchConditions. Evaluating launch conditions
+Action start 3:28:03: LaunchConditions.
+Action ended 3:28:03: LaunchConditions. Return value 1.
+Action 3:28:03: ValidateProductID. 
+Action start 3:28:03: ValidateProductID.
+Action ended 3:28:03: ValidateProductID. Return value 1.
+Action 3:28:03: CostInitialize. Computing space requirements
+Action start 3:28:03: CostInitialize.
+Action ended 3:28:03: CostInitialize. Return value 1.
+Action 3:28:03: FileCost. Computing space requirements
+Action start 3:28:03: FileCost.
+Action ended 3:28:03: FileCost. Return value 1.
+Action 3:28:03: CostFinalize. Computing space requirements
+Action start 3:28:03: CostFinalize.
+Action ended 3:28:03: CostFinalize. Return value 1.
+Action 3:28:03: InstallValidate. Validating install
+Action start 3:28:03: InstallValidate.
+Action ended 3:28:03: InstallValidate. Return value 1.
+Action 3:28:03: InstallInitialize. 
+Action start 3:28:03: InstallInitialize.
+Action ended 3:28:03: InstallInitialize. Return value 1.
+Action 3:28:03: ProcessComponents. Updating component registration
+Action start 3:28:03: ProcessComponents.
+Action ended 3:28:03: ProcessComponents. Return value 1.
+Action 3:28:03: UnpublishFeatures. Unpublishing Product Features
+Action start 3:28:03: UnpublishFeatures.
+Action ended 3:28:03: UnpublishFeatures. Return value 1.
+Action 3:28:03: RemoveRegistryValues. Removing system registry values
+Action start 3:28:03: RemoveRegistryValues.
+Action ended 3:28:03: RemoveRegistryValues. Return value 1.
+Action 3:28:03: RemoveFiles. Removing files
+Action start 3:28:03: RemoveFiles.
+Action ended 3:28:03: RemoveFiles. Return value 1.
+Action 3:28:03: InstallFiles. Copying new files
+Action start 3:28:03: InstallFiles.
+Action ended 3:28:03: InstallFiles. Return value 1.
+Action 3:28:03: WriteRegistryValues. Writing system registry values
+Action start 3:28:03: WriteRegistryValues.
+Action ended 3:28:03: WriteRegistryValues. Return value 1.
+Action 3:28:03: RegisterUser. Registering user
+Action start 3:28:03: RegisterUser.
+Action ended 3:28:03: RegisterUser. Return value 1.
+Action 3:28:03: RegisterProduct. Registering product
+Action start 3:28:03: RegisterProduct.
+Action ended 3:28:03: RegisterProduct. Return value 1.
+Action 3:28:03: PublishFeatures. Publishing Product Features
+Action start 3:28:03: PublishFeatures.
+Action ended 3:28:03: PublishFeatures. Return value 1.
+Action 3:28:03: PublishProduct. Publishing product information
+Action start 3:28:03: PublishProduct.
+Action ended 3:28:03: PublishProduct. Return value 1.
+Action 3:28:03: InstallFinalize. 
+Action start 3:28:03: InstallFinalize.
+Action 3:28:03: ProcessComponents. Updating component registration
+Action start 3:28:03: ProcessComponents.
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {2804F959-29BA-54AA-93F7-A751E944BBA2} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\abstract.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {F139CC6C-AC57-59AF-AAF1-99F9E48574D7} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\bltinmodule.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {D8A1D803-6335-528C-A62C-E1A59B3DE468} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\boolobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {8FF6E4B5-A140-5A27-8BE5-6D02DA7668B8} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\bytearrayobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {C8B4C506-F9D1-541B-BB50-04BB4762A8E4} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\bytesobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {1FE512C1-6438-5900-9785-16F8045A903B} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cellobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {5FDCF5AB-69D5-5001-8D32-97EF596DCE35} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\ceval.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {20FAA887-EAB5-598C-AED6-B2EBF57C0A21} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\classobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {83F09B3B-115A-50C5-BA46-F2482B794A3A} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\code.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {9CD51058-8A35-5776-A150-A24B51B57A47} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\codecs.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {801A4711-6DF2-55EA-82D0-B673F22D17E7} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\compile.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {C1DD5853-9BAD-5052-ABBF-CEF9E3266086} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\complexobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {F998D4DD-050F-59F0-8294-52D8833F94C6} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\context.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {E03FF0C7-8745-5FD7-BF7F-0ACFA9BE4B5B} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\abstract.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {36C1024F-69CD-55FF-8413-75DE4ADF01BB} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\bytearrayobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {52D1A563-81C1-5655-8810-C8F5AE507B0A} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\bytesobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {7B5BCF1C-9CFA-53AD-9CEE-3AB6CFCBD6D3} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\ceval.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {CF911453-4CBB-5F42-A9FF-10F423144E73} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\code.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {E85D2547-569E-51BE-B9A6-1F2E95D6E762} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\compile.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {738E3706-79B4-54DA-B90A-AAF52949AD53} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\dictobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {2E11ACBE-8596-545F-A1EE-78C6C54E52C2} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\fileobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {C1F76372-F379-5EE1-9C28-AEBC08984833} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\fileutils.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {AC7B3829-2549-5D53-B950-E3BB811BBCF7} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\frameobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {BFF66F5A-6C99-5C0D-BC3B-59BE196E0FAE} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\import.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {3355E645-594A-542F-8A89-728698A03972} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\initconfig.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {23ED83C7-BC44-5F37-90EA-E383731361FF} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\interpreteridobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {DD853142-E461-55EB-93ED-0D316E47D491} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\listobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {1E93577B-3524-5E24-905B-D1187B47135D} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\methodobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {2C45AC08-D78D-57D4-A5CD-B70C5D0A4E6B} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\object.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {63059C33-0CF3-5E22-A6BF-FC375F98D89B} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\objimpl.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {CD4775C5-A74B-5A5E-8690-AA25B642040B} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\odictobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {C46B475B-E4B2-51A5-BCE9-2B723B24D05B} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\picklebufobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {2D3970C9-75D9-534E-8075-2FEDCA418911} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\pyctype.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {45A48CCB-DB12-58BD-8FFE-AF97E697FAAE} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\pydebug.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {CCC61E2C-27D4-5708-8CC4-974D615A5CA3} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\pyerrors.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {E1643DAB-E3D5-5E4F-8F67-FD3D29BA57D1} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\pyfpe.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {4DD92D76-B0D9-5603-B9FE-E9A6EAFAF204} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\pylifecycle.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {02EA385D-DF9D-53C0-BB85-2C91E010FD04} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\pymem.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {800043A2-50F3-5594-8B5D-8990448D8BB2} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\pystate.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {96E03AB2-D98C-5290-9C9C-47E4B6344F9B} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\pythonrun.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {BED8D52E-9B00-50B1-B564-DEF4D8462AE3} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\pytime.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {CCD01F7E-C327-5DC1-99E6-988251122801} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\sysmodule.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {AAD27D69-98C8-5FD1-9037-DEC4DF71C4E3} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\traceback.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {59029EB6-B4D5-503F-8E19-891402A65769} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\tupleobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {A3DB5BB9-9A92-5FF8-8037-CEC64B681D05} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\unicodeobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {BDBAFF01-E485-57CD-9721-35412948862C} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\datetime.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {CBE52B83-90A3-5492-A7E4-B85479822124} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\descrobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {4FB14F87-B12F-5B53-8EBD-816D2C5CDC24} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\dictobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {5084764B-30BF-5EB9-A966-7EA4004CF21E} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\dynamic_annotations.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {7BA1C256-5A38-5E49-8FC0-16A53538E46E} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\enumobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {931266C2-6542-52FB-809B-A01E3C949BB9} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\errcode.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {373522D8-F1D9-5259-AB48-D9C7C4EBBDB6} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\eval.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {75F25712-F2B9-5F20-BCE5-606A9771F878} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\exports.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {0679D324-FCE2-5FE4-870F-311E30D4185B} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\fileobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {7D285D82-9687-53B3-9C5A-F7A54B8D79FB} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\fileutils.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {A568F0DF-5C9F-5057-9436-DB6F653FD0A0} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\floatobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {6B8AEB37-C7D4-5267-A659-F664FB40B196} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\frameobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {2B2DE7D5-0189-50CA-AFEE-8805933F9C70} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\funcobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {E367F13B-4C86-5B08-8490-59E17A8879E4} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\genericaliasobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {A80E10EC-ECB3-528A-9111-C002A6AEC606} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\genobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {AD245068-C8EE-5F99-9964-3865DEB38B4B} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\import.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {436B0DF1-2DE4-54AD-A2DA-46234C76973B} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_abstract.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {E63BD667-71B7-5869-8706-1E082D73515F} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_accu.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {BF398289-5B18-5FB3-ACB6-DDF4346DF590} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_asdl.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {CD013A5E-09B8-5618-810C-C3B0E0B7507A} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_ast.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {D5736153-BC38-5296-B830-E1902DFB248E} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_ast_state.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {4BCD5AE4-2F13-5010-8A9C-D6A16977270C} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_atomic.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {1651410B-2FCD-5C45-8C41-04BAB03AB92F} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_atomic_funcs.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {99815703-7FE0-5A8A-9E30-E4DACF2448AC} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_bitutils.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {358148A8-D634-5C71-8195-F9BBE86F4645} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_blocks_output_buffer.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {00290981-302B-5F88-AD44-1BC2E86963DA} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_bytes_methods.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {7DBC8DB7-5782-52C9-808B-BDF8F6539A9F} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_call.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {07262F0A-1DE9-515E-82D1-614DA41B0FB7} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_ceval.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {E5192394-09FE-5F69-B280-50E98C3C13CD} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_code.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {97F97ED8-3715-5C96-82A9-1DFDC0180344} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_compile.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {FA560E76-1FD7-52F8-BD02-0451123EC00C} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_condvar.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {A7A370A1-19F3-5BA2-B2F6-C5F865673F2D} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_context.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {59DDE9B3-F00F-5A7E-AC24-0C97B1EEB29E} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_dtoa.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {EB8DCE6E-66CA-54E7-BA2B-83A47AAF2F28} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_fileutils.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {BFBDC3A9-30D2-55B1-8435-EF7B42269698} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_format.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {60E4A200-BA79-5E47-BDA6-5F81F0EB7642} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_gc.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {FDBBE922-B309-5BAD-A49C-755C15AC0785} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_getopt.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {AA6FA04C-FEDA-5579-B797-EFED25D51262} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_gil.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {8627F8E4-5899-5978-887A-214828F720E3} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_hamt.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {80A2F85B-FA96-52E7-81EC-FB45E3D6D010} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_hashtable.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {E8F89284-D837-5071-8503-2EC6C0D2687B} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_import.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {0C74C258-F6ED-504A-A854-7A0D9A3E6277} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_initconfig.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {1A10B4B8-7DBF-5F8A-877D-30C4C4BE0DBA} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_interp.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {FD17CFFE-53C1-55A9-A0B6-A5446D17CE24} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_list.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {EAA63192-6D65-54B3-A2FC-BD89F07C8811} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_long.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {AFC6E058-AF59-5940-A6EC-A1AA705F9227} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_moduleobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {756A3375-8DFE-52B6-89AB-CFA16DC277FA} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_object.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {2C8B9E04-F25A-502A-806F-856AFC9F679A} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_parser.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {EC6AB18F-971A-54F7-8C89-E81FA3DEA5C7} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_pathconfig.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {7697940C-F6B3-5D30-9F03-B6DCBA632075} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_pyarena.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {5FFD977A-0E90-5467-98FF-6B591E702534} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_pyerrors.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {15E43753-63A9-5641-9EE5-DBAF6117ED7B} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_pyhash.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {7811D56C-A47F-5A95-A8ED-C55ADA7D9DAA} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_pylifecycle.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {37BA68FC-4051-57AF-9602-0B7025032A91} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_pymem.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {138A45D9-15B1-5D04-8D63-168CB7F68D24} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_pystate.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {612E0464-54A1-52D5-9C29-B8A870044CD1} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_runtime.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {FB0C50E0-9587-5998-8205-B649218199E5} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_structseq.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {3C7D1DF3-8B6E-571F-8D6D-02A71D51894F} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_symtable.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {B316FBBE-EC02-594E-919E-D275A74835E4} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_sysmodule.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {2B550CE9-CA66-568A-A0A6-566EB3115E33} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_traceback.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {4D8BF27B-8D2F-54D0-9656-DF51E48839C6} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_tuple.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {3060D58D-D6B0-537F-A8AC-875998740039} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_ucnhash.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {70BACBC7-6AF6-59BA-8A5C-181133668C55} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_unionobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {83B61601-037A-5FA7-B2DE-F2AA84045C11} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\pycore_warnings.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {606B4ADB-F1D8-5ABB-86C6-A03654933299} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\interpreteridobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {357B1D96-DF4B-59D1-966C-5F6CEC3B8BD5} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\intrcheck.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {2E332542-8324-541B-92EB-ACFF723BF690} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\iterobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {22974866-C081-5722-88BC-933B51FBA046} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\listobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {230A3BED-54D7-591B-A16A-3EB399A9B87C} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\longintrepr.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {6DA958EF-5700-5E03-B8C8-BC6D5EB69C64} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\longobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {7A522A79-962D-5247-A5B9-66656B12D67D} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\marshal.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {3AFB9580-238F-5164-BA50-6BAB77325BA2} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\memoryobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {6E3C4221-01E9-50FF-816D-A9F71F9D89F5} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\methodobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {1F925E80-89C8-53CE-9A62-C35BCBE7AFF8} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\modsupport.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {110AE270-255E-578D-BDA6-BC1D8E6A4B1A} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\moduleobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {4F697D9E-1CDC-50FE-929A-1D549BB82FD8} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\namespaceobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {CB4DBE2C-C0DB-5C7A-8E7F-1841865C72F8} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\object.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {77ADE24C-298F-54DD-AFF9-7683C99D4BF2} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\objimpl.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {CB62B7EE-1C99-5275-8BCF-33D04C237853} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\opcode.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {2F7ADDB4-0145-529E-952C-210BE3575A2A} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\osdefs.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {7327A15B-71E6-5C3C-80C3-7AEB911FD0C1} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\osmodule.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {9B0FAAC8-3302-56D5-B11D-45B79518DA85} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\patchlevel.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {2D3C07C3-DFA7-573A-8E4F-F5AD51CE0D19} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\pycapsule.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {2393CB88-4CFE-52DA-A218-DD0BEEBAF870} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\pydtrace.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {571F59A7-FEE1-5D58-B9DC-EF071B087110} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\pyerrors.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {E9F076B7-1ED3-52D8-9F5A-8F60C567007D} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\pyexpat.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {7E275048-A898-55E3-85D7-F5239BF7CCFD} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\pyframe.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {9954C946-1696-5C72-821D-BAF43B4025F5} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\pyhash.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {3929A7E9-5EE1-57C2-BBFC-E27109C05968} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\pylifecycle.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {BDC101B7-FDB3-5359-9D37-ED370EE70C82} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\pymacconfig.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {52274231-1910-5DB9-874B-E5DF3FC30BCB} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\pymacro.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {3221084E-FECB-52A8-BA2E-CA07D6AD8453} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\pymath.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {2E4FCABF-9C03-52EC-89B1-FDE84B9CC50F} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\pymem.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {818BAB8C-8EF5-5418-8482-C8DA138CAF22} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\pyport.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {17323890-4C3D-52CB-BCCD-0FE6DE131EF3} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\pystate.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {A52F7B84-826C-500B-B1DC-13C337257859} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\pystrcmp.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {14C5045F-AB99-5BC7-BF25-07A611C8C9CB} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\pystrhex.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {9328FB65-778C-55D1-9A63-8868641126E8} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\pystrtod.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {46754EE0-2EFC-579A-86B1-DD128BA19F50} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\Python.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {4E32E8D1-4B9F-5F3D-8EE9-D00C6B595BF0} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\pythonrun.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {73F3033A-F2B9-52D0-8157-2CF742DBC030} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\pythread.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {C8BECC49-C0DF-56DA-A87B-073295BEDA84} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\py_curses.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {D453282B-EE3E-55FF-B6C9-2AA17425A803} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\rangeobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {55AF704E-8756-53D7-95C2-58714D3F5658} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\setobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {A2E5FA13-F265-538F-9F89-35D6CA8A5E1A} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\sliceobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {0373BE33-84DB-5E10-BA39-7DFA08D740BE} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\structmember.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {63D96690-B652-5BE8-9770-43CBD7C21E38} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\structseq.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {E8AF30EA-6626-5767-B39D-B474F357F848} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\sysmodule.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {E9C3D7BA-97B6-5886-A449-A3647972C0B1} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\token.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {9D9CC2D1-C4CF-504A-9F48-180233752904} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\traceback.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {4C82C13E-BFC5-5B2D-BACF-364F81749867} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\tracemalloc.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {5050338C-22A0-539B-906A-338B1787DD07} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\tupleobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {B056AA5B-2FC3-5B4A-9DB8-AF41CBC26D0F} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\typeslots.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {5295B41D-7677-5176-9D13-9106C30111C6} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\unicodeobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {253635C3-76FD-53C3-852A-3FA56011AEF5} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\warnings.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {30FB7BA3-4EBC-509C-B2BD-D869E85DF97B} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\weakrefobject.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {38DC6A8C-BFF8-5980-ACCC-B4FA3EC50C4F} 3: C:\users\root\AppData\Local\Programs\Python\Python310\include\pyconfig.h 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {6AED8A7A-BBB8-5F7F-83BB-4F9673D36D01} 3: C:\users\root\AppData\Local\Programs\Python\Python310\libs\python3.lib 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {A6F1125B-29B8-5055-B5AA-634D478A9B0C} 3: C:\users\root\AppData\Local\Programs\Python\Python310\libs\python310.lib 
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 2: {1D902E78-720E-55CE-8CA9-C9E7E27A7F59} 3: -1:\Software\Python\PythonCore\3.10\InstalledFeatures\dev 
+Action ended 3:28:03: ProcessComponents. Return value 1.
+Action 3:28:03: UnpublishFeatures. Unpublishing Product Features
+Action start 3:28:03: UnpublishFeatures.
+Action ended 3:28:03: UnpublishFeatures. Return value 1.
+Action 3:28:03: RemoveRegistryValues. Removing system registry values
+Action start 3:28:03: RemoveRegistryValues.
+Action ended 3:28:03: RemoveRegistryValues. Return value 1.
+Action 3:28:03: RemoveFiles. Removing files
+Action start 3:28:03: RemoveFiles.
+File: abstract.h, Directory: include
+File: bltinmodule.h, Directory: include
+File: boolobject.h, Directory: include
+File: bytearrayobject.h, Directory: include
+File: bytesobject.h, Directory: include
+File: cellobject.h, Directory: include
+File: ceval.h, Directory: include
+File: classobject.h, Directory: include
+File: code.h, Directory: include
+File: codecs.h, Directory: include
+File: compile.h, Directory: include
+File: complexobject.h, Directory: include
+File: context.h, Directory: include
+File: abstract.h, Directory: include_cpython
+File: bytearrayobject.h, Directory: include_cpython
+File: bytesobject.h, Directory: include_cpython
+File: ceval.h, Directory: include_cpython
+File: code.h, Directory: include_cpython
+File: compile.h, Directory: include_cpython
+File: dictobject.h, Directory: include_cpython
+File: fileobject.h, Directory: include_cpython
+File: fileutils.h, Directory: include_cpython
+File: frameobject.h, Directory: include_cpython
+File: import.h, Directory: include_cpython
+File: initconfig.h, Directory: include_cpython
+File: interpreteridobject.h, Directory: include_cpython
+File: listobject.h, Directory: include_cpython
+File: methodobject.h, Directory: include_cpython
+File: object.h, Directory: include_cpython
+File: objimpl.h, Directory: include_cpython
+File: odictobject.h, Directory: include_cpython
+File: picklebufobject.h, Directory: include_cpython
+File: pyctype.h, Directory: include_cpython
+File: pydebug.h, Directory: include_cpython
+File: pyerrors.h, Directory: include_cpython
+File: pyfpe.h, Directory: include_cpython
+File: pylifecycle.h, Directory: include_cpython
+File: pymem.h, Directory: include_cpython
+File: pystate.h, Directory: include_cpython
+File: pythonrun.h, Directory: include_cpython
+File: pytime.h, Directory: include_cpython
+File: sysmodule.h, Directory: include_cpython
+File: traceback.h, Directory: include_cpython
+File: tupleobject.h, Directory: include_cpython
+File: unicodeobject.h, Directory: include_cpython
+File: datetime.h, Directory: include
+File: descrobject.h, Directory: include
+File: dictobject.h, Directory: include
+File: dynamic_annotations.h, Directory: include
+File: enumobject.h, Directory: include
+File: errcode.h, Directory: include
+File: eval.h, Directory: include
+File: exports.h, Directory: include
+File: fileobject.h, Directory: include
+File: fileutils.h, Directory: include
+File: floatobject.h, Directory: include
+File: frameobject.h, Directory: include
+File: funcobject.h, Directory: include
+File: genericaliasobject.h, Directory: include
+File: genobject.h, Directory: include
+File: import.h, Directory: include
+File: pycore_abstract.h, Directory: include_internal
+File: pycore_accu.h, Directory: include_internal
+File: pycore_asdl.h, Directory: include_internal
+File: pycore_ast.h, Directory: include_internal
+File: pycore_ast_state.h, Directory: include_internal
+File: pycore_atomic.h, Directory: include_internal
+File: pycore_atomic_funcs.h, Directory: include_internal
+File: pycore_bitutils.h, Directory: include_internal
+File: pycore_blocks_output_buffer.h, Directory: include_internal
+File: pycore_bytes_methods.h, Directory: include_internal
+File: pycore_call.h, Directory: include_internal
+File: pycore_ceval.h, Directory: include_internal
+File: pycore_code.h, Directory: include_internal
+File: pycore_compile.h, Directory: include_internal
+File: pycore_condvar.h, Directory: include_internal
+File: pycore_context.h, Directory: include_internal
+File: pycore_dtoa.h, Directory: include_internal
+File: pycore_fileutils.h, Directory: include_internal
+File: pycore_format.h, Directory: include_internal
+File: pycore_gc.h, Directory: include_internal
+File: pycore_getopt.h, Directory: include_internal
+File: pycore_gil.h, Directory: include_internal
+File: pycore_hamt.h, Directory: include_internal
+File: pycore_hashtable.h, Directory: include_internal
+File: pycore_import.h, Directory: include_internal
+File: pycore_initconfig.h, Directory: include_internal
+File: pycore_interp.h, Directory: include_internal
+File: pycore_list.h, Directory: include_internal
+File: pycore_long.h, Directory: include_internal
+File: pycore_moduleobject.h, Directory: include_internal
+File: pycore_object.h, Directory: include_internal
+File: pycore_parser.h, Directory: include_internal
+File: pycore_pathconfig.h, Directory: include_internal
+File: pycore_pyarena.h, Directory: include_internal
+File: pycore_pyerrors.h, Directory: include_internal
+File: pycore_pyhash.h, Directory: include_internal
+File: pycore_pylifecycle.h, Directory: include_internal
+File: pycore_pymem.h, Directory: include_internal
+File: pycore_pystate.h, Directory: include_internal
+File: pycore_runtime.h, Directory: include_internal
+File: pycore_structseq.h, Directory: include_internal
+File: pycore_symtable.h, Directory: include_internal
+File: pycore_sysmodule.h, Directory: include_internal
+File: pycore_traceback.h, Directory: include_internal
+File: pycore_tuple.h, Directory: include_internal
+File: pycore_ucnhash.h, Directory: include_internal
+File: pycore_unionobject.h, Directory: include_internal
+File: pycore_warnings.h, Directory: include_internal
+File: interpreteridobject.h, Directory: include
+File: intrcheck.h, Directory: include
+File: iterobject.h, Directory: include
+File: listobject.h, Directory: include
+File: longintrepr.h, Directory: include
+File: longobject.h, Directory: include
+File: marshal.h, Directory: include
+File: memoryobject.h, Directory: include
+File: methodobject.h, Directory: include
+File: modsupport.h, Directory: include
+File: moduleobject.h, Directory: include
+File: namespaceobject.h, Directory: include
+File: object.h, Directory: include
+File: objimpl.h, Directory: include
+File: opcode.h, Directory: include
+File: osdefs.h, Directory: include
+File: osmodule.h, Directory: include
+File: patchlevel.h, Directory: include
+File: py_curses.h, Directory: include
+File: pycapsule.h, Directory: include
+File: pyconfig.h, Directory: include
+File: pydtrace.h, Directory: include
+File: pyerrors.h, Directory: include
+File: pyexpat.h, Directory: include
+File: pyframe.h, Directory: include
+File: pyhash.h, Directory: include
+File: pylifecycle.h, Directory: include
+File: pymacconfig.h, Directory: include
+File: pymacro.h, Directory: include
+File: pymath.h, Directory: include
+File: pymem.h, Directory: include
+File: pyport.h, Directory: include
+File: pystate.h, Directory: include
+File: pystrcmp.h, Directory: include
+File: pystrhex.h, Directory: include
+File: pystrtod.h, Directory: include
+File: Python.h, Directory: include
+File: pythonrun.h, Directory: include
+File: pythread.h, Directory: include
+File: rangeobject.h, Directory: include
+File: setobject.h, Directory: include
+File: sliceobject.h, Directory: include
+File: structmember.h, Directory: include
+File: structseq.h, Directory: include
+File: sysmodule.h, Directory: include
+File: token.h, Directory: include
+File: traceback.h, Directory: include
+File: tracemalloc.h, Directory: include
+File: tupleobject.h, Directory: include
+File: typeslots.h, Directory: include
+File: unicodeobject.h, Directory: include
+File: warnings.h, Directory: include
+File: weakrefobject.h, Directory: include
+File: python310.lib, Directory: libs
+File: python3.lib, Directory: libs
+Action ended 3:28:03: RemoveFiles. Return value 1.
+Action 3:28:03: InstallFiles. Copying new files
+Action start 3:28:03: InstallFiles.
+File: abstract.h,  Directory: include,  Size: 32278
+File: bltinmodule.h,  Directory: include,  Size: 278
+File: boolobject.h,  Directory: include,  Size: 1267
+File: bytearrayobject.h,  Directory: include,  Size: 1530
+File: bytesobject.h,  Directory: include,  Size: 2662
+File: cellobject.h,  Directory: include,  Size: 749
+File: ceval.h,  Directory: include,  Size: 5861
+File: classobject.h,  Directory: include,  Size: 1714
+File: code.h,  Directory: include,  Size: 338
+File: codecs.h,  Directory: include,  Size: 7319
+File: compile.h,  Directory: include,  Size: 545
+File: complexobject.h,  Directory: include,  Size: 1875
+File: context.h,  Directory: include,  Size: 2043
+File: abstract.h,  Directory: include_cpython,  Size: 14427
+File: bytearrayobject.h,  Directory: include_cpython,  Size: 789
+File: bytesobject.h,  Directory: include_cpython,  Size: 4237
+File: ceval.h,  Directory: include_cpython,  Size: 1498
+File: code.h,  Directory: include_cpython,  Size: 7754
+File: compile.h,  Directory: include_cpython,  Size: 2272
+File: dictobject.h,  Directory: include_cpython,  Size: 3818
+File: fileobject.h,  Directory: include_cpython,  Size: 741
+File: fileutils.h,  Directory: include_cpython,  Size: 4439
+File: frameobject.h,  Directory: include_cpython,  Size: 3246
+File: import.h,  Directory: include_cpython,  Size: 1676
+File: initconfig.h,  Directory: include_cpython,  Size: 7846
+File: interpreteridobject.h,  Directory: include_cpython,  Size: 398
+File: listobject.h,  Directory: include_cpython,  Size: 1277
+File: methodobject.h,  Directory: include_cpython,  Size: 1434
+File: object.h,  Directory: include_cpython,  Size: 20165
+File: objimpl.h,  Directory: include_cpython,  Size: 3456
+File: odictobject.h,  Directory: include_cpython,  Size: 1342
+File: picklebufobject.h,  Directory: include_cpython,  Size: 877
+File: pyctype.h,  Directory: include_cpython,  Size: 1426
+File: pydebug.h,  Directory: include_cpython,  Size: 1131
+File: pyerrors.h,  Directory: include_cpython,  Size: 5690
+File: pyfpe.h,  Directory: include_cpython,  Size: 459
+File: pylifecycle.h,  Directory: include_cpython,  Size: 2159
+File: pymem.h,  Directory: include_cpython,  Size: 3477
+File: pystate.h,  Directory: include_cpython,  Size: 12219
+File: pythonrun.h,  Directory: include_cpython,  Size: 4932
+File: pytime.h,  Directory: include_cpython,  Size: 9443
+File: sysmodule.h,  Directory: include_cpython,  Size: 522
+File: traceback.h,  Directory: include_cpython,  Size: 418
+File: tupleobject.h,  Directory: include_cpython,  Size: 1003
+File: unicodeobject.h,  Directory: include_cpython,  Size: 45453
+File: datetime.h,  Directory: include,  Size: 9902
+File: descrobject.h,  Directory: include,  Size: 3110
+File: dictobject.h,  Directory: include,  Size: 3950
+File: dynamic_annotations.h,  Directory: include,  Size: 22968
+File: enumobject.h,  Directory: include,  Size: 270
+File: errcode.h,  Directory: include,  Size: 1738
+File: eval.h,  Directory: include,  Size: 858
+File: exports.h,  Directory: include,  Size: 1128
+File: fileobject.h,  Directory: include,  Size: 1620
+File: fileutils.h,  Directory: include,  Size: 534
+File: floatobject.h,  Directory: include,  Size: 4478
+File: frameobject.h,  Directory: include,  Size: 357
+File: funcobject.h,  Directory: include,  Size: 4367
+File: genericaliasobject.h,  Directory: include,  Size: 348
+File: genobject.h,  Directory: include,  Size: 3447
+File: import.h,  Directory: include,  Size: 3124
+File: pycore_abstract.h,  Directory: include_internal,  Size: 501
+File: pycore_accu.h,  Directory: include_internal,  Size: 1165
+File: pycore_asdl.h,  Directory: include_internal,  Size: 3083
+File: pycore_ast.h,  Directory: include_internal,  Size: 29683
+File: pycore_ast_state.h,  Directory: include_internal,  Size: 6712
+File: pycore_atomic.h,  Directory: include_internal,  Size: 17537
+File: pycore_atomic_funcs.h,  Directory: include_internal,  Size: 2532
+File: pycore_bitutils.h,  Directory: include_internal,  Size: 5447
+File: pycore_blocks_output_buffer.h,  Directory: include_internal,  Size: 9004
+File: pycore_bytes_methods.h,  Directory: include_internal,  Size: 3457
+File: pycore_call.h,  Directory: include_internal,  Size: 909
+File: pycore_ceval.h,  Directory: include_internal,  Size: 3598
+File: pycore_code.h,  Directory: include_internal,  Size: 730
+File: pycore_compile.h,  Directory: include_internal,  Size: 1089
+File: pycore_condvar.h,  Directory: include_internal,  Size: 2904
+File: pycore_context.h,  Directory: include_internal,  Size: 864
+File: pycore_dtoa.h,  Directory: include_internal,  Size: 669
+File: pycore_fileutils.h,  Directory: include_internal,  Size: 1775
+File: pycore_format.h,  Directory: include_internal,  Size: 507
+File: pycore_gc.h,  Directory: include_internal,  Size: 7040
+File: pycore_getopt.h,  Directory: include_internal,  Size: 512
+File: pycore_gil.h,  Directory: include_internal,  Size: 1615
+File: pycore_hamt.h,  Directory: include_internal,  Size: 3825
+File: pycore_hashtable.h,  Directory: include_internal,  Size: 4345
+File: pycore_import.h,  Directory: include_internal,  Size: 363
+File: pycore_initconfig.h,  Directory: include_internal,  Size: 5751
+File: pycore_interp.h,  Directory: include_internal,  Size: 9597
+File: pycore_list.h,  Directory: include_internal,  Size: 370
+File: pycore_long.h,  Directory: include_internal,  Size: 1319
+File: pycore_moduleobject.h,  Directory: include_internal,  Size: 1089
+File: pycore_object.h,  Directory: include_internal,  Size: 6175
+File: pycore_parser.h,  Directory: include_internal,  Size: 657
+File: pycore_pathconfig.h,  Directory: include_internal,  Size: 2054
+File: pycore_pyarena.h,  Directory: include_internal,  Size: 2797
+File: pycore_pyerrors.h,  Directory: include_internal,  Size: 2410
+File: pycore_pyhash.h,  Directory: include_internal,  Size: 216
+File: pycore_pylifecycle.h,  Directory: include_internal,  Size: 5081
+File: pycore_pymem.h,  Directory: include_internal,  Size: 3312
+File: pycore_pystate.h,  Directory: include_internal,  Size: 4091
+File: pycore_runtime.h,  Directory: include_internal,  Size: 5059
+File: pycore_structseq.h,  Directory: include_internal,  Size: 407
+File: pycore_symtable.h,  Directory: include_internal,  Size: 5711
+File: pycore_sysmodule.h,  Directory: include_internal,  Size: 572
+File: pycore_traceback.h,  Directory: include_internal,  Size: 3063
+File: pycore_tuple.h,  Directory: include_internal,  Size: 445
+File: pycore_ucnhash.h,  Directory: include_internal,  Size: 932
+File: pycore_unionobject.h,  Directory: include_internal,  Size: 651
+File: pycore_warnings.h,  Directory: include_internal,  Size: 658
+File: interpreteridobject.h,  Directory: include,  Size: 351
+File: intrcheck.h,  Directory: include,  Size: 802
+File: iterobject.h,  Directory: include,  Size: 620
+File: listobject.h,  Directory: include,  Size: 1833
+File: longintrepr.h,  Directory: include,  Size: 3898
+File: longobject.h,  Directory: include,  Size: 8826
+File: marshal.h,  Directory: include,  Size: 831
+File: memoryobject.h,  Directory: include,  Size: 2836
+File: methodobject.h,  Directory: include,  Size: 4263
+File: modsupport.h,  Directory: include,  Size: 10596
+File: moduleobject.h,  Directory: include,  Size: 2554
+File: namespaceobject.h,  Directory: include,  Size: 368
+File: object.h,  Directory: include,  Size: 29093
+File: objimpl.h,  Directory: include,  Size: 8660
+File: opcode.h,  Directory: include,  Size: 5681
+File: osdefs.h,  Directory: include,  Size: 788
+File: osmodule.h,  Directory: include,  Size: 308
+File: patchlevel.h,  Directory: include,  Size: 1334
+File: py_curses.h,  Directory: include,  Size: 2573
+File: pycapsule.h,  Directory: include,  Size: 1784
+File: pyconfig.h,  Directory: include,  Size: 21069
+File: pydtrace.h,  Directory: include,  Size: 2472
+File: pyerrors.h,  Directory: include,  Size: 12750
+File: pyexpat.h,  Directory: include,  Size: 2505
+File: pyframe.h,  Directory: include,  Size: 488
+File: pyhash.h,  Directory: include,  Size: 4367
+File: pylifecycle.h,  Directory: include,  Size: 2154
+File: pymacconfig.h,  Directory: include,  Size: 3091
+File: pymacro.h,  Directory: include,  Size: 5052
+File: pymath.h,  Directory: include,  Size: 8543
+File: pymem.h,  Directory: include,  Size: 3995
+File: pyport.h,  Directory: include,  Size: 32573
+File: pystate.h,  Directory: include,  Size: 5400
+File: pystrcmp.h,  Directory: include,  Size: 459
+File: pystrhex.h,  Directory: include,  Size: 871
+File: pystrtod.h,  Directory: include,  Size: 1528
+File: Python.h,  Directory: include,  Size: 3372
+File: pythonrun.h,  Directory: include,  Size: 1154
+File: pythread.h,  Directory: include,  Size: 6107
+File: rangeobject.h,  Directory: include,  Size: 655
+File: setobject.h,  Directory: include,  Size: 3491
+File: sliceobject.h,  Directory: include,  Size: 2581
+File: structmember.h,  Directory: include,  Size: 2149
+File: structseq.h,  Directory: include,  Size: 1439
+File: sysmodule.h,  Directory: include,  Size: 1283
+File: token.h,  Directory: include,  Size: 2766
+File: traceback.h,  Directory: include,  Size: 610
+File: tracemalloc.h,  Directory: include,  Size: 1152
+File: tupleobject.h,  Directory: include,  Size: 1660
+File: typeslots.h,  Directory: include,  Size: 2554
+File: unicodeobject.h,  Directory: include,  Size: 37201
+File: warnings.h,  Directory: include,  Size: 1843
+File: weakrefobject.h,  Directory: include,  Size: 2949
+File: python310.lib,  Directory: libs,  Size: 356438
+File: python3.lib,  Directory: libs,  Size: 180006
+Action ended 3:28:03: InstallFiles. Return value 1.
+Action 3:28:03: WriteRegistryValues. Writing system registry values
+Action start 3:28:03: WriteRegistryValues.
+Key: HKEY_CURRENT_USER\Software\Python\PythonCore\3.10\InstalledFeatures, Name: dev, Value: 3.10.6150.0
+Action ended 3:28:03: WriteRegistryValues. Return value 1.
+Action 3:28:03: RegisterUser. Registering user
+Action start 3:28:03: RegisterUser.
+1:  
+Action ended 3:28:03: RegisterUser. Return value 1.
+Action 3:28:03: RegisterProduct. Registering product
+Action start 3:28:03: RegisterProduct.
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 
+Action ended 3:28:03: RegisterProduct. Return value 1.
+Action 3:28:03: PublishFeatures. Publishing Product Features
+Action start 3:28:03: PublishFeatures.
+Feature: DefaultFeature
+Action ended 3:28:03: PublishFeatures. Return value 1.
+Action 3:28:03: PublishProduct. Publishing product information
+Action start 3:28:03: PublishProduct.
+1: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 
+Action ended 3:28:03: PublishProduct. Return value 1.
+Action ended 3:28:03: InstallFinalize. Return value 1.
+Action ended 3:28:03: INSTALL. Return value 1.
+1: Python 3.10.6 Development Libraries (64-bit) 2: {07CDAC2C-737C-4D8A-AF42-6BCE111699AE} 3: 1 
+Property(S): UpgradeCode = {8670E410-CF7F-5284-A7E5-33D9DBF55DC9}
+Property(S): TARGETDIR = C:\users\root\AppData\Local\Programs\Python\Python310\
+Property(S): include = C:\users\root\AppData\Local\Programs\Python\Python310\include\
+Property(S): include_cpython = C:\users\root\AppData\Local\Programs\Python\Python310\include\cpython\
+Property(S): include_internal = C:\users\root\AppData\Local\Programs\Python\Python310\include\internal\
+Property(S): libs = C:\users\root\AppData\Local\Programs\Python\Python310\libs\
+Property(S): InstallDirectory = C:\users\root\AppData\Local\Programs\Python\Python310\
+Property(S): OPTIONALFEATURESREGISTRYKEY = Software\Python\PythonCore\3.10\InstalledFeatures
+Property(S): SourceDir = C:\users\root\AppData\Local\Package Cache\{07CDAC2C-737C-4D8A-AF42-6BCE111699AE}v3.10.6150.0\
+Property(S): Manufacturer = Python Software Foundation
+Property(S): ProductCode = {07CDAC2C-737C-4D8A-AF42-6BCE111699AE}
+Property(S): ProductLanguage = 1033
+Property(S): ProductName = Python 3.10.6 Development Libraries (64-bit)
+Property(S): ProductVersion = 3.10.6150.0
+Property(S): DetectTargetDir = 1
+Property(S): UpgradeTable = 1
+Property(S): SecureCustomProperties = DOWNGRADE;MISSING_CORE;UPGRADE
+Property(S): AdminUser = 1
+Property(S): Privileged = 1
+Property(S): MsiRunningElevated = 1
+Property(S): CommonAppDataFolder = C:\ProgramData\
+Property(S): FavoritesFolder = C:\users\root\Favorites\
+Property(S): FontsFolder = C:\windows\Fonts\
+Property(S): SendToFolder = C:\users\root\AppData\Roaming\Microsoft\Windows\SendTo\
+Property(S): StartMenuFolder = C:\users\root\AppData\Roaming\Microsoft\Windows\Start Menu\
+Property(S): StartupFolder = C:\users\root\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\StartUp\
+Property(S): TemplateFolder = C:\users\root\AppData\Roaming\Microsoft\Windows\Templates\
+Property(S): DesktopFolder = C:\users\root\Desktop\
+Property(S): ProgramMenuFolder = C:\users\root\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\
+Property(S): AdminToolsFolder = C:\users\root\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools\
+Property(S): AppDataFolder = C:\users\root\AppData\Roaming\
+Property(S): SystemFolder = C:\windows\syswow64\
+Property(S): System16Folder = C:\windows\system32\
+Property(S): LocalAppDataFolder = C:\users\root\AppData\Local\
+Property(S): MyPicturesFolder = C:\users\root\Pictures\
+Property(S): PersonalFolder = C:\users\root\Documents\
+Property(S): WindowsFolder = C:\windows\
+Property(S): PrintHoodFolder = C:\users\root\AppData\Roaming\Microsoft\Windows\Printer Shortcuts\
+Property(S): NetHoodFolder = C:\users\root\AppData\Roaming\Microsoft\Windows\Network Shortcuts\
+Property(S): RecentFolder = C:\users\root\AppData\Roaming\Microsoft\Windows\Recent\
+Property(S): PhysicalMemory = 23941
+Property(S): WindowsVolume = C:\
+Property(S): TempFolder = C:\users\root\Temp\
+Property(S): VersionNT = 603
+Property(S): MsiNTProductType = 1
+Property(S): WindowsBuild = 9600
+Property(S): ServicePackLevel = 0
+Property(S): VersionMsi = 4.5
+Property(S): VersionDatabase = 400
+Property(S): Intel = 6
+Property(S): MsiAMD64 = 6
+Property(S): Msix64 = 6
+Property(S): VersionNT64 = 603
+Property(S): System64Folder = C:\windows\system32\
+Property(S): ProgramFiles64Folder = C:\Program Files\
+Property(S): ProgramFilesFolder = C:\Program Files (x86)\
+Property(S): CommonFiles64Folder = C:\Program Files\Common Files\
+Property(S): CommonFilesFolder = C:\Program Files (x86)\Common Files\
+Property(S): ScreenX = 2560
+Property(S): ScreenY = 1440
+Property(S): ColorBits = 32
+Property(S): UserSID = S-1-5-21-0-0-0-1000
+Property(S): MsiNetAssemblySupport = 2.0.50727.4016
+Property(S): UserLanguageID = 1033
+Property(S): SystemLanguageID = 1033
+Property(S): ProductState = -1
+Property(S): LogonUser = root
+Property(S): ComputerName = 94CCA55DD973
+Property(S): UILevel = 2
+Property(S): PackageCode = {CE260B5A-45C5-4751-8479-F5B02FC1FD4C}
+Property(S): DATABASE = C:\windows\Installer\663b.msi
+Property(S): OriginalDatabase = C:\users\root\AppData\Local\Package Cache\{07CDAC2C-737C-4D8A-AF42-6BCE111699AE}v3.10.6150.0\dev.msi
+Property(S): SOURCEDIR = C:\users\root\AppData\Local\Package Cache\{07CDAC2C-737C-4D8A-AF42-6BCE111699AE}v3.10.6150.0\
+Property(S): ARPSYSTEMCOMPONENT = 1
+Property(S): MSIFASTINSTALL = 7
+Property(S): REBOOT = ReallySuppress
+Property(S): ACTION = INSTALL
+Property(S): EXECUTEACTION = INSTALL
+Property(S): CostingComplete = 1
+Property(S): ROOTDRIVE = C:\
+Property(S): INSTALLLEVEL = 1
+Property(S): OutOfDiskSpace = 0
+Property(S): OutOfNoRbDiskSpace = 0
+1: 2 2: 0 
+1: 2 2: 1 
+Action ended 3:28:03: INSTALL. Return value 1.
