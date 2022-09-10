@@ -1,6 +1,7 @@
-import MetaTrader5 as mt5
+from mt5linux import MetaTrader5
 
 def init():
+    mt5 = MetaTrader5()
     mt5.initialize()
 
     login = 1051286908

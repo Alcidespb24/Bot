@@ -26,7 +26,7 @@ COPY ./Docker/requirements.txt ./app
 RUN pip install --no-cache-dir -r ./app/requirements.txt
 
 # Copy Script
-COPY ./MainStrategy_MACD.py ./app
+COPY ./src ./app
 
 # run mt5 server
 CMD [ "python","-m","mt5linux","/root/.wine/drive_c/users/root/AppData/Local/Programs/Python/Python310/python.exe"]
