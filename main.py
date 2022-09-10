@@ -8,8 +8,8 @@ import pandas_ta as ta
 from sklearn import datasets, linear_model
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
-from gather_data import *
-from mt5_init import *
+from gather_data_function import *
+from mt5_init_function import *
 
 init()
 
