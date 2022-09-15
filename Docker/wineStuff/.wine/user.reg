@@ -3,32 +3,32 @@ WINE REGISTRY Version 2
 
 #arch=win64
 
-[AppEvents\\Schemes\\Apps\\Explorer\\Navigating\\.Current] 1662002865
-#time=1d8bdb2cd96725c
+[AppEvents\\Schemes\\Apps\\Explorer\\Navigating\\.Current] 1662792563
+#time=1d8c4e175d46aac
 @=""
 
-[Control Panel\\Accessibility\\AudioDescription] 1662002857
-#time=1d8bdb2c899a486
+[Control Panel\\Accessibility\\AudioDescription] 1662792553
+#time=1d8c4e16fdcd1ac
 "Locale"=dword:00000000
 "On"="0"
 
-[Control Panel\\Accessibility\\Blind Access] 1662002857
-#time=1d8bdb2c8999f4a
+[Control Panel\\Accessibility\\Blind Access] 1662792553
+#time=1d8c4e16fdccb80
 "On"="0"
 
-[Control Panel\\Accessibility\\Keyboard Preference] 1662002857
-#time=1d8bdb2c8999806
+[Control Panel\\Accessibility\\Keyboard Preference] 1662792553
+#time=1d8c4e16fdcc310
 "On"="1"
 
-[Control Panel\\Accessibility\\ShowSounds] 1662002857
-#time=1d8bdb2c899a0c6
+[Control Panel\\Accessibility\\ShowSounds] 1662792553
+#time=1d8c4e16fdccd42
 "On"="0"
 
-[Control Panel\\Colors] 1662002857
-#time=1d8bdb2c8ad3910
+[Control Panel\\Colors] 1662792553
+#time=1d8c4e16ff92366
 
-[Control Panel\\Desktop] 1662002857
-#time=1d8bdb2c899a35a
+[Control Panel\\Desktop] 1662792553
+#time=1d8c4e16fdcd062
 "ActiveWndTrackTimeout"=dword:00000000
 "BlockSendInputResets"="0"
 "CaretWidth"=dword:00000001
@@ -54,8 +54,8 @@ WINE REGISTRY Version 2
 "WheelScrollChars"="3"
 "WheelScrollLines"="3"
 
-[Control Panel\\Desktop\\WindowMetrics] 1662002857
-#time=1d8bdb2c899a1a2
+[Control Panel\\Desktop\\WindowMetrics] 1662792553
+#time=1d8c4e16fdcce3c
 "BorderWidth"="-15"
 "CaptionHeight"="-270"
 "CaptionWidth"="-270"
@@ -70,8 +70,8 @@ WINE REGISTRY Version 2
 "SmCaptionHeight"="-225"
 "SmCaptionWidth"="-225"
 
-[Control Panel\\International] 1662002857
-#time=1d8bdb2c8957622
+[Control Panel\\International] 1662792553
+#time=1d8c4e16fd5ee8c
 "iCalendarType"="1"
 "iCountry"="1"
 "iCurrDigits"="2"
@@ -114,18 +114,18 @@ WINE REGISTRY Version 2
 "sTimeFormat"="h:mm:ss tt"
 "sYearMonth"="MMMM, yyyy"
 
-[Control Panel\\International\\Geo] 1662002857
-#time=1d8bdb2c8956c18
+[Control Panel\\International\\Geo] 1662792553
+#time=1d8c4e16fd5e1c6
 "Name"="US"
 "Nation"="244"
 
-[Control Panel\\Keyboard] 1662002857
-#time=1d8bdb2c8999874
+[Control Panel\\Keyboard] 1662792553
+#time=1d8c4e16fdcc392
 "KeyboardDelay"="1"
 "KeyboardSpeed"="31"
 
-[Control Panel\\Mouse] 1662002857
-#time=1d8bdb2c899a210
+[Control Panel\\Mouse] 1662792553
+#time=1d8c4e16fdccebe
 "ActiveWindowTracking"=dword:00000000
 "DoubleClickHeight"="4"
 "DoubleClickSpeed"="500"
@@ -140,173 +140,206 @@ WINE REGISTRY Version 2
 "SnapToDefaultButton"="0"
 "SwapMouseButtons"="0"
 
-[Control Panel\\Sound] 1662002857
-#time=1d8bdb2c8998adc
+[Control Panel\\Sound] 1662792553
+#time=1d8c4e16fdcb3e8
 "Beep"="Yes"
 
-[Environment] 1662002898
-#time=1d8bdb2e0c6f98c
-"PATH"="C:\\users\\root\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\;C:\\users\\root\\AppData\\Local\\Programs\\Python\\Python310\\;"
-"TEMP"="C:\\users\\root\\Temp"
-"TMP"="C:\\users\\root\\Temp"
+[Environment] 1662919158
+#time=1d8c60836cf80d0
+"PATH"="C:\\users\\cmedi97\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\;C:\\users\\cmedi97\\AppData\\Local\\Programs\\Python\\Python310\\;"
+"TEMP"="C:\\users\\cmedi97\\Temp"
+"TMP"="C:\\users\\cmedi97\\Temp"
 
-[Keyboard Layout\\Preload] 1662002857
-#time=1d8bdb2c8998578
+[Keyboard Layout\\Preload] 1662792553
+#time=1d8c4e16fdcada8
 "1"="00000409"
 
-[Software\\Classes\\Installer\\Dependencies\\CPython-3.10] 1662002882
-#time=1d8bdb2d7a2dfce
+[Software\\Classes\\Installer\\Dependencies\\CPython-3.10] 1662919144
+#time=1d8c6082e0087e2
 @="{1fab56ed-b241-47a3-9abc-d51dc01b8dff}"
 "DisplayName"="Python 3.10.6 (64-bit)"
 "Version"="3.10.6150.0"
 
-[Software\\Classes\\Installer\\Dependencies\\CPython-3.10\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662002882
-#time=1d8bdb2d7a2e0fa
+[Software\\Classes\\Installer\\Dependencies\\CPython-3.10\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662919144
+#time=1d8c6082e00885a
 
-[Software\\Classes\\Installer\\Dependencies\\{07CDAC2C-737C-4D8A-AF42-6BCE111699AE}] 1662002883
-#time=1d8bdb2d7f3b110
+[Software\\Classes\\Installer\\Dependencies\\{07CDAC2C-737C-4D8A-AF42-6BCE111699AE}] 1662919144
+#time=1d8c6082e51c288
 @="{07CDAC2C-737C-4D8A-AF42-6BCE111699AE}"
 "DisplayName"="Python 3.10.6 Development Libraries (64-bit)"
 "Version"="3.10.6150.0"
 
-[Software\\Classes\\Installer\\Dependencies\\{07CDAC2C-737C-4D8A-AF42-6BCE111699AE}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662002883
-#time=1d8bdb2d7f3b188
+[Software\\Classes\\Installer\\Dependencies\\{07CDAC2C-737C-4D8A-AF42-6BCE111699AE}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662919144
+#time=1d8c6082e51c2e2
 
-[Software\\Classes\\Installer\\Dependencies\\{1204E654-144E-4FBA-ACA0-558F6E54FC5A}] 1662002886
-#time=1d8bdb2d9cab13c
+[Software\\Classes\\Installer\\Dependencies\\{1204E654-144E-4FBA-ACA0-558F6E54FC5A}] 1662919147
+#time=1d8c608301530dc
 @="{1204E654-144E-4FBA-ACA0-558F6E54FC5A}"
 "DisplayName"="Python 3.10.6 Test Suite (64-bit)"
 "Version"="3.10.6150.0"
 
-[Software\\Classes\\Installer\\Dependencies\\{1204E654-144E-4FBA-ACA0-558F6E54FC5A}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662002886
-#time=1d8bdb2d9cab196
+[Software\\Classes\\Installer\\Dependencies\\{1204E654-144E-4FBA-ACA0-558F6E54FC5A}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662919147
+#time=1d8c60830153140
 
-[Software\\Classes\\Installer\\Dependencies\\{1D60E386-848D-45D1-BB0A-7E26A3E32011}] 1662002886
-#time=1d8bdb2d9f08592
+[Software\\Classes\\Installer\\Dependencies\\{1D60E386-848D-45D1-BB0A-7E26A3E32011}] 1662919147
+#time=1d8c6083038a62a
 @="{1D60E386-848D-45D1-BB0A-7E26A3E32011}"
 "DisplayName"="Python 3.10.6 Utility Scripts (64-bit)"
 "Version"="3.10.6150.0"
 
-[Software\\Classes\\Installer\\Dependencies\\{1D60E386-848D-45D1-BB0A-7E26A3E32011}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662002886
-#time=1d8bdb2d9f08600
+[Software\\Classes\\Installer\\Dependencies\\{1D60E386-848D-45D1-BB0A-7E26A3E32011}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662919147
+#time=1d8c6083038a698
 
-[Software\\Classes\\Installer\\Dependencies\\{3983F17E-1088-46F9-BB00-53B888FF3835}] 1662002898
-#time=1d8bdb2e0c227ea
+[Software\\Classes\\Installer\\Dependencies\\{3983F17E-1088-46F9-BB00-53B888FF3835}] 1662919158
+#time=1d8c60836cacbbc
 @="{3983F17E-1088-46F9-BB00-53B888FF3835}"
 "DisplayName"="Python 3.10.6 pip Bootstrap (64-bit)"
 "Version"="3.10.6150.0"
 
-[Software\\Classes\\Installer\\Dependencies\\{3983F17E-1088-46F9-BB00-53B888FF3835}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662002898
-#time=1d8bdb2e0c22858
+[Software\\Classes\\Installer\\Dependencies\\{3983F17E-1088-46F9-BB00-53B888FF3835}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662919158
+#time=1d8c60836cacc2a
 
-[Software\\Classes\\Installer\\Dependencies\\{4306E3B9-B285-4747-B84D-9FAF08AA412D}] 1662002886
-#time=1d8bdb2d9d6e72c
+[Software\\Classes\\Installer\\Dependencies\\{4306E3B9-B285-4747-B84D-9FAF08AA412D}] 1662919147
+#time=1d8c6083020053e
 @="{4306E3B9-B285-4747-B84D-9FAF08AA412D}"
 "DisplayName"="Python 3.10.6 Documentation (64-bit)"
 "Version"="3.10.6150.0"
 
-[Software\\Classes\\Installer\\Dependencies\\{4306E3B9-B285-4747-B84D-9FAF08AA412D}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662002886
-#time=1d8bdb2d9d6e790
+[Software\\Classes\\Installer\\Dependencies\\{4306E3B9-B285-4747-B84D-9FAF08AA412D}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662919147
+#time=1d8c608302005a2
 
-[Software\\Classes\\Installer\\Dependencies\\{541B7582-6B11-4457-ACB7-AAC2058B3229}] 1662002898
-#time=1d8bdb2e0c85dea
+[Software\\Classes\\Installer\\Dependencies\\{541B7582-6B11-4457-ACB7-AAC2058B3229}] 1662919158
+#time=1d8c60836d0dd7c
 @="{541B7582-6B11-4457-ACB7-AAC2058B3229}"
 "DisplayName"="Python 3.10.6 Add to Path (64-bit)"
 "Version"="3.10.6150.0"
 
-[Software\\Classes\\Installer\\Dependencies\\{541B7582-6B11-4457-ACB7-AAC2058B3229}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662002898
-#time=1d8bdb2e0c85e62
+[Software\\Classes\\Installer\\Dependencies\\{541B7582-6B11-4457-ACB7-AAC2058B3229}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662919158
+#time=1d8c60836d0ddcc
 
-[Software\\Classes\\Installer\\Dependencies\\{750538B5-3E77-4F94-A64A-D3F09E608CA2}] 1662002882
-#time=1d8bdb2d7cf3042
+[Software\\Classes\\Installer\\Dependencies\\{750538B5-3E77-4F94-A64A-D3F09E608CA2}] 1662919144
+#time=1d8c6082e308640
 @="{750538B5-3E77-4F94-A64A-D3F09E608CA2}"
 "DisplayName"="Python 3.10.6 Executables (64-bit)"
 "Version"="3.10.6150.0"
 
-[Software\\Classes\\Installer\\Dependencies\\{750538B5-3E77-4F94-A64A-D3F09E608CA2}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662002882
-#time=1d8bdb2d7cf309c
+[Software\\Classes\\Installer\\Dependencies\\{750538B5-3E77-4F94-A64A-D3F09E608CA2}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662919144
+#time=1d8c6082e308686
 
-[Software\\Classes\\Installer\\Dependencies\\{A551B92B-102D-45DC-8050-5CE10DE81CD0}] 1662002888
-#time=1d8bdb2db2b4b22
+[Software\\Classes\\Installer\\Dependencies\\{A551B92B-102D-45DC-8050-5CE10DE81CD0}] 1662919149
+#time=1d8c608315b223a
 @="{A551B92B-102D-45DC-8050-5CE10DE81CD0}"
 "DisplayName"="Python 3.10.6 Tcl/Tk Support (64-bit)"
 "Version"="3.10.6150.0"
 
-[Software\\Classes\\Installer\\Dependencies\\{A551B92B-102D-45DC-8050-5CE10DE81CD0}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662002888
-#time=1d8bdb2db2b4b90
+[Software\\Classes\\Installer\\Dependencies\\{A551B92B-102D-45DC-8050-5CE10DE81CD0}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662919149
+#time=1d8c608315b22c6
 
-[Software\\Classes\\Installer\\Dependencies\\{C3A057F3-209B-4244-9697-D69031B81AAB}] 1662002884
-#time=1d8bdb2d8bcc7ee
+[Software\\Classes\\Installer\\Dependencies\\{C3A057F3-209B-4244-9697-D69031B81AAB}] 1662919145
+#time=1d8c6082f0b5d88
 @="{C3A057F3-209B-4244-9697-D69031B81AAB}"
 "DisplayName"="Python 3.10.6 Standard Library (64-bit)"
 "Version"="3.10.6150.0"
 
-[Software\\Classes\\Installer\\Dependencies\\{C3A057F3-209B-4244-9697-D69031B81AAB}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662002884
-#time=1d8bdb2d8bcc852
+[Software\\Classes\\Installer\\Dependencies\\{C3A057F3-209B-4244-9697-D69031B81AAB}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662919145
+#time=1d8c6082f0b5e46
 
-[Software\\Classes\\Installer\\Dependencies\\{C91F8E4B-F9C1-4FD1-BCF3-4A91CDAD4B72}] 1662002882
-#time=1d8bdb2d7c12aa6
+[Software\\Classes\\Installer\\Dependencies\\{C91F8E4B-F9C1-4FD1-BCF3-4A91CDAD4B72}] 1662919144
+#time=1d8c6082e226c72
 @="{C91F8E4B-F9C1-4FD1-BCF3-4A91CDAD4B72}"
 "DisplayName"="Python 3.10.6 Core Interpreter (64-bit)"
 "Version"="3.10.6150.0"
 
-[Software\\Classes\\Installer\\Dependencies\\{C91F8E4B-F9C1-4FD1-BCF3-4A91CDAD4B72}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662002882
-#time=1d8bdb2d7c12b1e
+[Software\\Classes\\Installer\\Dependencies\\{C91F8E4B-F9C1-4FD1-BCF3-4A91CDAD4B72}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662919144
+#time=1d8c6082e226cfe
 
-[Software\\Microsoft\\Installer\\Features\\02757FEBF32E20A50BF1ECB922A0B129] 1662002865
-#time=1d8bdb2cd71086e
+[Software\\MetaQuotes Software] 1662930843
+#time=1d8c6236b1ff890
+"AP"="api1.mql5.net=122;api4.mql5.net=149;api8.mql5.net=186;api10.mql5.net=199;api13.mql5.net=267;api3.mql5.net=268;api7.mql5.net=269;api2.mql5.net=360;api9.mql5.net=404;api5.mql5.net=413;api6.mql5.net=416;api11.mql5.net=431;api12.mql5.net=614"
+"AP.Time"="1662792636"
+"Cloud.Servers"="agent1=134;agent2=42;agent4=42"
+"Hosting.Ping"="118"
+"Hosting.Server"="MQL5 Amsterdam 11 (MQL5.community)"
+"ID"="4982575260931433870"
+"Install.Time"="1662792590"
+"Trade.Server"="MetaQuotes-Demo"
+"VideoAdapters"="Intel(R) HD Graphics 4000"
+
+[Software\\MetaQuotes Software\\MetaTrader 5] 1662792620
+#time=1d8c4e1983eae9a
+"PackagePath"="Z:\\home\\cmedi97\\Downloads\\mt5setup.exe"
+
+[Software\\MetaQuotes Software\\MetaTrader 5\\Settings] 1662792620
+#time=1d8c4e1983eae9a
+
+[Software\\MetaQuotes Software\\Settings] 1662793225
+#time=1d8c4e300cdfb72
+"City"="Miami"
+"Country"="United States"
+"IP"="107.194.12.154"
+
+[Software\\Microsoft\\Installer\\Features\\02757FEBF32E20A50BF1ECB922A0B129] 1662792562
+#time=1d8c4e175a8dd7e
 "wine_mono"=""
 
-[Software\\Microsoft\\Installer\\Features\\2857B14511B67544CA7BAA2C50B82392] 1662002898
-#time=1d8bdb2e0c789e2
+[Software\\Microsoft\\Installer\\Features\\2857B14511B67544CA7BAA2C50B82392] 1662919158
+#time=1d8c60836d00fc8
 "DefaultFeature"=""
 
-[Software\\Microsoft\\Installer\\Features\\3F750A3CB902442469796D09138BA1BA] 1662002884
-#time=1d8bdb2d8bb86ea
+[Software\\Microsoft\\Installer\\Features\\3F750A3CB902442469796D09138BA1BA] 1662919145
+#time=1d8c6082f0a6da6
 "DefaultFeature"=""
 
-[Software\\Microsoft\\Installer\\Features\\456E4021E441ABF4CA0A55F8E645CFA5] 1662002886
-#time=1d8bdb2d9c95eae
+[Software\\Microsoft\\Installer\\Features\\456E4021E441ABF4CA0A55F8E645CFA5] 1662919147
+#time=1d8c608301432ae
 "DefaultFeature"=""
 
-[Software\\Microsoft\\Installer\\Features\\5B83505777E349F46AA43D0FE906C82A] 1662002882
-#time=1d8bdb2d7ce891c
+[Software\\Microsoft\\Installer\\Features\\5B83505777E349F46AA43D0FE906C82A] 1662919144
+#time=1d8c6082e2ff66c
 "DefaultFeature"=""
 "Shortcuts"=""
 
-[Software\\Microsoft\\Installer\\Features\\6653DC9B51164DF569F095FE483561CE] 1662002865
-#time=1d8bdb2cd6ecee6
+[Software\\Microsoft\\Installer\\Features\\6653DC9B51164DF569F095FE483561CE] 1662792562
+#time=1d8c4e175a814de
 "wine_mono"=""
 
-[Software\\Microsoft\\Installer\\Features\\683E06D1D8481D54BBA0E7623A3E0211] 1662002886
-#time=1d8bdb2d9efc7ba
+[Software\\Microsoft\\Installer\\Features\\683E06D1D8481D54BBA0E7623A3E0211] 1662919147
+#time=1d8c6083037cd40
 "DefaultFeature"=""
 
-[Software\\Microsoft\\Installer\\Features\\9B3E6034582B74748BD4F9FA80AA14D2] 1662002886
-#time=1d8bdb2d9d63e1c
+[Software\\Microsoft\\Installer\\Features\\9B3E6034582B74748BD4F9FA80AA14D2] 1662919147
+#time=1d8c608301f6d40
 "DefaultFeature"=""
 "Shortcuts"=""
 
-[Software\\Microsoft\\Installer\\Features\\B29B155AD201CD540805C51ED08EC10D] 1662002888
-#time=1d8bdb2db29e1e2
+[Software\\Microsoft\\Installer\\Features\\B29B155AD201CD540805C51ED08EC10D] 1662919149
+#time=1d8c60831599226
 "AssociateFiles"=""
 "DefaultFeature"=""
 "Shortcuts"=""
 
-[Software\\Microsoft\\Installer\\Features\\B4E8F19C1C9F1DF4CB3FA419DCDAB427] 1662002882
-#time=1d8bdb2d7c08cea
+[Software\\Microsoft\\Installer\\Features\\B4E8F19C1C9F1DF4CB3FA419DCDAB427] 1662919144
+#time=1d8c6082e21cc04
 "DefaultFeature"=""
 
-[Software\\Microsoft\\Installer\\Features\\C2CADC70C737A8D4FA24B6EC116199EA] 1662002883
-#time=1d8bdb2d7f30198
+[Software\\Microsoft\\Installer\\Features\\B55B25F8461585444B6F6B6AAE76FD56] 1662792630
+#time=1d8c4e19e3804ea
+"wine_gecko"=""
+
+[Software\\Microsoft\\Installer\\Features\\C08C1A5415E3F234FA4672ABB6CF4F1C] 1662934697
+#time=1d8c62c64bb2b88
+"wine_gecko"=""
+
+[Software\\Microsoft\\Installer\\Features\\C2CADC70C737A8D4FA24B6EC116199EA] 1662919144
+#time=1d8c6082e51204e
 "DefaultFeature"=""
 
-[Software\\Microsoft\\Installer\\Features\\E71F389388019F64BB00358B88FF8353] 1662002888
-#time=1d8bdb2db47a858
+[Software\\Microsoft\\Installer\\Features\\E71F389388019F64BB00358B88FF8353] 1662919149
+#time=1d8c60831703ada
 "DefaultFeature"=""
 
-[Software\\Microsoft\\Installer\\Products\\02757FEBF32E20A50BF1ECB922A0B129] 1662002865
-#time=1d8bdb2cd713136
+[Software\\Microsoft\\Installer\\Products\\02757FEBF32E20A50BF1ECB922A0B129] 1662792562
+#time=1d8c4e175a8efc6
 "AdvertiseFlags"=dword:00000184
 "Assignment"=dword:00000000
 "AuthorizedLUAApp"=dword:00000000
@@ -317,23 +350,23 @@ WINE REGISTRY Version 2
 "ProductName"="Wine Mono Runtime"
 "Version"=dword:07000000
 
-[Software\\Microsoft\\Installer\\Products\\02757FEBF32E20A50BF1ECB922A0B129\\SourceList] 1662002865
-#time=1d8bdb2cd714446
-"LastUsedSource"="n;1;\\\\?\\Z:\\root\\.cache\\wine\\"
-"PackageName"="wine-mono-7.0.0-x86.msi"
+[Software\\Microsoft\\Installer\\Products\\02757FEBF32E20A50BF1ECB922A0B129\\SourceList] 1662792562
+#time=1d8c4e175a8fa0c
+"LastUsedSource"="n;1;C:\\users\\cmedi97\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.IE5\\6VMTS67G\\"
+"PackageName"="wine-mono-7.0.0-x86[0]"
 
-[Software\\Microsoft\\Installer\\Products\\02757FEBF32E20A50BF1ECB922A0B129\\SourceList\\Media] 1662002865
-#time=1d8bdb2cd7146b2
+[Software\\Microsoft\\Installer\\Products\\02757FEBF32E20A50BF1ECB922A0B129\\SourceList\\Media] 1662792562
+#time=1d8c4e175a8fb4c
 "1"=";"
 "DiskPrompt"=""
 "MediaPackage"=""
 
-[Software\\Microsoft\\Installer\\Products\\02757FEBF32E20A50BF1ECB922A0B129\\SourceList\\Net] 1662002865
-#time=1d8bdb2cd713c1c
-"1"=str(2):"\\\\?\\Z:\\root\\.cache\\wine\\"
+[Software\\Microsoft\\Installer\\Products\\02757FEBF32E20A50BF1ECB922A0B129\\SourceList\\Net] 1662792562
+#time=1d8c4e175a8f5ca
+"1"=str(2):"C:\\users\\cmedi97\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.IE5\\6VMTS67G\\"
 
-[Software\\Microsoft\\Installer\\Products\\2857B14511B67544CA7BAA2C50B82392] 1662002898
-#time=1d8bdb2e0c7a724
+[Software\\Microsoft\\Installer\\Products\\2857B14511B67544CA7BAA2C50B82392] 1662919158
+#time=1d8c60836d033ae
 "AdvertiseFlags"=dword:00000184
 "Assignment"=dword:00000000
 "AuthorizedLUAApp"=dword:00000000
@@ -344,21 +377,21 @@ WINE REGISTRY Version 2
 "ProductName"="Python 3.10.6 Add to Path (64-bit)"
 "Version"=dword:030a1806
 
-[Software\\Microsoft\\Installer\\Products\\2857B14511B67544CA7BAA2C50B82392\\SourceList] 1662002898
-#time=1d8bdb2e0c82d7a
+[Software\\Microsoft\\Installer\\Products\\2857B14511B67544CA7BAA2C50B82392\\SourceList] 1662919158
+#time=1d8c60836d0b194
 "PackageName"="path.msi"
 
-[Software\\Microsoft\\Installer\\Products\\2857B14511B67544CA7BAA2C50B82392\\SourceList\\Media] 1662002898
-#time=1d8bdb2e0c7ae5e
+[Software\\Microsoft\\Installer\\Products\\2857B14511B67544CA7BAA2C50B82392\\SourceList\\Media] 1662919158
+#time=1d8c60836d039da
 "DiskPrompt"=""
 "MediaPackage"=""
 
-[Software\\Microsoft\\Installer\\Products\\2857B14511B67544CA7BAA2C50B82392\\SourceList\\Net] 1662002898
-#time=1d8bdb2e0c82e6a
-"1"=str(2):"C:\\users\\root\\AppData\\Local\\Package Cache\\{541B7582-6B11-4457-ACB7-AAC2058B3229}v3.10.6150.0\\"
+[Software\\Microsoft\\Installer\\Products\\2857B14511B67544CA7BAA2C50B82392\\SourceList\\Net] 1662919158
+#time=1d8c60836d0b266
+"1"=str(2):"C:\\users\\cmedi97\\AppData\\Local\\Package Cache\\{541B7582-6B11-4457-ACB7-AAC2058B3229}v3.10.6150.0\\"
 
-[Software\\Microsoft\\Installer\\Products\\3F750A3CB902442469796D09138BA1BA] 1662002884
-#time=1d8bdb2d8bba652
+[Software\\Microsoft\\Installer\\Products\\3F750A3CB902442469796D09138BA1BA] 1662919145
+#time=1d8c6082f0a8c82
 "AdvertiseFlags"=dword:00000184
 "Assignment"=dword:00000000
 "AuthorizedLUAApp"=dword:00000000
@@ -369,23 +402,23 @@ WINE REGISTRY Version 2
 "ProductName"="Python 3.10.6 Standard Library (64-bit)"
 "Version"=dword:030a1806
 
-[Software\\Microsoft\\Installer\\Products\\3F750A3CB902442469796D09138BA1BA\\SourceList] 1662002884
-#time=1d8bdb2d8bbb660
-"LastUsedSource"="n;1;C:\\users\\root\\AppData\\Local\\Package Cache\\{C3A057F3-209B-4244-9697-D69031B81AAB}v3.10.6150.0\\"
+[Software\\Microsoft\\Installer\\Products\\3F750A3CB902442469796D09138BA1BA\\SourceList] 1662919145
+#time=1d8c6082f0a9b3c
+"LastUsedSource"="n;1;C:\\users\\cmedi97\\AppData\\Local\\Package Cache\\{C3A057F3-209B-4244-9697-D69031B81AAB}v3.10.6150.0\\"
 "PackageName"="lib.msi"
 
-[Software\\Microsoft\\Installer\\Products\\3F750A3CB902442469796D09138BA1BA\\SourceList\\Media] 1662002884
-#time=1d8bdb2d8bbb872
+[Software\\Microsoft\\Installer\\Products\\3F750A3CB902442469796D09138BA1BA\\SourceList\\Media] 1662919145
+#time=1d8c6082f0a9d3a
 "1"=";"
 "DiskPrompt"=""
 "MediaPackage"=""
 
-[Software\\Microsoft\\Installer\\Products\\3F750A3CB902442469796D09138BA1BA\\SourceList\\Net] 1662002884
-#time=1d8bdb2d8bbaf8a
-"1"=str(2):"C:\\users\\root\\AppData\\Local\\Package Cache\\{C3A057F3-209B-4244-9697-D69031B81AAB}v3.10.6150.0\\"
+[Software\\Microsoft\\Installer\\Products\\3F750A3CB902442469796D09138BA1BA\\SourceList\\Net] 1662919145
+#time=1d8c6082f0a94de
+"1"=str(2):"C:\\users\\cmedi97\\AppData\\Local\\Package Cache\\{C3A057F3-209B-4244-9697-D69031B81AAB}v3.10.6150.0\\"
 
-[Software\\Microsoft\\Installer\\Products\\456E4021E441ABF4CA0A55F8E645CFA5] 1662002886
-#time=1d8bdb2d9c97bd2
+[Software\\Microsoft\\Installer\\Products\\456E4021E441ABF4CA0A55F8E645CFA5] 1662919147
+#time=1d8c60830144fb4
 "AdvertiseFlags"=dword:00000184
 "Assignment"=dword:00000000
 "AuthorizedLUAApp"=dword:00000000
@@ -396,23 +429,23 @@ WINE REGISTRY Version 2
 "ProductName"="Python 3.10.6 Test Suite (64-bit)"
 "Version"=dword:030a1806
 
-[Software\\Microsoft\\Installer\\Products\\456E4021E441ABF4CA0A55F8E645CFA5\\SourceList] 1662002886
-#time=1d8bdb2d9c98aa0
-"LastUsedSource"="n;1;C:\\users\\root\\AppData\\Local\\Package Cache\\{1204E654-144E-4FBA-ACA0-558F6E54FC5A}v3.10.6150.0\\"
+[Software\\Microsoft\\Installer\\Products\\456E4021E441ABF4CA0A55F8E645CFA5\\SourceList] 1662919147
+#time=1d8c60830145d9c
+"LastUsedSource"="n;1;C:\\users\\cmedi97\\AppData\\Local\\Package Cache\\{1204E654-144E-4FBA-ACA0-558F6E54FC5A}v3.10.6150.0\\"
 "PackageName"="test.msi"
 
-[Software\\Microsoft\\Installer\\Products\\456E4021E441ABF4CA0A55F8E645CFA5\\SourceList\\Media] 1662002886
-#time=1d8bdb2d9c98c76
+[Software\\Microsoft\\Installer\\Products\\456E4021E441ABF4CA0A55F8E645CFA5\\SourceList\\Media] 1662919147
+#time=1d8c60830145f54
 "1"=";"
 "DiskPrompt"=""
 "MediaPackage"=""
 
-[Software\\Microsoft\\Installer\\Products\\456E4021E441ABF4CA0A55F8E645CFA5\\SourceList\\Net] 1662002886
-#time=1d8bdb2d9c98424
-"1"=str(2):"C:\\users\\root\\AppData\\Local\\Package Cache\\{1204E654-144E-4FBA-ACA0-558F6E54FC5A}v3.10.6150.0\\"
+[Software\\Microsoft\\Installer\\Products\\456E4021E441ABF4CA0A55F8E645CFA5\\SourceList\\Net] 1662919147
+#time=1d8c60830145766
+"1"=str(2):"C:\\users\\cmedi97\\AppData\\Local\\Package Cache\\{1204E654-144E-4FBA-ACA0-558F6E54FC5A}v3.10.6150.0\\"
 
-[Software\\Microsoft\\Installer\\Products\\5B83505777E349F46AA43D0FE906C82A] 1662002882
-#time=1d8bdb2d7cea9e2
+[Software\\Microsoft\\Installer\\Products\\5B83505777E349F46AA43D0FE906C82A] 1662919144
+#time=1d8c6082e301264
 "AdvertiseFlags"=dword:00000184
 "Assignment"=dword:00000000
 "AuthorizedLUAApp"=dword:00000000
@@ -423,23 +456,23 @@ WINE REGISTRY Version 2
 "ProductName"="Python 3.10.6 Executables (64-bit)"
 "Version"=dword:030a1806
 
-[Software\\Microsoft\\Installer\\Products\\5B83505777E349F46AA43D0FE906C82A\\SourceList] 1662002882
-#time=1d8bdb2d7cebae0
-"LastUsedSource"="n;1;C:\\users\\root\\AppData\\Local\\Package Cache\\{750538B5-3E77-4F94-A64A-D3F09E608CA2}v3.10.6150.0\\"
+[Software\\Microsoft\\Installer\\Products\\5B83505777E349F46AA43D0FE906C82A\\SourceList] 1662919144
+#time=1d8c6082e3021aa
+"LastUsedSource"="n;1;C:\\users\\cmedi97\\AppData\\Local\\Package Cache\\{750538B5-3E77-4F94-A64A-D3F09E608CA2}v3.10.6150.0\\"
 "PackageName"="exe.msi"
 
-[Software\\Microsoft\\Installer\\Products\\5B83505777E349F46AA43D0FE906C82A\\SourceList\\Media] 1662002882
-#time=1d8bdb2d7cebcca
+[Software\\Microsoft\\Installer\\Products\\5B83505777E349F46AA43D0FE906C82A\\SourceList\\Media] 1662919144
+#time=1d8c6082e30238a
 "1"=";"
 "DiskPrompt"=""
 "MediaPackage"=""
 
-[Software\\Microsoft\\Installer\\Products\\5B83505777E349F46AA43D0FE906C82A\\SourceList\\Net] 1662002882
-#time=1d8bdb2d7ceb450
-"1"=str(2):"C:\\users\\root\\AppData\\Local\\Package Cache\\{750538B5-3E77-4F94-A64A-D3F09E608CA2}v3.10.6150.0\\"
+[Software\\Microsoft\\Installer\\Products\\5B83505777E349F46AA43D0FE906C82A\\SourceList\\Net] 1662919144
+#time=1d8c6082e301bc4
+"1"=str(2):"C:\\users\\cmedi97\\AppData\\Local\\Package Cache\\{750538B5-3E77-4F94-A64A-D3F09E608CA2}v3.10.6150.0\\"
 
-[Software\\Microsoft\\Installer\\Products\\6653DC9B51164DF569F095FE483561CE] 1662002865
-#time=1d8bdb2cd6ef1a0
+[Software\\Microsoft\\Installer\\Products\\6653DC9B51164DF569F095FE483561CE] 1662792562
+#time=1d8c4e175a826f4
 "AdvertiseFlags"=dword:00000184
 "Assignment"=dword:00000000
 "AuthorizedLUAApp"=dword:00000000
@@ -450,23 +483,23 @@ WINE REGISTRY Version 2
 "ProductName"="Wine Mono Windows Support"
 "Version"=dword:07000000
 
-[Software\\Microsoft\\Installer\\Products\\6653DC9B51164DF569F095FE483561CE\\SourceList] 1662002865
-#time=1d8bdb2cd6f0712
+[Software\\Microsoft\\Installer\\Products\\6653DC9B51164DF569F095FE483561CE\\SourceList] 1662792562
+#time=1d8c4e175a83112
 "LastUsedSource"="n;1;C:\\windows\\mono\\mono-2.0\\support\\"
 "PackageName"="winemono-support.msi"
 
-[Software\\Microsoft\\Installer\\Products\\6653DC9B51164DF569F095FE483561CE\\SourceList\\Media] 1662002865
-#time=1d8bdb2cd6f0992
+[Software\\Microsoft\\Installer\\Products\\6653DC9B51164DF569F095FE483561CE\\SourceList\\Media] 1662792562
+#time=1d8c4e175a8325c
 "1"=";"
 "DiskPrompt"=""
 "MediaPackage"=""
 
-[Software\\Microsoft\\Installer\\Products\\6653DC9B51164DF569F095FE483561CE\\SourceList\\Net] 1662002865
-#time=1d8bdb2cd6efd80
+[Software\\Microsoft\\Installer\\Products\\6653DC9B51164DF569F095FE483561CE\\SourceList\\Net] 1662792562
+#time=1d8c4e175a82cd0
 "1"=str(2):"C:\\windows\\mono\\mono-2.0\\support\\"
 
-[Software\\Microsoft\\Installer\\Products\\683E06D1D8481D54BBA0E7623A3E0211] 1662002886
-#time=1d8bdb2d9efe74a
+[Software\\Microsoft\\Installer\\Products\\683E06D1D8481D54BBA0E7623A3E0211] 1662919147
+#time=1d8c6083037f84c
 "AdvertiseFlags"=dword:00000184
 "Assignment"=dword:00000000
 "AuthorizedLUAApp"=dword:00000000
@@ -477,23 +510,23 @@ WINE REGISTRY Version 2
 "ProductName"="Python 3.10.6 Utility Scripts (64-bit)"
 "Version"=dword:030a1806
 
-[Software\\Microsoft\\Installer\\Products\\683E06D1D8481D54BBA0E7623A3E0211\\SourceList] 1662002886
-#time=1d8bdb2d9effa96
-"LastUsedSource"="n;1;C:\\users\\root\\AppData\\Local\\Package Cache\\{1D60E386-848D-45D1-BB0A-7E26A3E32011}v3.10.6150.0\\"
+[Software\\Microsoft\\Installer\\Products\\683E06D1D8481D54BBA0E7623A3E0211\\SourceList] 1662919147
+#time=1d8c60830380922
+"LastUsedSource"="n;1;C:\\users\\cmedi97\\AppData\\Local\\Package Cache\\{1D60E386-848D-45D1-BB0A-7E26A3E32011}v3.10.6150.0\\"
 "PackageName"="tools.msi"
 
-[Software\\Microsoft\\Installer\\Products\\683E06D1D8481D54BBA0E7623A3E0211\\SourceList\\Media] 1662002886
-#time=1d8bdb2d9effd98
+[Software\\Microsoft\\Installer\\Products\\683E06D1D8481D54BBA0E7623A3E0211\\SourceList\\Media] 1662919147
+#time=1d8c60830380b3e
 "1"=";"
 "DiskPrompt"=""
 "MediaPackage"=""
 
-[Software\\Microsoft\\Installer\\Products\\683E06D1D8481D54BBA0E7623A3E0211\\SourceList\\Net] 1662002886
-#time=1d8bdb2d9eff262
-"1"=str(2):"C:\\users\\root\\AppData\\Local\\Package Cache\\{1D60E386-848D-45D1-BB0A-7E26A3E32011}v3.10.6150.0\\"
+[Software\\Microsoft\\Installer\\Products\\683E06D1D8481D54BBA0E7623A3E0211\\SourceList\\Net] 1662919147
+#time=1d8c60830380170
+"1"=str(2):"C:\\users\\cmedi97\\AppData\\Local\\Package Cache\\{1D60E386-848D-45D1-BB0A-7E26A3E32011}v3.10.6150.0\\"
 
-[Software\\Microsoft\\Installer\\Products\\9B3E6034582B74748BD4F9FA80AA14D2] 1662002886
-#time=1d8bdb2d9d6594c
+[Software\\Microsoft\\Installer\\Products\\9B3E6034582B74748BD4F9FA80AA14D2] 1662919147
+#time=1d8c608301f87d0
 "AdvertiseFlags"=dword:00000184
 "Assignment"=dword:00000000
 "AuthorizedLUAApp"=dword:00000000
@@ -504,23 +537,23 @@ WINE REGISTRY Version 2
 "ProductName"="Python 3.10.6 Documentation (64-bit)"
 "Version"=dword:030a1806
 
-[Software\\Microsoft\\Installer\\Products\\9B3E6034582B74748BD4F9FA80AA14D2\\SourceList] 1662002886
-#time=1d8bdb2d9d66a68
-"LastUsedSource"="n;1;C:\\users\\root\\AppData\\Local\\Package Cache\\{4306E3B9-B285-4747-B84D-9FAF08AA412D}v3.10.6150.0\\"
+[Software\\Microsoft\\Installer\\Products\\9B3E6034582B74748BD4F9FA80AA14D2\\SourceList] 1662919147
+#time=1d8c608301f96e4
+"LastUsedSource"="n;1;C:\\users\\cmedi97\\AppData\\Local\\Package Cache\\{4306E3B9-B285-4747-B84D-9FAF08AA412D}v3.10.6150.0\\"
 "PackageName"="doc.msi"
 
-[Software\\Microsoft\\Installer\\Products\\9B3E6034582B74748BD4F9FA80AA14D2\\SourceList\\Media] 1662002886
-#time=1d8bdb2d9d66c52
+[Software\\Microsoft\\Installer\\Products\\9B3E6034582B74748BD4F9FA80AA14D2\\SourceList\\Media] 1662919147
+#time=1d8c608301f9874
 "1"=";"
 "DiskPrompt"=""
 "MediaPackage"=""
 
-[Software\\Microsoft\\Installer\\Products\\9B3E6034582B74748BD4F9FA80AA14D2\\SourceList\\Net] 1662002886
-#time=1d8bdb2d9d6632e
-"1"=str(2):"C:\\users\\root\\AppData\\Local\\Package Cache\\{4306E3B9-B285-4747-B84D-9FAF08AA412D}v3.10.6150.0\\"
+[Software\\Microsoft\\Installer\\Products\\9B3E6034582B74748BD4F9FA80AA14D2\\SourceList\\Net] 1662919147
+#time=1d8c608301f9068
+"1"=str(2):"C:\\users\\cmedi97\\AppData\\Local\\Package Cache\\{4306E3B9-B285-4747-B84D-9FAF08AA412D}v3.10.6150.0\\"
 
-[Software\\Microsoft\\Installer\\Products\\B29B155AD201CD540805C51ED08EC10D] 1662002888
-#time=1d8bdb2db2a02a8
+[Software\\Microsoft\\Installer\\Products\\B29B155AD201CD540805C51ED08EC10D] 1662919149
+#time=1d8c6083159b756
 "AdvertiseFlags"=dword:00000184
 "Assignment"=dword:00000000
 "AuthorizedLUAApp"=dword:00000000
@@ -531,23 +564,23 @@ WINE REGISTRY Version 2
 "ProductName"="Python 3.10.6 Tcl/Tk Support (64-bit)"
 "Version"=dword:030a1806
 
-[Software\\Microsoft\\Installer\\Products\\B29B155AD201CD540805C51ED08EC10D\\SourceList] 1662002888
-#time=1d8bdb2db2a1284
-"LastUsedSource"="n;1;C:\\users\\root\\AppData\\Local\\Package Cache\\{A551B92B-102D-45DC-8050-5CE10DE81CD0}v3.10.6150.0\\"
+[Software\\Microsoft\\Installer\\Products\\B29B155AD201CD540805C51ED08EC10D\\SourceList] 1662919149
+#time=1d8c6083159cf16
+"LastUsedSource"="n;1;C:\\users\\cmedi97\\AppData\\Local\\Package Cache\\{A551B92B-102D-45DC-8050-5CE10DE81CD0}v3.10.6150.0\\"
 "PackageName"="tcltk.msi"
 
-[Software\\Microsoft\\Installer\\Products\\B29B155AD201CD540805C51ED08EC10D\\SourceList\\Media] 1662002888
-#time=1d8bdb2db2a1478
+[Software\\Microsoft\\Installer\\Products\\B29B155AD201CD540805C51ED08EC10D\\SourceList\\Media] 1662919149
+#time=1d8c6083159d308
 "1"=";"
 "DiskPrompt"=""
 "MediaPackage"=""
 
-[Software\\Microsoft\\Installer\\Products\\B29B155AD201CD540805C51ED08EC10D\\SourceList\\Net] 1662002888
-#time=1d8bdb2db2a0bd6
-"1"=str(2):"C:\\users\\root\\AppData\\Local\\Package Cache\\{A551B92B-102D-45DC-8050-5CE10DE81CD0}v3.10.6150.0\\"
+[Software\\Microsoft\\Installer\\Products\\B29B155AD201CD540805C51ED08EC10D\\SourceList\\Net] 1662919149
+#time=1d8c6083159c6d8
+"1"=str(2):"C:\\users\\cmedi97\\AppData\\Local\\Package Cache\\{A551B92B-102D-45DC-8050-5CE10DE81CD0}v3.10.6150.0\\"
 
-[Software\\Microsoft\\Installer\\Products\\B4E8F19C1C9F1DF4CB3FA419DCDAB427] 1662002882
-#time=1d8bdb2d7c0a8e2
+[Software\\Microsoft\\Installer\\Products\\B4E8F19C1C9F1DF4CB3FA419DCDAB427] 1662919144
+#time=1d8c6082e21efd6
 "AdvertiseFlags"=dword:00000184
 "Assignment"=dword:00000000
 "AuthorizedLUAApp"=dword:00000000
@@ -558,23 +591,77 @@ WINE REGISTRY Version 2
 "ProductName"="Python 3.10.6 Core Interpreter (64-bit)"
 "Version"=dword:030a1806
 
-[Software\\Microsoft\\Installer\\Products\\B4E8F19C1C9F1DF4CB3FA419DCDAB427\\SourceList] 1662002882
-#time=1d8bdb2d7c0bc24
-"LastUsedSource"="n;1;C:\\users\\root\\AppData\\Local\\Package Cache\\{C91F8E4B-F9C1-4FD1-BCF3-4A91CDAD4B72}v3.10.6150.0\\"
+[Software\\Microsoft\\Installer\\Products\\B4E8F19C1C9F1DF4CB3FA419DCDAB427\\SourceList] 1662919144
+#time=1d8c6082e220034
+"LastUsedSource"="n;1;C:\\users\\cmedi97\\AppData\\Local\\Package Cache\\{C91F8E4B-F9C1-4FD1-BCF3-4A91CDAD4B72}v3.10.6150.0\\"
 "PackageName"="core.msi"
 
-[Software\\Microsoft\\Installer\\Products\\B4E8F19C1C9F1DF4CB3FA419DCDAB427\\SourceList\\Media] 1662002882
-#time=1d8bdb2d7c0be9a
+[Software\\Microsoft\\Installer\\Products\\B4E8F19C1C9F1DF4CB3FA419DCDAB427\\SourceList\\Media] 1662919144
+#time=1d8c6082e22023c
 "1"=";"
 "DiskPrompt"=""
 "MediaPackage"=""
 
-[Software\\Microsoft\\Installer\\Products\\B4E8F19C1C9F1DF4CB3FA419DCDAB427\\SourceList\\Net] 1662002882
-#time=1d8bdb2d7c0b40e
-"1"=str(2):"C:\\users\\root\\AppData\\Local\\Package Cache\\{C91F8E4B-F9C1-4FD1-BCF3-4A91CDAD4B72}v3.10.6150.0\\"
+[Software\\Microsoft\\Installer\\Products\\B4E8F19C1C9F1DF4CB3FA419DCDAB427\\SourceList\\Net] 1662919144
+#time=1d8c6082e21f95e
+"1"=str(2):"C:\\users\\cmedi97\\AppData\\Local\\Package Cache\\{C91F8E4B-F9C1-4FD1-BCF3-4A91CDAD4B72}v3.10.6150.0\\"
 
-[Software\\Microsoft\\Installer\\Products\\C2CADC70C737A8D4FA24B6EC116199EA] 1662002883
-#time=1d8bdb2d7f31dea
+[Software\\Microsoft\\Installer\\Products\\B55B25F8461585444B6F6B6AAE76FD56] 1662792630
+#time=1d8c4e19e381804
+"AdvertiseFlags"=dword:00000184
+"Assignment"=dword:00000000
+"AuthorizedLUAApp"=dword:00000000
+"Clients"=str(7):":\0"
+"InstanceType"=dword:00000000
+"Language"=dword:00000000
+"PackageCode"="97B82D3EB3EB6B94791820F1DA58F645"
+"ProductName"="Wine Gecko (64-bit)"
+"Version"=dword:022f0002
+
+[Software\\Microsoft\\Installer\\Products\\B55B25F8461585444B6F6B6AAE76FD56\\SourceList] 1662792630
+#time=1d8c4e19e38275e
+"LastUsedSource"="n;1;C:\\users\\cmedi97\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.IE5\\6VMTS67G\\"
+"PackageName"="wine-gecko-2.47.2-x86_64[0]"
+
+[Software\\Microsoft\\Installer\\Products\\B55B25F8461585444B6F6B6AAE76FD56\\SourceList\\Media] 1662792630
+#time=1d8c4e19e382948
+"1"=";"
+"DiskPrompt"=""
+"MediaPackage"=""
+
+[Software\\Microsoft\\Installer\\Products\\B55B25F8461585444B6F6B6AAE76FD56\\SourceList\\Net] 1662792630
+#time=1d8c4e19e3820b0
+"1"=str(2):"C:\\users\\cmedi97\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.IE5\\6VMTS67G\\"
+
+[Software\\Microsoft\\Installer\\Products\\C08C1A5415E3F234FA4672ABB6CF4F1C] 1662934697
+#time=1d8c62c64bb4974
+"AdvertiseFlags"=dword:00000184
+"Assignment"=dword:00000000
+"AuthorizedLUAApp"=dword:00000000
+"Clients"=str(7):":\0"
+"InstanceType"=dword:00000000
+"Language"=dword:00000000
+"PackageCode"="97B82D3EB3EB6B94791820F1DA58F645"
+"ProductName"="Wine Gecko (32-bit)"
+"Version"=dword:022f0002
+
+[Software\\Microsoft\\Installer\\Products\\C08C1A5415E3F234FA4672ABB6CF4F1C\\SourceList] 1662934697
+#time=1d8c62c64bb5cfc
+"LastUsedSource"="n;1;C:\\users\\cmedi97\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.IE5\\6VMTS67G\\"
+"PackageName"="wine-gecko-2.47.2-x86[0]"
+
+[Software\\Microsoft\\Installer\\Products\\C08C1A5415E3F234FA4672ABB6CF4F1C\\SourceList\\Media] 1662934697
+#time=1d8c62c64bb5f4a
+"1"=";"
+"DiskPrompt"=""
+"MediaPackage"=""
+
+[Software\\Microsoft\\Installer\\Products\\C08C1A5415E3F234FA4672ABB6CF4F1C\\SourceList\\Net] 1662934697
+#time=1d8c62c64bb5496
+"1"=str(2):"C:\\users\\cmedi97\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.IE5\\6VMTS67G\\"
+
+[Software\\Microsoft\\Installer\\Products\\C2CADC70C737A8D4FA24B6EC116199EA] 1662919144
+#time=1d8c6082e513e4e
 "AdvertiseFlags"=dword:00000184
 "Assignment"=dword:00000000
 "AuthorizedLUAApp"=dword:00000000
@@ -585,23 +672,23 @@ WINE REGISTRY Version 2
 "ProductName"="Python 3.10.6 Development Libraries (64-bit)"
 "Version"=dword:030a1806
 
-[Software\\Microsoft\\Installer\\Products\\C2CADC70C737A8D4FA24B6EC116199EA\\SourceList] 1662002883
-#time=1d8bdb2d7f32d9e
-"LastUsedSource"="n;1;C:\\users\\root\\AppData\\Local\\Package Cache\\{07CDAC2C-737C-4D8A-AF42-6BCE111699AE}v3.10.6150.0\\"
+[Software\\Microsoft\\Installer\\Products\\C2CADC70C737A8D4FA24B6EC116199EA\\SourceList] 1662919144
+#time=1d8c6082e5151a4
+"LastUsedSource"="n;1;C:\\users\\cmedi97\\AppData\\Local\\Package Cache\\{07CDAC2C-737C-4D8A-AF42-6BCE111699AE}v3.10.6150.0\\"
 "PackageName"="dev.msi"
 
-[Software\\Microsoft\\Installer\\Products\\C2CADC70C737A8D4FA24B6EC116199EA\\SourceList\\Media] 1662002883
-#time=1d8bdb2d7f32fa6
+[Software\\Microsoft\\Installer\\Products\\C2CADC70C737A8D4FA24B6EC116199EA\\SourceList\\Media] 1662919144
+#time=1d8c6082e51542e
 "1"=";"
 "DiskPrompt"=""
 "MediaPackage"=""
 
-[Software\\Microsoft\\Installer\\Products\\C2CADC70C737A8D4FA24B6EC116199EA\\SourceList\\Net] 1662002883
-#time=1d8bdb2d7f32704
-"1"=str(2):"C:\\users\\root\\AppData\\Local\\Package Cache\\{07CDAC2C-737C-4D8A-AF42-6BCE111699AE}v3.10.6150.0\\"
+[Software\\Microsoft\\Installer\\Products\\C2CADC70C737A8D4FA24B6EC116199EA\\SourceList\\Net] 1662919144
+#time=1d8c6082e514970
+"1"=str(2):"C:\\users\\cmedi97\\AppData\\Local\\Package Cache\\{07CDAC2C-737C-4D8A-AF42-6BCE111699AE}v3.10.6150.0\\"
 
-[Software\\Microsoft\\Installer\\Products\\E71F389388019F64BB00358B88FF8353] 1662002888
-#time=1d8bdb2db47c824
+[Software\\Microsoft\\Installer\\Products\\E71F389388019F64BB00358B88FF8353] 1662919149
+#time=1d8c60831705ee8
 "AdvertiseFlags"=dword:00000184
 "Assignment"=dword:00000000
 "AuthorizedLUAApp"=dword:00000000
@@ -612,114 +699,216 @@ WINE REGISTRY Version 2
 "ProductName"="Python 3.10.6 pip Bootstrap (64-bit)"
 "Version"=dword:030a1806
 
-[Software\\Microsoft\\Installer\\Products\\E71F389388019F64BB00358B88FF8353\\SourceList] 1662002898
-#time=1d8bdb2e0c21750
+[Software\\Microsoft\\Installer\\Products\\E71F389388019F64BB00358B88FF8353\\SourceList] 1662919158
+#time=1d8c60836cac0f4
 "PackageName"="pip.msi"
 
-[Software\\Microsoft\\Installer\\Products\\E71F389388019F64BB00358B88FF8353\\SourceList\\Media] 1662002888
-#time=1d8bdb2db47d076
+[Software\\Microsoft\\Installer\\Products\\E71F389388019F64BB00358B88FF8353\\SourceList\\Media] 1662919149
+#time=1d8c608317065d2
 "DiskPrompt"=""
 "MediaPackage"=""
 
-[Software\\Microsoft\\Installer\\Products\\E71F389388019F64BB00358B88FF8353\\SourceList\\Net] 1662002898
-#time=1d8bdb2e0c21854
-"1"=str(2):"C:\\users\\root\\AppData\\Local\\Package Cache\\{3983F17E-1088-46F9-BB00-53B888FF3835}v3.10.6150.0\\"
+[Software\\Microsoft\\Installer\\Products\\E71F389388019F64BB00358B88FF8353\\SourceList\\Net] 1662919158
+#time=1d8c60836cac1ee
+"1"=str(2):"C:\\users\\cmedi97\\AppData\\Local\\Package Cache\\{3983F17E-1088-46F9-BB00-53B888FF3835}v3.10.6150.0\\"
 
-[Software\\Microsoft\\Installer\\UpgradeCodes\\014E0768F7FC48257A5E339DBD5FD59C] 1662002883
-#time=1d8bdb2d7f31502
+[Software\\Microsoft\\Installer\\UpgradeCodes\\014E0768F7FC48257A5E339DBD5FD59C] 1662919144
+#time=1d8c6082e51353e
 "C2CADC70C737A8D4FA24B6EC116199EA"=""
 
-[Software\\Microsoft\\Installer\\UpgradeCodes\\2CC501FD2AF876341B3D596CC39014CF] 1662002865
-#time=1d8bdb2cd711f7a
+[Software\\Microsoft\\Installer\\UpgradeCodes\\2CC501FD2AF876341B3D596CC39014CF] 1662792562
+#time=1d8c4e175a8e7c4
 "02757FEBF32E20A50BF1ECB922A0B129"=""
 
-[Software\\Microsoft\\Installer\\UpgradeCodes\\34DD5D4C148462B5C8A12BA558A34A3F] 1662002898
-#time=1d8bdb2e0c79eb4
+[Software\\Microsoft\\Installer\\UpgradeCodes\\34DD5D4C148462B5C8A12BA558A34A3F] 1662919158
+#time=1d8c60836d02aee
 "2857B14511B67544CA7BAA2C50B82392"=""
 
-[Software\\Microsoft\\Installer\\UpgradeCodes\\6B4AD8A5CDE8A52599F1FC4253717A5C] 1662002886
-#time=1d8bdb2d9d650a0
+[Software\\Microsoft\\Installer\\UpgradeCodes\\6B4AD8A5CDE8A52599F1FC4253717A5C] 1662919147
+#time=1d8c608301f8140
 "9B3E6034582B74748BD4F9FA80AA14D2"=""
 
-[Software\\Microsoft\\Installer\\UpgradeCodes\\71AF789F0D1189452954214AC55B1329] 1662002886
-#time=1d8bdb2d9efdd4a
+[Software\\Microsoft\\Installer\\UpgradeCodes\\71AF789F0D1189452954214AC55B1329] 1662919147
+#time=1d8c6083037ef14
 "683E06D1D8481D54BBA0E7623A3E0211"=""
 
-[Software\\Microsoft\\Installer\\UpgradeCodes\\7BAB1151E4F63EB51B92E9E026C8A042] 1662002886
-#time=1d8bdb2d9c97290
+[Software\\Microsoft\\Installer\\UpgradeCodes\\7BAB1151E4F63EB51B92E9E026C8A042] 1662919147
+#time=1d8c60830144834
 "456E4021E441ABF4CA0A55F8E645CFA5"=""
 
-[Software\\Microsoft\\Installer\\UpgradeCodes\\820053C45D3A37C51A8EC1E2868541B8] 1662002882
-#time=1d8bdb2d7cea12c
+[Software\\Microsoft\\Installer\\UpgradeCodes\\820053C45D3A37C51A8EC1E2868541B8] 1662919144
+#time=1d8c6082e300bac
 "5B83505777E349F46AA43D0FE906C82A"=""
 
-[Software\\Microsoft\\Installer\\UpgradeCodes\\8404932DD4F6A475A95455405E338A69] 1662002884
-#time=1d8bdb2d8bb9bee
+[Software\\Microsoft\\Installer\\UpgradeCodes\\8404932DD4F6A475A95455405E338A69] 1662919145
+#time=1d8c6082f0a8494
 "3F750A3CB902442469796D09138BA1BA"=""
 
-[Software\\Microsoft\\Installer\\UpgradeCodes\\906426ED5B6CA6842947FEB058F4B65C] 1662002865
-#time=1d8bdb2cd6ee80e
+[Software\\Microsoft\\Installer\\UpgradeCodes\\906426ED5B6CA6842947FEB058F4B65C] 1662792562
+#time=1d8c4e175a821c2
 "6653DC9B51164DF569F095FE483561CE"=""
 
-[Software\\Microsoft\\Installer\\UpgradeCodes\\936CFA3296DC1FD5F8CC1C0FC48B3C8E] 1662002888
-#time=1d8bdb2db47bd20
+[Software\\Microsoft\\Installer\\UpgradeCodes\\936CFA3296DC1FD5F8CC1C0FC48B3C8E] 1662919149
+#time=1d8c6083170522c
 "E71F389388019F64BB00358B88FF8353"=""
 
-[Software\\Microsoft\\Installer\\UpgradeCodes\\97B9E2B85EC0BE452AAB9109CB1AA356] 1662002888
-#time=1d8bdb2db29f998
+[Software\\Microsoft\\Installer\\UpgradeCodes\\97B9E2B85EC0BE452AAB9109CB1AA356] 1662919149
+#time=1d8c6083159abee
 "B29B155AD201CD540805C51ED08EC10D"=""
 
-[Software\\Microsoft\\Installer\\UpgradeCodes\\9FFFDBEB3EA11B250850BF0B353D9F4A] 1662002882
-#time=1d8bdb2d7c09fbe
+[Software\\Microsoft\\Installer\\UpgradeCodes\\9FFFDBEB3EA11B250850BF0B353D9F4A] 1662919144
+#time=1d8c6082e21e662
 "B4E8F19C1C9F1DF4CB3FA419DCDAB427"=""
 
-[Software\\Microsoft\\Internet Explorer\\Main] 1662002865
-#time=1d8bdb2cd91669a
+[Software\\Microsoft\\Installer\\UpgradeCodes\\ADF909AA16ED9784E920D37B806499E7] 1662934697
+#time=1d8c62c64bb405a
+"B55B25F8461585444B6F6B6AAE76FD56"=""
+"C08C1A5415E3F234FA4672ABB6CF4F1C"=""
+
+[Software\\Microsoft\\Internet Explorer\\Main] 1662792598
+#time=1d8c4e18af46acc
+"Disable Script Debugger"="yes"
 "Search Page"="https://www.google.com"
 "Start Page"="https://www.winehq.org"
 
-[Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl] 1662002858
-#time=1d8bdb2c978de76
+[Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl] 1662792554
+#time=1d8c4e1709f75d6
 
-[Software\\Microsoft\\Internet Explorer\\Settings] 1662002865
-#time=1d8bdb2cd91692e
+[Software\\Microsoft\\Internet Explorer\\Settings] 1662792563
+#time=1d8c4e175d1a93e
 "Text Color"="0,0,0"
 
-[Software\\Microsoft\\Protected Storage System Provider] 1662002865
-#time=1d8bdb2cd96732e
+[Software\\Microsoft\\Protected Storage System Provider] 1662792563
+#time=1d8c4e175d46b38
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1662002859
-#time=1d8bdb2c9aec900
-"Administrative Tools"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools"
-"AppData"="C:\\users\\root\\AppData\\Roaming"
-"Cache"="C:\\users\\root\\AppData\\Local\\Microsoft\\Windows\\INetCache"
-"Cookies"="C:\\users\\root\\AppData\\Local\\Microsoft\\Windows\\INetCookies"
-"Desktop"="C:\\users\\root\\Desktop"
-"Favorites"="C:\\users\\root\\Favorites"
+[Software\\Microsoft\\SystemCertificates\\CA\\Certificates] 1662792591
+#time=1d8c4e1867a54ca
+
+[Software\\Microsoft\\SystemCertificates\\CA\\CRLs] 1662792591
+#time=1d8c4e1867a55d8
+
+[Software\\Microsoft\\SystemCertificates\\CA\\CTLs] 1662792591
+#time=1d8c4e1867a56be
+
+[Software\\Microsoft\\SystemCertificates\\My\\Certificates] 1662792591
+#time=1d8c4e1867a5c86
+
+[Software\\Microsoft\\SystemCertificates\\My\\CRLs] 1662792591
+#time=1d8c4e1867a5d4e
+
+[Software\\Microsoft\\SystemCertificates\\My\\CTLs] 1662792591
+#time=1d8c4e1867a5e16
+
+[Software\\Microsoft\\SystemCertificates\\Root\\Certificates\\CF55CFAC3B8880BE9B77DED4392CB321B319531C] 1662792621
+#time=1d8c4e1987ec354
+"Blob"=hex:03,00,00,00,01,00,00,00,14,00,00,00,cf,55,cf,ac,3b,88,80,be,9b,77,\
+  de,d4,39,2c,b3,21,b3,19,53,1c,20,00,00,00,01,00,00,00,99,05,00,00,30,82,05,\
+  95,30,82,04,7d,a0,03,02,01,02,02,10,4c,cd,9a,9e,bc,a3,74,d4,3d,13,d6,c3,97,\
+  27,76,fe,30,0d,06,09,2a,86,48,86,f7,0d,01,01,0b,05,00,30,81,dc,31,24,30,22,\
+  06,03,55,04,03,13,1b,4d,65,74,61,51,75,6f,74,65,73,20,53,6f,66,74,77,61,72,\
+  65,20,52,6f,6f,74,20,43,41,31,0f,30,0d,06,03,55,04,07,13,06,4e,61,73,73,61,\
+  75,31,22,30,20,06,03,55,04,0a,13,19,4d,65,74,61,51,75,6f,74,65,73,20,53,6f,\
+  66,74,77,61,72,65,20,43,6f,72,70,2e,31,27,30,25,06,03,55,04,0b,13,1e,43,65,\
+  72,74,69,66,69,63,61,74,65,73,20,53,65,72,76,69,63,65,73,20,44,65,76,69,73,\
+  69,6f,6e,31,25,30,23,06,09,2a,86,48,86,f7,0d,01,09,01,16,16,73,75,70,70,6f,\
+  72,74,40,6d,65,74,61,71,75,6f,74,65,73,2e,6e,65,74,31,0b,30,09,06,03,55,04,\
+  06,13,02,42,53,31,22,30,20,06,0a,09,92,26,89,93,f2,2c,64,01,19,16,12,77,77,\
+  77,2e,6d,65,74,61,71,75,6f,74,65,73,2e,6e,65,74,30,1e,17,0d,31,35,30,34,31,\
+  35,30,38,34,33,35,30,5a,17,0d,32,37,30,34,31,35,30,38,34,33,35,30,5a,30,81,\
+  dc,31,24,30,22,06,03,55,04,03,13,1b,4d,65,74,61,51,75,6f,74,65,73,20,53,6f,\
+  66,74,77,61,72,65,20,52,6f,6f,74,20,43,41,31,0f,30,0d,06,03,55,04,07,13,06,\
+  4e,61,73,73,61,75,31,22,30,20,06,03,55,04,0a,13,19,4d,65,74,61,51,75,6f,74,\
+  65,73,20,53,6f,66,74,77,61,72,65,20,43,6f,72,70,2e,31,27,30,25,06,03,55,04,\
+  0b,13,1e,43,65,72,74,69,66,69,63,61,74,65,73,20,53,65,72,76,69,63,65,73,20,\
+  44,65,76,69,73,69,6f,6e,31,25,30,23,06,09,2a,86,48,86,f7,0d,01,09,01,16,16,\
+  73,75,70,70,6f,72,74,40,6d,65,74,61,71,75,6f,74,65,73,2e,6e,65,74,31,0b,30,\
+  09,06,03,55,04,06,13,02,42,53,31,22,30,20,06,0a,09,92,26,89,93,f2,2c,64,01,\
+  19,16,12,77,77,77,2e,6d,65,74,61,71,75,6f,74,65,73,2e,6e,65,74,30,82,01,22,\
+  30,0d,06,09,2a,86,48,86,f7,0d,01,01,01,05,00,03,82,01,0f,00,30,82,01,0a,02,\
+  82,01,01,00,90,81,fe,90,ba,0a,d2,44,ca,35,f4,25,22,59,a5,4e,dd,cf,29,bc,58,\
+  35,66,7a,1c,7f,7b,b1,eb,f2,09,d1,8c,ab,05,69,7b,d8,d5,dd,6f,b7,a0,a4,5e,d5,\
+  cb,96,98,46,83,cb,7d,f7,7a,c3,84,df,f2,a2,ba,da,90,a7,95,5f,c0,7a,63,c6,fc,\
+  50,1c,2d,3b,8f,5f,ef,61,3b,f0,33,dd,8c,17,ea,04,d2,ba,cd,68,32,18,8d,c3,6c,\
+  e4,ec,4f,9e,4d,c2,2f,71,9c,d6,96,7e,6e,14,92,6c,1f,39,98,74,f0,db,74,42,54,\
+  03,01,16,ab,20,f0,94,29,0e,3f,bf,36,38,28,f2,0a,d6,24,8f,8c,d7,08,69,4a,28,\
+  2e,33,d0,d5,67,62,bb,fb,6d,df,c5,f0,0d,a5,b1,a2,90,52,ac,64,25,9f,e7,83,d8,\
+  4f,07,04,b6,0f,4e,f0,60,15,53,2b,8e,ad,48,c9,39,01,37,9c,87,5e,30,86,b1,7d,\
+  df,51,d6,79,a1,11,5a,61,4b,3c,3a,cc,7f,df,c6,41,2c,66,01,76,91,4b,21,25,18,\
+  51,08,f5,77,b6,83,83,8a,f8,de,ba,c4,e2,59,47,96,c2,95,42,52,f7,18,e1,02,c7,\
+  ad,dd,86,61,3e,be,fe,e5,57,95,02,03,01,00,01,a3,82,01,4f,30,82,01,4b,30,1d,\
+  06,03,55,1d,0e,04,16,04,14,1f,b0,40,9e,a2,8f,f6,64,75,73,48,cf,e0,2e,11,2f,\
+  cf,76,ac,4c,30,0f,06,03,55,1d,13,01,01,ff,04,05,30,03,01,01,ff,30,82,01,17,\
+  06,03,55,1d,01,04,82,01,0e,30,82,01,0a,80,14,1f,b0,40,9e,a2,8f,f6,64,75,73,\
+  48,cf,e0,2e,11,2f,cf,76,ac,4c,a1,81,df,30,81,dc,31,24,30,22,06,03,55,04,03,\
+  13,1b,4d,65,74,61,51,75,6f,74,65,73,20,53,6f,66,74,77,61,72,65,20,52,6f,6f,\
+  74,20,43,41,31,0f,30,0d,06,03,55,04,07,13,06,4e,61,73,73,61,75,31,22,30,20,\
+  06,03,55,04,0a,13,19,4d,65,74,61,51,75,6f,74,65,73,20,53,6f,66,74,77,61,72,\
+  65,20,43,6f,72,70,2e,31,27,30,25,06,03,55,04,0b,13,1e,43,65,72,74,69,66,69,\
+  63,61,74,65,73,20,53,65,72,76,69,63,65,73,20,44,65,76,69,73,69,6f,6e,31,25,\
+  30,23,06,09,2a,86,48,86,f7,0d,01,09,01,16,16,73,75,70,70,6f,72,74,40,6d,65,\
+  74,61,71,75,6f,74,65,73,2e,6e,65,74,31,0b,30,09,06,03,55,04,06,13,02,42,53,\
+  31,22,30,20,06,0a,09,92,26,89,93,f2,2c,64,01,19,16,12,77,77,77,2e,6d,65,74,\
+  61,71,75,6f,74,65,73,2e,6e,65,74,82,10,4c,cd,9a,9e,bc,a3,74,d4,3d,13,d6,c3,\
+  97,27,76,fe,30,0d,06,09,2a,86,48,86,f7,0d,01,01,0b,05,00,03,82,01,01,00,54,\
+  04,ed,45,d8,49,12,c2,fc,a3,03,5c,4e,af,a0,66,b6,53,aa,2b,5a,a7,7a,a2,fb,ac,\
+  5d,3f,ae,6f,df,f4,c9,0c,6f,41,4d,b4,70,e9,82,95,67,06,c1,0f,a4,6f,35,03,e5,\
+  f8,9c,37,36,eb,4d,2f,ea,45,26,be,0b,ed,db,ab,0b,97,46,fe,d7,b0,07,d5,61,5f,\
+  03,91,ae,16,1f,5e,88,2c,80,9e,44,4e,d6,d8,b4,1a,10,e0,d4,43,10,40,ab,62,43,\
+  cd,4f,96,d1,b6,a2,af,b5,68,16,21,50,8d,df,c8,76,ea,91,7b,d1,2f,d5,a2,ce,ac,\
+  75,24,45,3c,28,b0,ee,c3,8b,92,a6,b4,2a,3b,de,52,8d,fe,8d,1b,4e,e2,09,6b,85,\
+  e8,c6,48,0b,68,59,22,ce,ca,65,28,3f,92,6f,af,5f,5e,04,55,b6,bf,9b,e6,aa,7b,\
+  b6,5a,2d,81,83,dc,1b,57,44,a1,42,b5,c0,f2,2d,cb,8d,ae,dc,05,b9,5b,c6,a1,02,\
+  25,0f,25,fd,a9,50,ca,1b,5c,58,66,3b,c2,35,cc,a3,0c,92,22,97,55,5e,b7,0a,e7,\
+  3a,ad,b4,bc,80,83,82,fe,40,20,c6,5e,2e,2a,36,4c,f8,55,ef,72,4a,e1,30,df,02,\
+  fe,ce,a9,89,78
+
+[Software\\Microsoft\\SystemCertificates\\Root\\CRLs] 1662792591
+#time=1d8c4e18678c376
+
+[Software\\Microsoft\\SystemCertificates\\Root\\CTLs] 1662792591
+#time=1d8c4e18678c43e
+
+[Software\\Microsoft\\SystemCertificates\\Trust\\Certificates] 1662792591
+#time=1d8c4e1867a62f8
+
+[Software\\Microsoft\\SystemCertificates\\Trust\\CRLs] 1662792591
+#time=1d8c4e1867a63c0
+
+[Software\\Microsoft\\SystemCertificates\\Trust\\CTLs] 1662792591
+#time=1d8c4e1867a6488
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1662792554
+#time=1d8c4e170ebcc24
+"Administrative Tools"="C:\\users\\cmedi97\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools"
+"AppData"="C:\\users\\cmedi97\\AppData\\Roaming"
+"Cache"="C:\\users\\cmedi97\\AppData\\Local\\Microsoft\\Windows\\INetCache"
+"Cookies"="C:\\users\\cmedi97\\AppData\\Local\\Microsoft\\Windows\\INetCookies"
+"Desktop"="C:\\users\\cmedi97\\Desktop"
+"Favorites"="C:\\users\\cmedi97\\Favorites"
 "Fonts"="C:\\windows\\Fonts"
-"History"="C:\\users\\root\\AppData\\Local\\Microsoft\\Windows\\History"
-"Local AppData"="C:\\users\\root\\AppData\\Local"
-"My Music"="C:\\users\\root\\Music"
-"My Pictures"="C:\\users\\root\\Pictures"
-"My Videos"="C:\\users\\root\\Videos"
-"NetHood"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Network Shortcuts"
-"Personal"="C:\\users\\root\\Documents"
-"PrintHood"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Printer Shortcuts"
-"Programs"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs"
-"Recent"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Recent"
-"SendTo"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\SendTo"
-"Start Menu"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
-"StartUp"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp"
-"Templates"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Templates"
-"{374DE290-123F-4565-9164-39C4925E467B}"="C:\\users\\root\\Downloads"
-"{4C5C32FF-BB9D-43B0-B5B4-2D72E54EAAA4}"="C:\\users\\root\\Saved Games"
-"{56784854-C6CB-462B-8169-88E350ACB882}"="C:\\users\\root\\Contacts"
-"{7D1D3A04-DEBB-4115-95CF-2F29DA2920DA}"="C:\\users\\root\\Searches"
-"{A520A1A4-1780-4FF6-BD18-167343C5AF16}"="C:\\users\\root\\AppData\\LocalLow"
-"{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}"="C:\\users\\root\\Links"
+"History"="C:\\users\\cmedi97\\AppData\\Local\\Microsoft\\Windows\\History"
+"Local AppData"="C:\\users\\cmedi97\\AppData\\Local"
+"My Music"="C:\\users\\cmedi97\\Music"
+"My Pictures"="C:\\users\\cmedi97\\Pictures"
+"My Videos"="C:\\users\\cmedi97\\Videos"
+"NetHood"="C:\\users\\cmedi97\\AppData\\Roaming\\Microsoft\\Windows\\Network Shortcuts"
+"Personal"="C:\\users\\cmedi97\\Documents"
+"PrintHood"="C:\\users\\cmedi97\\AppData\\Roaming\\Microsoft\\Windows\\Printer Shortcuts"
+"Programs"="C:\\users\\cmedi97\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs"
+"Recent"="C:\\users\\cmedi97\\AppData\\Roaming\\Microsoft\\Windows\\Recent"
+"SendTo"="C:\\users\\cmedi97\\AppData\\Roaming\\Microsoft\\Windows\\SendTo"
+"Start Menu"="C:\\users\\cmedi97\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+"StartUp"="C:\\users\\cmedi97\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp"
+"Templates"="C:\\users\\cmedi97\\AppData\\Roaming\\Microsoft\\Windows\\Templates"
+"{374DE290-123F-4565-9164-39C4925E467B}"="C:\\users\\cmedi97\\Downloads"
+"{4C5C32FF-BB9D-43B0-B5B4-2D72E54EAAA4}"="C:\\users\\cmedi97\\Saved Games"
+"{56784854-C6CB-462B-8169-88E350ACB882}"="C:\\users\\cmedi97\\Contacts"
+"{7D1D3A04-DEBB-4115-95CF-2F29DA2920DA}"="C:\\users\\cmedi97\\Searches"
+"{A520A1A4-1780-4FF6-BD18-167343C5AF16}"="C:\\users\\cmedi97\\AppData\\LocalLow"
+"{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}"="C:\\users\\cmedi97\\Links"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders] 1662002859
-#time=1d8bdb2c9aec81a
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders] 1662792554
+#time=1d8c4e170ebcaf8
 "Administrative Tools"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools"
 "AppData"=str(2):"%USERPROFILE%\\AppData\\Roaming"
 "Cache"=str(2):"%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\INetCache"
@@ -748,23 +937,24 @@ WINE REGISTRY Version 2
 "{A520A1A4-1780-4FF6-BD18-167343C5AF16}"=str(2):"%USERPROFILE%\\AppData\\LocalLow"
 "{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}"=str(2):"%USERPROFILE%\\Links"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings] 1662002865
-#time=1d8bdb2cd7d5088
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings] 1662792562
+#time=1d8c4e175c13eb4
+"ProxyEnable"=dword:00000000
 "User Agent"="Mozilla/4.0 (compatible; MSIE 8.0; Win32)"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap] 1662002865
-#time=1d8bdb2cd7d4c28
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap] 1662792562
+#time=1d8c4e175c13bd0
 @=""
 "IntranetName"=dword:00000001
 "ProxyByPass"=dword:00000001
 "UNCAsIntranet"=dword:00000001
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Domains] 1662002865
-#time=1d8bdb2cd7d48c2
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Domains] 1662792562
+#time=1d8c4e175c1396e
 @=""
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\ProtocolDefaults] 1662002865
-#time=1d8bdb2cd7d44d0
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\ProtocolDefaults] 1662792562
+#time=1d8c4e175c1369e
 @=""
 "@ivt"=dword:00000001
 "file"=dword:00000003
@@ -772,16 +962,16 @@ WINE REGISTRY Version 2
 "http"=dword:00000003
 "https"=dword:00000003
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Ranges] 1662002865
-#time=1d8bdb2cd7d4ce6
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Ranges] 1662792562
+#time=1d8c4e175c13c48
 @=""
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones] 1662002865
-#time=1d8bdb2cd7fe190
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones] 1662792562
+#time=1d8c4e175c35136
 @=""
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\0] 1662002865
-#time=1d8bdb2cd7df74a
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\0] 1662792562
+#time=1d8c4e175c1c2a8
 @=""
 "1001"=dword:00000000
 "1004"=dword:00000000
@@ -819,8 +1009,8 @@ WINE REGISTRY Version 2
 "Flags"=dword:00000021
 "Icon"="explorer.exe#0100"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\1] 1662002865
-#time=1d8bdb2cd7ea6ea
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\1] 1662792562
+#time=1d8c4e175c24606
 @=""
 "1001"=dword:00000001
 "1004"=dword:00000003
@@ -860,8 +1050,8 @@ WINE REGISTRY Version 2
 "MinLevel"=dword:00010000
 "RecommendedLevel"=dword:00010500
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\2] 1662002865
-#time=1d8bdb2cd7f46cc
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\2] 1662792562
+#time=1d8c4e175c2c69e
 @=""
 "1001"=dword:00000000
 "1004"=dword:00000001
@@ -901,8 +1091,8 @@ WINE REGISTRY Version 2
 "MinLevel"=dword:00010000
 "RecommendedLevel"=dword:00010000
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3] 1662002865
-#time=1d8bdb2cd7fde5c
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3] 1662792562
+#time=1d8c4e175c34e7a
 @=""
 "1001"=dword:00000001
 "1004"=dword:00000003
@@ -942,8 +1132,8 @@ WINE REGISTRY Version 2
 "MinLevel"=dword:00011000
 "RecommendedLevel"=dword:00011000
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4] 1662002865
-#time=1d8bdb2cd807948
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4] 1662792562
+#time=1d8c4e175c3d7a0
 @=""
 "1001"=dword:00000003
 "1004"=dword:00000003
@@ -983,80 +1173,92 @@ WINE REGISTRY Version 2
 "MinLevel"=dword:00012000
 "RecommendedLevel"=dword:00012000
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Run] 1662002865
-#time=1d8bdb2cd94c01a
+[Software\\Microsoft\\Windows\\CurrentVersion\\Run] 1662792563
+#time=1d8c4e175d37ebc
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce] 1662002898
-#time=1d8bdb2e0c884d2
+[Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce] 1662919158
+#time=1d8c60836d118d2
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662002898
-#time=1d8bdb2e0c88540
+[Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662919158
+#time=1d8c60836d11918
 "BundleAddonCode"=hex(7):
-"BundleCachePath"="C:\\users\\root\\AppData\\Local\\Package Cache\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}\\python-3.10.6-amd64.exe"
+"BundleCachePath"="C:\\users\\cmedi97\\AppData\\Local\\Package Cache\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}\\python-3.10.6-amd64.exe"
 "BundleDetectCode"=hex(7):
 "BundlePatchCode"=hex(7):
 "BundleProviderKey"="CPython-3.10"
 "BundleTag"=hex(1):
 "BundleUpgradeCode"=str(7):"{E3BAA187-CE22-5D2A-92E4-3290DEC0FCAB}\0"
 "BundleVersion"="3.10.6150.0"
-"DisplayIcon"="C:\\users\\root\\AppData\\Local\\Package Cache\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}\\python-3.10.6-amd64.exe,0"
+"DisplayIcon"="C:\\users\\cmedi97\\AppData\\Local\\Package Cache\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}\\python-3.10.6-amd64.exe,0"
 "DisplayName"="Python 3.10.6 (64-bit)"
 "DisplayVersion"="3.10.6150.0"
 "EngineVersion"="3.11.1.2318"
 "EstimatedSize"=dword:00019d0e
 "Installed"=dword:00000001
-"ModifyPath"="\"C:\\users\\root\\AppData\\Local\\Package Cache\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}\\python-3.10.6-amd64.exe\" /modify"
+"ModifyPath"="\"C:\\users\\cmedi97\\AppData\\Local\\Package Cache\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}\\python-3.10.6-amd64.exe\" /modify"
 "NoElevateOnModify"=dword:00000001
 "Publisher"="Python Software Foundation"
-"QuietUninstallString"="\"C:\\users\\root\\AppData\\Local\\Package Cache\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}\\python-3.10.6-amd64.exe\" /uninstall /quiet"
+"QuietUninstallString"="\"C:\\users\\cmedi97\\AppData\\Local\\Package Cache\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}\\python-3.10.6-amd64.exe\" /uninstall /quiet"
 "Resume"=dword:00000003
-"UninstallString"="\"C:\\users\\root\\AppData\\Local\\Package Cache\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}\\python-3.10.6-amd64.exe\"  /uninstall"
+"UninstallString"="\"C:\\users\\cmedi97\\AppData\\Local\\Package Cache\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}\\python-3.10.6-amd64.exe\"  /uninstall"
 "URLInfoAbout"="https://www.python.org/"
 "VersionMajor"=dword:00000003
 "VersionMinor"=dword:0000000a
 
-[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\ftp\\UserChoice] 1662002865
-#time=1d8bdb2cd969624
+[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\ftp\\UserChoice] 1662792563
+#time=1d8c4e175d48442
 "ProgId"="ftp"
 
-[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\http\\UserChoice] 1662002865
-#time=1d8bdb2cd969d90
+[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\http\\UserChoice] 1662792563
+#time=1d8c4e175d48a3c
 "ProgId"="http"
 
-[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\https\\UserChoice] 1662002865
-#time=1d8bdb2cd96a4f2
+[Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\https\\UserChoice] 1662792563
+#time=1d8c4e175d490a4
 "ProgId"="https"
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon] 1662002865
-#time=1d8bdb2cd94c5a6
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Devices] 1662919130
+#time=1d8c6082627238c
+"HP_Color_LaserJet_MFP_M477fnw_070B40"="wineps.drv,CUPS:HP_Color_LaserJet_MFP_M477fnw_070B40"
 
-[Software\\Python\\PythonCore] 1662002882
-#time=1d8bdb2d7cdeb6a
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\PrinterPorts] 1662919130
+#time=1d8c608262724ae
+"HP_Color_LaserJet_MFP_M477fnw_070B40"="wineps.drv,CUPS:HP_Color_LaserJet_MFP_M477fnw_070B40,15,45"
+
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows] 1662919130
+#time=1d8c6082627722e
+"device"="HP_Color_LaserJet_MFP_M477fnw_070B40,wineps.drv,CUPS:HP_Color_LaserJet_MFP_M477fnw_070B40"
+
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon] 1662792563
+#time=1d8c4e175d37f70
+
+[Software\\Python\\PythonCore] 1662919144
+#time=1d8c6082e2f3eb6
 "DisplayName"="Python Software Foundation"
 "SupportUrl"="https://www.python.org/"
 
-[Software\\Python\\PythonCore\\3.10] 1662002888
-#time=1d8bdb2db2432ec
+[Software\\Python\\PythonCore\\3.10] 1662919149
+#time=1d8c608315566a6
 "DisplayName"="Python 3.10 (64-bit)"
 "SupportUrl"="https://www.python.org/"
 "SysArchitecture"="64bit"
 "SysVersion"="3.10"
 "Version"="3.10.6"
 
-[Software\\Python\\PythonCore\\3.10\\Help\\Main Python Documentation] 1662002886
-#time=1d8bdb2d9d5cd2e
-@="C:\\users\\root\\AppData\\Local\\Programs\\Python\\Python310\\Doc\\python3106.chm"
+[Software\\Python\\PythonCore\\3.10\\Help\\Main Python Documentation] 1662919147
+#time=1d8c608301f0b02
+@="C:\\users\\cmedi97\\AppData\\Local\\Programs\\Python\\Python310\\Doc\\python3106.chm"
 
-[Software\\Python\\PythonCore\\3.10\\Idle] 1662002888
-#time=1d8bdb2db24223e
-@="C:\\users\\root\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\idlelib\\idle.pyw"
+[Software\\Python\\PythonCore\\3.10\\Idle] 1662919149
+#time=1d8c60831555abc
+@="C:\\users\\cmedi97\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\idlelib\\idle.pyw"
 
-[Software\\Python\\PythonCore\\3.10\\IdleShortcuts] 1662002888
-#time=1d8bdb2db243634
+[Software\\Python\\PythonCore\\3.10\\IdleShortcuts] 1662919149
+#time=1d8c60831556926
 @=dword:00000001
 
-[Software\\Python\\PythonCore\\3.10\\InstalledFeatures] 1662002898
-#time=1d8bdb2e0c6d178
+[Software\\Python\\PythonCore\\3.10\\InstalledFeatures] 1662919158
+#time=1d8c60836cf55ec
 "dev"="3.10.6150.0"
 "doc"="3.10.6150.0"
 "doc_shortcut"="3.10.6150.0"
@@ -1069,236 +1271,567 @@ WINE REGISTRY Version 2
 "test"="3.10.6150.0"
 "tools"="3.10.6150.0"
 
-[Software\\Python\\PythonCore\\3.10\\InstallPath] 1662002882
-#time=1d8bdb2d7cddf08
-@="C:\\users\\root\\AppData\\Local\\Programs\\Python\\Python310\\"
-"ExecutablePath"="C:\\users\\root\\AppData\\Local\\Programs\\Python\\Python310\\python.exe"
-"WindowedExecutablePath"="C:\\users\\root\\AppData\\Local\\Programs\\Python\\Python310\\pythonw.exe"
+[Software\\Python\\PythonCore\\3.10\\InstallPath] 1662919144
+#time=1d8c6082e2f2fe8
+@="C:\\users\\cmedi97\\AppData\\Local\\Programs\\Python\\Python310\\"
+"ExecutablePath"="C:\\users\\cmedi97\\AppData\\Local\\Programs\\Python\\Python310\\python.exe"
+"WindowedExecutablePath"="C:\\users\\cmedi97\\AppData\\Local\\Programs\\Python\\Python310\\pythonw.exe"
 
-[Software\\Python\\PythonCore\\3.10\\PythonPath] 1662002884
-#time=1d8bdb2d8ba040a
-@="C:\\users\\root\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\;C:\\users\\root\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\"
+[Software\\Python\\PythonCore\\3.10\\PythonPath] 1662919145
+#time=1d8c6082f08995e
+@="C:\\users\\cmedi97\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\;C:\\users\\cmedi97\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\"
 
-[Software\\Wine\\AppDefaults] 1662002857
-#time=1d8bdb2c89a3572
+[Software\\Wine\\AppDefaults] 1662792553
+#time=1d8c4e16fdd6068
 
-[Software\\Wine\\Debug] 1662002865
-#time=1d8bdb2cd958fb8
+[Software\\Wine\\Debug] 1662792563
+#time=1d8c4e175d3e06e
 "RelayExclude"="ntdll.RtlEnterCriticalSection;ntdll.RtlTryEnterCriticalSection;ntdll.RtlLeaveCriticalSection;kernel32.48;kernel32.49;kernel32.94;kernel32.95;kernel32.96;kernel32.97;kernel32.98;kernel32.TlsGetValue;kernel32.TlsSetValue;kernel32.FlsGetValue;kernel32.FlsSetValue;kernel32.SetLastError"
 "RelayFromExclude"="winex11.drv;winemac.drv;user32;gdi32;advapi32;kernel32"
 
-[Software\\Wine\\DllOverrides] 1662002857
-#time=1d8bdb2c89a2c26
+[Software\\Wine\\DllOverrides] 1662792553
+#time=1d8c4e16fdd544c
 
-[Software\\Wine\\FileOpenAssociations\\.chm] 1662003281
-#time=1d8bdb3c53367ea
+[Software\\Wine\\Drivers\\winepulse.drv] 1662792624
+#time=1d8c4e19a931f8c
+
+[Software\\Wine\\FileOpenAssociations\\.chm] 1662792590
+#time=1d8c4e185e0ae60
 "AppName"="hh"
-"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-chm.desktop"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-chm.desktop"
 "MimeType"="application/vnd.ms-htmlhelp"
 "OpenWithIcon"="D15F_hh.0"
 "ProgID"="chm.file"
 
-[Software\\Wine\\FileOpenAssociations\\.gif] 1662003281
-#time=1d8bdb3c537e2fc
+[Software\\Wine\\FileOpenAssociations\\.ex5] 1662792598
+#time=1d8c4e18afb9e50
+"AppName"="MetaTrader 5 Client Terminal"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-ex5.desktop"
+"MimeType"="application/x-wine-extension-ex5"
+"OpenWithIcon"="1967_terminal64.0"
+"ProgID"="EX5.File"
+
+[Software\\Wine\\FileOpenAssociations\\.gif] 1662792590
+#time=1d8c4e185e6767e
 "AppName"="Wine Internet Explorer"
-"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-gif.desktop"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-gif.desktop"
 "MimeType"="image/gif"
 "OpenWithIcon"="ECB7_iexplore.0"
 "ProgID"="giffile"
 
-[Software\\Wine\\FileOpenAssociations\\.hlp] 1662003281
-#time=1d8bdb3c53bd470
+[Software\\Wine\\FileOpenAssociations\\.hlp] 1662792590
+#time=1d8c4e185e98aee
 "AppName"="winhlp32"
-"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-hlp.desktop"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-hlp.desktop"
 "MimeType"="application/winhlp"
 "OpenWithIcon"="C06E_winhlp32.0"
 "ProgID"="hlpfile"
 
-[Software\\Wine\\FileOpenAssociations\\.htm] 1662003281
-#time=1d8bdb3c53ecde2
+[Software\\Wine\\FileOpenAssociations\\.htm] 1662792590
+#time=1d8c4e185ee3efe
 "AppName"="winebrowser"
-"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-htm.desktop"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-htm.desktop"
 "MimeType"="text/html"
 "OpenWithIcon"="81F5_winebrowser.0"
 "ProgID"="htmlfile"
 
-[Software\\Wine\\FileOpenAssociations\\.ini] 1662003281
-#time=1d8bdb3c5417556
+[Software\\Wine\\FileOpenAssociations\\.ini] 1662792590
+#time=1d8c4e185f0f9f0
 "AppName"="notepad"
-"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-ini.desktop"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-ini.desktop"
 "MimeType"="application/x-wine-extension-ini"
 "OpenWithIcon"="2E40_notepad.0"
 "ProgID"="inifile"
 
-[Software\\Wine\\FileOpenAssociations\\.jfif] 1662003281
-#time=1d8bdb3c5435c90
+[Software\\Wine\\FileOpenAssociations\\.jfif] 1662792590
+#time=1d8c4e185f4b11c
 "AppName"="Wine Internet Explorer"
-"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-jfif.desktop"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-jfif.desktop"
 "MimeType"="image/jpeg"
 "OpenWithIcon"="ECB7_iexplore.0"
 "ProgID"="pjpegfile"
 
-[Software\\Wine\\FileOpenAssociations\\.jpe] 1662003281
-#time=1d8bdb3c54606e8
+[Software\\Wine\\FileOpenAssociations\\.jpe] 1662792590
+#time=1d8c4e185f78982
 "AppName"="Wine Internet Explorer"
-"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-jpe.desktop"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-jpe.desktop"
 "MimeType"="image/jpeg"
 "OpenWithIcon"="ECB7_iexplore.0"
 "ProgID"="jpegfile"
 
-[Software\\Wine\\FileOpenAssociations\\.msp] 1662003281
-#time=1d8bdb3c54998da
+[Software\\Wine\\FileOpenAssociations\\.mq5] 1662792598
+#time=1d8c4e18b146caa
+"AppName"="MetaEditor"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-mq5.desktop"
+"MimeType"="application/x-wine-extension-mq5"
+"OpenWithIcon"="3F42_metaeditor64.0"
+"ProgID"="MQL5.File"
+
+[Software\\Wine\\FileOpenAssociations\\.mqh] 1662792598
+#time=1d8c4e18b171630
+"AppName"="MetaEditor"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-mqh.desktop"
+"MimeType"="application/x-wine-extension-mqh"
+"OpenWithIcon"="3F42_metaeditor64.0"
+"ProgID"="MQL5.Header"
+
+[Software\\Wine\\FileOpenAssociations\\.msp] 1662792590
+#time=1d8c4e185fcc38e
 "AppName"="Wine Installer"
-"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-msp.desktop"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-msp.desktop"
 "MimeType"="application/x-wine-extension-msp"
 "OpenWithIcon"="D23E_msiexec.0"
 "ProgID"="Msi.Patch"
 
-[Software\\Wine\\FileOpenAssociations\\.pdf] 1662003281
-#time=1d8bdb3c54b46f8
+[Software\\Wine\\FileOpenAssociations\\.mt5] 1662792598
+#time=1d8c4e18b1d0a40
+"AppName"="MetaTrader 5 Client Terminal"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-mt5.desktop"
+"MimeType"="application/x-wine-extension-mt5"
+"OpenWithIcon"="1967_terminal64.0"
+"ProgID"="MetaTrader 5 Export File"
+
+[Software\\Wine\\FileOpenAssociations\\.pdf] 1662792590
+#time=1d8c4e185fe7e22
 "AppName"="winebrowser"
-"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-pdf.desktop"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-pdf.desktop"
 "MimeType"="application/pdf"
 "OpenWithIcon"="81F5_winebrowser.0"
 "ProgID"="pdffile"
 
-[Software\\Wine\\FileOpenAssociations\\.png] 1662003281
-#time=1d8bdb3c54d54f2
+[Software\\Wine\\FileOpenAssociations\\.png] 1662792590
+#time=1d8c4e18600bef8
 "AppName"="Wine Internet Explorer"
-"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-png.desktop"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-png.desktop"
 "MimeType"="image/png"
 "OpenWithIcon"="ECB7_iexplore.0"
 "ProgID"="pngfile"
 
-[Software\\Wine\\FileOpenAssociations\\.py] 1662003281
-#time=1d8bdb3c5503136
+[Software\\Wine\\FileOpenAssociations\\.py] 1662919364
+#time=1d8c608b118efde
 "AppName"="Python"
-"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-py.desktop"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-py.desktop"
 "MimeType"="text/x-python"
 "OpenWithIcon"="A12F_py.0"
 "ProgID"="Python.File"
 
-[Software\\Wine\\FileOpenAssociations\\.pyc] 1662003281
-#time=1d8bdb3c552a95c
+[Software\\Wine\\FileOpenAssociations\\.pyc] 1662919364
+#time=1d8c608b11c83c4
 "AppName"="Python"
-"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-pyc.desktop"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-pyc.desktop"
 "MimeType"="application/x-python-bytecode"
 "OpenWithIcon"="A12F_py.0"
 "ProgID"="Python.CompiledFile"
 
-[Software\\Wine\\FileOpenAssociations\\.pyw] 1662003281
-#time=1d8bdb3c558db92
+[Software\\Wine\\FileOpenAssociations\\.pyw] 1662919364
+#time=1d8c608b1238fe8
 "AppName"="Python"
-"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-pyw.desktop"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-pyw.desktop"
 "MimeType"="text/x-python"
 "OpenWithIcon"="D465_pyw.0"
 "ProgID"="Python.NoConFile"
 
-[Software\\Wine\\FileOpenAssociations\\.pyz] 1662003281
-#time=1d8bdb3c55cd490
+[Software\\Wine\\FileOpenAssociations\\.pyz] 1662919364
+#time=1d8c608b128ee7a
 "AppName"="Python"
-"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-pyz.desktop"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-pyz.desktop"
 "MimeType"="application/x-zip-compressed"
 "OpenWithIcon"="A12F_py.0"
 "ProgID"="Python.ArchiveFile"
 
-[Software\\Wine\\FileOpenAssociations\\.pyzw] 1662003281
-#time=1d8bdb3c5604238
+[Software\\Wine\\FileOpenAssociations\\.pyzw] 1662919364
+#time=1d8c608b12e9a6e
 "AppName"="Python"
-"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-pyzw.desktop"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-pyzw.desktop"
 "MimeType"="application/x-zip-compressed"
 "OpenWithIcon"="D465_pyw.0"
 "ProgID"="Python.NoConArchiveFile"
 
-[Software\\Wine\\FileOpenAssociations\\.rtf] 1662003281
-#time=1d8bdb3c56224fe
+[Software\\Wine\\FileOpenAssociations\\.rtf] 1662792590
+#time=1d8c4e18603e5c4
 "AppName"="wordpad"
-"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-rtf.desktop"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-rtf.desktop"
 "MimeType"="application/rtf"
 "OpenWithIcon"="3365_wordpad.0"
 "ProgID"="rtffile"
 
-[Software\\Wine\\FileOpenAssociations\\.txt] 1662003281
-#time=1d8bdb3c56415b6
+[Software\\Wine\\FileOpenAssociations\\.txt] 1662792590
+#time=1d8c4e1860666e6
 "AppName"="notepad"
-"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-txt.desktop"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-txt.desktop"
 "MimeType"="text/plain"
 "OpenWithIcon"="2E40_notepad.0"
 "ProgID"="txtfile"
 
-[Software\\Wine\\FileOpenAssociations\\.url] 1662003281
-#time=1d8bdb3c565aef8
+[Software\\Wine\\FileOpenAssociations\\.url] 1662792590
+#time=1d8c4e186080c4e
 "AppName"="rundll32"
-"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-url.desktop"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-url.desktop"
 "MimeType"="application/x-mswinurl"
 "OpenWithIcon"="5742_rundll32.0"
 "ProgID"="InternetShortcut"
 
-[Software\\Wine\\FileOpenAssociations\\.vbs] 1662003281
-#time=1d8bdb3c567adde
+[Software\\Wine\\FileOpenAssociations\\.vbs] 1662792590
+#time=1d8c4e18609fba8
 "AppName"="wscript"
-"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-vbs.desktop"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-vbs.desktop"
 "MimeType"="text/vbscript"
 "OpenWithIcon"="2905_wscript.0"
 "ProgID"="VBSFile"
 
-[Software\\Wine\\FileOpenAssociations\\.wri] 1662003281
-#time=1d8bdb3c569cd12
+[Software\\Wine\\FileOpenAssociations\\.wri] 1662792590
+#time=1d8c4e1860c001a
 "AppName"="wordpad"
-"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-wri.desktop"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-wri.desktop"
 "MimeType"="application/x-mswrite"
 "OpenWithIcon"="3365_wordpad.0"
 "ProgID"="wrifile"
 
-[Software\\Wine\\FileOpenAssociations\\.xml] 1662003281
-#time=1d8bdb3c56ba0f6
+[Software\\Wine\\FileOpenAssociations\\.xml] 1662792590
+#time=1d8c4e1860dc7ec
 "AppName"="winebrowser"
-"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-xml.desktop"
+"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-xml.desktop"
 "MimeType"="application/xml"
 "OpenWithIcon"="81F5_winebrowser.0"
 "ProgID"="xmlfile"
 
-[Software\\Wine\\Fonts] 1662785564
-#time=1d8c4d12a6221fa
+[Software\\Wine\\Fonts] 1662930832
+#time=1d8c62364ea8972
 "Codepages"="1252,437"
 "LogPixels"=dword:00000060
 
-[Software\\Wine\\Fonts\\External Fonts] 1662002857
-#time=1d8bdb2c8996c6e
-"DejaVu Sans (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\dejavu\\DejaVuSans.ttf"
-"DejaVu Sans Bold (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\dejavu\\DejaVuSans-Bold.ttf"
-"DejaVu Sans Mono (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\dejavu\\DejaVuSansMono.ttf"
-"DejaVu Sans Mono Bold (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\dejavu\\DejaVuSansMono-Bold.ttf"
-"DejaVu Serif (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\dejavu\\DejaVuSerif.ttf"
-"DejaVu Serif Bold (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\dejavu\\DejaVuSerif-Bold.ttf"
+[Software\\Wine\\Fonts\\External Fonts] 1662930832
+#time=1d8c62364eb326e
+"@Droid Sans Fallback (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansFallbackFull.ttf"
+"@Noto Sans CJK HK (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Regular.ttc"
+"@Noto Sans CJK HK Black (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Black.ttc"
+"@Noto Sans CJK HK Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Bold.ttc"
+"@Noto Sans CJK HK DemiLight (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-DemiLight.ttc"
+"@Noto Sans CJK HK Light (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Light.ttc"
+"@Noto Sans CJK HK Medium (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Medium.ttc"
+"@Noto Sans CJK HK Thin (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Thin.ttc"
+"@Noto Sans CJK JP (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Regular.ttc"
+"@Noto Sans CJK JP Black (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Black.ttc"
+"@Noto Sans CJK JP Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Bold.ttc"
+"@Noto Sans CJK JP DemiLight (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-DemiLight.ttc"
+"@Noto Sans CJK JP Light (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Light.ttc"
+"@Noto Sans CJK JP Medium (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Medium.ttc"
+"@Noto Sans CJK JP Thin (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Thin.ttc"
+"@Noto Sans CJK KR (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Regular.ttc"
+"@Noto Sans CJK KR Black (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Black.ttc"
+"@Noto Sans CJK KR Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Bold.ttc"
+"@Noto Sans CJK KR DemiLight (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-DemiLight.ttc"
+"@Noto Sans CJK KR Light (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Light.ttc"
+"@Noto Sans CJK KR Medium (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Medium.ttc"
+"@Noto Sans CJK KR Thin (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Thin.ttc"
+"@Noto Sans CJK SC (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Regular.ttc"
+"@Noto Sans CJK SC Black (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Black.ttc"
+"@Noto Sans CJK SC Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Bold.ttc"
+"@Noto Sans CJK SC DemiLight (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-DemiLight.ttc"
+"@Noto Sans CJK SC Light (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Light.ttc"
+"@Noto Sans CJK SC Medium (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Medium.ttc"
+"@Noto Sans CJK SC Thin (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Thin.ttc"
+"@Noto Sans CJK TC (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Regular.ttc"
+"@Noto Sans CJK TC Black (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Black.ttc"
+"@Noto Sans CJK TC Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Bold.ttc"
+"@Noto Sans CJK TC DemiLight (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-DemiLight.ttc"
+"@Noto Sans CJK TC Light (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Light.ttc"
+"@Noto Sans CJK TC Medium (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Medium.ttc"
+"@Noto Sans CJK TC Thin (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Thin.ttc"
+"@Noto Sans Mono CJK HK (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Regular.ttc"
+"@Noto Sans Mono CJK HK Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Bold.ttc"
+"@Noto Sans Mono CJK JP (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Regular.ttc"
+"@Noto Sans Mono CJK JP Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Bold.ttc"
+"@Noto Sans Mono CJK KR (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Regular.ttc"
+"@Noto Sans Mono CJK KR Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Bold.ttc"
+"@Noto Sans Mono CJK SC (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Regular.ttc"
+"@Noto Sans Mono CJK SC Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Bold.ttc"
+"@Noto Sans Mono CJK TC (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Regular.ttc"
+"@Noto Sans Mono CJK TC Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Bold.ttc"
+"Abyssinica SIL (TrueType)"="Z:\\usr\\share\\fonts\\sil-abyssinica-fonts\\AbyssinicaSIL-R.ttf"
+"C059-BdIta (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\C059-BdIta.otf"
+"C059-Bold (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\C059-Bold.otf"
+"C059-Italic (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\C059-Italic.otf"
+"C059-Roman (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\C059-Roman.otf"
+"Caladea Bold (TrueType)"="Z:\\usr\\share\\fonts\\ht-caladea-fonts\\Caladea-Bold.otf"
+"Caladea Bold Italic (TrueType)"="Z:\\usr\\share\\fonts\\ht-caladea-fonts\\Caladea-BoldItalic.otf"
+"Caladea Italic (TrueType)"="Z:\\usr\\share\\fonts\\ht-caladea-fonts\\Caladea-Italic.otf"
+"Caladea Regular (TrueType)"="Z:\\usr\\share\\fonts\\ht-caladea-fonts\\Caladea-Regular.otf"
+"Cantarell Bold (TrueType)"="Z:\\usr\\share\\fonts\\abattis-cantarell-fonts\\Cantarell-Bold.otf"
+"Cantarell Extra Bold (TrueType)"="Z:\\usr\\share\\fonts\\abattis-cantarell-fonts\\Cantarell-ExtraBold.otf"
+"Cantarell Light (TrueType)"="Z:\\usr\\share\\fonts\\abattis-cantarell-fonts\\Cantarell-Light.otf"
+"Cantarell Regular (TrueType)"="Z:\\usr\\share\\fonts\\abattis-cantarell-fonts\\Cantarell-Regular.otf"
+"Cantarell Thin (TrueType)"="Z:\\usr\\share\\fonts\\abattis-cantarell-fonts\\Cantarell-Thin.otf"
+"Carlito (TrueType)"="Z:\\usr\\share\\fonts\\google-carlito-fonts\\Carlito-Regular.ttf"
+"Carlito Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-carlito-fonts\\Carlito-Bold.ttf"
+"Carlito Bold Italic (TrueType)"="Z:\\usr\\share\\fonts\\google-carlito-fonts\\Carlito-BoldItalic.ttf"
+"Carlito Italic (TrueType)"="Z:\\usr\\share\\fonts\\google-carlito-fonts\\Carlito-Italic.ttf"
+"Comfortaa Bold (TrueType)"="Z:\\usr\\share\\fonts\\aajohan-comfortaa-fonts\\Comfortaa-Bold.otf"
+"Comfortaa Light (TrueType)"="Z:\\usr\\share\\fonts\\aajohan-comfortaa-fonts\\Comfortaa-Light.otf"
+"Comfortaa Regular (TrueType)"="Z:\\usr\\share\\fonts\\aajohan-comfortaa-fonts\\Comfortaa-Regular.otf"
+"D050000L (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\D050000L.otf"
+"DejaVu Sans (TrueType)"="Z:\\usr\\share\\fonts\\dejavu-sans-fonts\\DejaVuSans.ttf"
+"DejaVu Sans Bold (TrueType)"="Z:\\usr\\share\\fonts\\dejavu-sans-fonts\\DejaVuSans-Bold.ttf"
+"DejaVu Sans Bold Oblique (TrueType)"="Z:\\usr\\share\\fonts\\dejavu-sans-fonts\\DejaVuSans-BoldOblique.ttf"
+"DejaVu Sans Condensed (TrueType)"="Z:\\usr\\share\\fonts\\dejavu-sans-fonts\\DejaVuSansCondensed.ttf"
+"DejaVu Sans Condensed Bold (TrueType)"="Z:\\usr\\share\\fonts\\dejavu-sans-fonts\\DejaVuSansCondensed-Bold.ttf"
+"DejaVu Sans Condensed Bold Oblique (TrueType)"="Z:\\usr\\share\\fonts\\dejavu-sans-fonts\\DejaVuSansCondensed-BoldOblique.ttf"
+"DejaVu Sans Condensed Oblique (TrueType)"="Z:\\usr\\share\\fonts\\dejavu-sans-fonts\\DejaVuSansCondensed-Oblique.ttf"
+"DejaVu Sans ExtraLight (TrueType)"="Z:\\usr\\share\\fonts\\dejavu-sans-fonts\\DejaVuSans-ExtraLight.ttf"
+"DejaVu Sans Mono (TrueType)"="Z:\\usr\\share\\fonts\\dejavu-sans-mono-fonts\\DejaVuSansMono.ttf"
+"DejaVu Sans Mono Bold (TrueType)"="Z:\\usr\\share\\fonts\\dejavu-sans-mono-fonts\\DejaVuSansMono-Bold.ttf"
+"DejaVu Sans Mono Bold Oblique (TrueType)"="Z:\\usr\\share\\fonts\\dejavu-sans-mono-fonts\\DejaVuSansMono-BoldOblique.ttf"
+"DejaVu Sans Mono Oblique (TrueType)"="Z:\\usr\\share\\fonts\\dejavu-sans-mono-fonts\\DejaVuSansMono-Oblique.ttf"
+"DejaVu Sans Oblique (TrueType)"="Z:\\usr\\share\\fonts\\dejavu-sans-fonts\\DejaVuSans-Oblique.ttf"
+"DejaVu Serif (TrueType)"="Z:\\usr\\share\\fonts\\dejavu-serif-fonts\\DejaVuSerif.ttf"
+"DejaVu Serif Bold (TrueType)"="Z:\\usr\\share\\fonts\\dejavu-serif-fonts\\DejaVuSerif-Bold.ttf"
+"DejaVu Serif Bold Italic (TrueType)"="Z:\\usr\\share\\fonts\\dejavu-serif-fonts\\DejaVuSerif-BoldItalic.ttf"
+"DejaVu Serif Condensed (TrueType)"="Z:\\usr\\share\\fonts\\dejavu-serif-fonts\\DejaVuSerifCondensed.ttf"
+"DejaVu Serif Condensed Bold (TrueType)"="Z:\\usr\\share\\fonts\\dejavu-serif-fonts\\DejaVuSerifCondensed-Bold.ttf"
+"DejaVu Serif Condensed Bold Italic (TrueType)"="Z:\\usr\\share\\fonts\\dejavu-serif-fonts\\DejaVuSerifCondensed-BoldItalic.ttf"
+"DejaVu Serif Condensed Italic (TrueType)"="Z:\\usr\\share\\fonts\\dejavu-serif-fonts\\DejaVuSerifCondensed-Italic.ttf"
+"DejaVu Serif Italic (TrueType)"="Z:\\usr\\share\\fonts\\dejavu-serif-fonts\\DejaVuSerif-Italic.ttf"
+"DejaVuMathTeXGyre-Regular (TrueType)"="Z:\\usr\\share\\fonts\\dejavu-serif-fonts\\DejaVuMathTeXGyre.ttf"
+"Droid Arabic Kufi (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidKufi-Regular.ttf"
+"Droid Arabic Kufi Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidKufi-Bold.ttf"
+"Droid Sans (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSans.ttf"
+"Droid Sans Armenian (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansArmenian.ttf"
+"Droid Sans Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSans-Bold.ttf"
+"Droid Sans Devanagari (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansDevanagari-Regular.ttf"
+"Droid Sans Ethiopic (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansEthiopic-Regular.ttf"
+"Droid Sans Ethiopic Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansEthiopic-Bold.ttf"
+"Droid Sans Fallback (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansFallbackFull.ttf"
+"Droid Sans Georgian (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansGeorgian.ttf"
+"Droid Sans Hebrew (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansHebrew-Regular.ttf"
+"Droid Sans Hebrew Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansHebrew-Bold.ttf"
+"Droid Sans Japanese (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansJapanese.ttf"
+"Droid Sans Tamil (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansTamil-Regular.ttf"
+"Droid Sans Tamil Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansTamil-Bold.ttf"
+"Droid Sans Thai (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansThai.ttf"
+"Jomolhari (TrueType)"="Z:\\usr\\share\\fonts\\jomolhari-fonts\\Jomolhari-alpha3c-0605331.ttf"
+"Khmer OS System (TrueType)"="Z:\\usr\\share\\fonts\\khmer-os-system-fonts\\KhmerOS_sys.ttf"
+"Liberation Mono (TrueType)"="Z:\\usr\\share\\fonts\\liberation-mono\\LiberationMono-Regular.ttf"
+"Liberation Mono Bold (TrueType)"="Z:\\usr\\share\\fonts\\liberation-mono\\LiberationMono-Bold.ttf"
+"Liberation Mono Bold Italic (TrueType)"="Z:\\usr\\share\\fonts\\liberation-mono\\LiberationMono-BoldItalic.ttf"
+"Liberation Mono Italic (TrueType)"="Z:\\usr\\share\\fonts\\liberation-mono\\LiberationMono-Italic.ttf"
+"Liberation Sans (TrueType)"="Z:\\usr\\share\\fonts\\liberation-sans\\LiberationSans-Regular.ttf"
+"Liberation Sans Bold (TrueType)"="Z:\\usr\\share\\fonts\\liberation-sans\\LiberationSans-Bold.ttf"
+"Liberation Sans Bold Italic (TrueType)"="Z:\\usr\\share\\fonts\\liberation-sans\\LiberationSans-BoldItalic.ttf"
+"Liberation Sans Italic (TrueType)"="Z:\\usr\\share\\fonts\\liberation-sans\\LiberationSans-Italic.ttf"
+"Liberation Serif (TrueType)"="Z:\\usr\\share\\fonts\\liberation-serif\\LiberationSerif-Regular.ttf"
+"Liberation Serif Bold (TrueType)"="Z:\\usr\\share\\fonts\\liberation-serif\\LiberationSerif-Bold.ttf"
+"Liberation Serif Bold Italic (TrueType)"="Z:\\usr\\share\\fonts\\liberation-serif\\LiberationSerif-BoldItalic.ttf"
+"Liberation Serif Italic (TrueType)"="Z:\\usr\\share\\fonts\\liberation-serif\\LiberationSerif-Italic.ttf"
+"Lohit Assamese (TrueType)"="Z:\\usr\\share\\fonts\\lohit-assamese\\Lohit-Assamese.ttf"
+"Lohit Bengali (TrueType)"="Z:\\usr\\share\\fonts\\lohit-bengali\\Lohit-Bengali.ttf"
+"Lohit Devanagari (TrueType)"="Z:\\usr\\share\\fonts\\lohit-devanagari\\Lohit-Devanagari.ttf"
+"Lohit Gujarati (TrueType)"="Z:\\usr\\share\\fonts\\lohit-gujarati\\Lohit-Gujarati.ttf"
+"Lohit Kannada (TrueType)"="Z:\\usr\\share\\fonts\\lohit-kannada\\Lohit-Kannada.ttf"
+"Lohit Odia (TrueType)"="Z:\\usr\\share\\fonts\\lohit-odia\\Lohit-Odia.ttf"
+"Lohit Tamil (TrueType)"="Z:\\usr\\share\\fonts\\lohit-tamil\\Lohit-Tamil.ttf"
+"Lohit Telugu (TrueType)"="Z:\\usr\\share\\fonts\\lohit-telugu\\Lohit-Telugu.ttf"
 "Marlett (TrueType)"="Z:\\opt\\wine-stable\\share\\wine\\fonts\\marlett.ttf"
+"Meera New Regular (TrueType)"="Z:\\usr\\share\\fonts\\rit-meera-new-fonts\\MeeraNew.otf"
+"Mingzat (TrueType)"="Z:\\usr\\share\\fonts\\sil-mingzat\\Mingzat-Regular.ttf"
+"Montserrat Black (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-Black.otf"
+"Montserrat Black Italic (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-BlackItalic.otf"
+"Montserrat Bold (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-Bold.otf"
+"Montserrat Bold Italic (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-BoldItalic.otf"
+"Montserrat ExtraBold (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-ExtraBold.otf"
+"Montserrat ExtraBold Italic (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-ExtraBoldItalic.otf"
+"Montserrat ExtraLight (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-ExtraLight.otf"
+"Montserrat ExtraLight Italic (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-ExtraLightItalic.otf"
+"Montserrat Italic (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-Italic.otf"
+"Montserrat Light (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-Light.otf"
+"Montserrat Light Italic (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-LightItalic.otf"
+"Montserrat Medium (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-Medium.otf"
+"Montserrat Medium Italic (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-MediumItalic.otf"
+"Montserrat Regular (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-Regular.otf"
+"Montserrat SemiBold (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-SemiBold.otf"
+"Montserrat SemiBold Italic (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-SemiBoldItalic.otf"
+"Montserrat Thin (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-Thin.otf"
+"Montserrat Thin Italic (TrueType)"="Z:\\usr\\share\\fonts\\julietaula-montserrat-fonts\\Montserrat-ThinItalic.otf"
+"NimbusMonoPS-Bold (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusMonoPS-Bold.otf"
+"NimbusMonoPS-BoldItalic (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusMonoPS-BoldItalic.otf"
+"NimbusMonoPS-Italic (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusMonoPS-Italic.otf"
+"NimbusMonoPS-Regular (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusMonoPS-Regular.otf"
+"NimbusRoman-Bold (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusRoman-Bold.otf"
+"NimbusRoman-BoldItalic (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusRoman-BoldItalic.otf"
+"NimbusRoman-Italic (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusRoman-Italic.otf"
+"NimbusRoman-Regular (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusRoman-Regular.otf"
+"NimbusSans-Bold (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusSans-Bold.otf"
+"NimbusSans-BoldItalic (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusSans-BoldItalic.otf"
+"NimbusSans-Italic (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusSans-Italic.otf"
+"NimbusSans-Regular (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusSans-Regular.otf"
+"NimbusSansNarrow-Bold (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusSansNarrow-Bold.otf"
+"NimbusSansNarrow-BoldOblique (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusSansNarrow-BoldOblique.otf"
+"NimbusSansNarrow-Oblique (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusSansNarrow-Oblique.otf"
+"NimbusSansNarrow-Regular (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusSansNarrow-Regular.otf"
+"Noto Color Emoji"="Z:\\usr\\share\\fonts\\google-noto-emoji\\NotoColorEmoji.ttf"
+"Noto Sans CJK HK (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Regular.ttc"
+"Noto Sans CJK HK Black (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Black.ttc"
+"Noto Sans CJK HK Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Bold.ttc"
+"Noto Sans CJK HK DemiLight (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-DemiLight.ttc"
+"Noto Sans CJK HK Light (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Light.ttc"
+"Noto Sans CJK HK Medium (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Medium.ttc"
+"Noto Sans CJK HK Thin (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Thin.ttc"
+"Noto Sans CJK JP (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Regular.ttc"
+"Noto Sans CJK JP Black (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Black.ttc"
+"Noto Sans CJK JP Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Bold.ttc"
+"Noto Sans CJK JP DemiLight (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-DemiLight.ttc"
+"Noto Sans CJK JP Light (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Light.ttc"
+"Noto Sans CJK JP Medium (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Medium.ttc"
+"Noto Sans CJK JP Thin (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Thin.ttc"
+"Noto Sans CJK KR (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Regular.ttc"
+"Noto Sans CJK KR Black (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Black.ttc"
+"Noto Sans CJK KR Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Bold.ttc"
+"Noto Sans CJK KR DemiLight (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-DemiLight.ttc"
+"Noto Sans CJK KR Light (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Light.ttc"
+"Noto Sans CJK KR Medium (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Medium.ttc"
+"Noto Sans CJK KR Thin (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Thin.ttc"
+"Noto Sans CJK SC (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Regular.ttc"
+"Noto Sans CJK SC Black (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Black.ttc"
+"Noto Sans CJK SC Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Bold.ttc"
+"Noto Sans CJK SC DemiLight (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-DemiLight.ttc"
+"Noto Sans CJK SC Light (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Light.ttc"
+"Noto Sans CJK SC Medium (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Medium.ttc"
+"Noto Sans CJK SC Thin (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Thin.ttc"
+"Noto Sans CJK TC (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Regular.ttc"
+"Noto Sans CJK TC Black (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Black.ttc"
+"Noto Sans CJK TC Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Bold.ttc"
+"Noto Sans CJK TC DemiLight (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-DemiLight.ttc"
+"Noto Sans CJK TC Light (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Light.ttc"
+"Noto Sans CJK TC Medium (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Medium.ttc"
+"Noto Sans CJK TC Thin (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Thin.ttc"
+"Noto Sans Gurmukhi Black (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-Black.ttf"
+"Noto Sans Gurmukhi Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-Bold.ttf"
+"Noto Sans Gurmukhi Condensed (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-Condensed.ttf"
+"Noto Sans Gurmukhi Condensed Black (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-CondensedBlack.ttf"
+"Noto Sans Gurmukhi Condensed Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-CondensedBold.ttf"
+"Noto Sans Gurmukhi Condensed ExtraBold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-CondensedExtraBold.ttf"
+"Noto Sans Gurmukhi Condensed ExtraLight (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-CondensedExtraLight.ttf"
+"Noto Sans Gurmukhi Condensed Light (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-CondensedLight.ttf"
+"Noto Sans Gurmukhi Condensed Medium (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-CondensedMedium.ttf"
+"Noto Sans Gurmukhi Condensed SemiBold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-CondensedSemiBold.ttf"
+"Noto Sans Gurmukhi Condensed Thin (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-CondensedThin.ttf"
+"Noto Sans Gurmukhi ExtraBold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-ExtraBold.ttf"
+"Noto Sans Gurmukhi ExtraCondensed (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-ExtraCondensed.ttf"
+"Noto Sans Gurmukhi ExtraCondensed Black (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-ExtraCondensedBlack.ttf"
+"Noto Sans Gurmukhi ExtraCondensed Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-ExtraCondensedBold.ttf"
+"Noto Sans Gurmukhi ExtraCondensed ExtraBold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-ExtraCondensedExtraBold.ttf"
+"Noto Sans Gurmukhi ExtraCondensed ExtraLight (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-ExtraCondensedExtraLight.ttf"
+"Noto Sans Gurmukhi ExtraCondensed Light (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-ExtraCondensedLight.ttf"
+"Noto Sans Gurmukhi ExtraCondensed Medium (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-ExtraCondensedMedium.ttf"
+"Noto Sans Gurmukhi ExtraCondensed SemiBold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-ExtraCondensedSemiBold.ttf"
+"Noto Sans Gurmukhi ExtraCondensed Thin (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-ExtraCondensedThin.ttf"
+"Noto Sans Gurmukhi ExtraLight (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-ExtraLight.ttf"
+"Noto Sans Gurmukhi Light (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-Light.ttf"
+"Noto Sans Gurmukhi Medium (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-Medium.ttf"
+"Noto Sans Gurmukhi Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-Regular.ttf"
+"Noto Sans Gurmukhi SemiBold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-SemiBold.ttf"
+"Noto Sans Gurmukhi SemiCondensed (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-SemiCondensed.ttf"
+"Noto Sans Gurmukhi SemiCondensed Black (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-SemiCondensedBlack.ttf"
+"Noto Sans Gurmukhi SemiCondensed Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-SemiCondensedBold.ttf"
+"Noto Sans Gurmukhi SemiCondensed ExtraBold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-SemiCondensedExtraBold.ttf"
+"Noto Sans Gurmukhi SemiCondensed ExtraLight (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-SemiCondensedExtraLight.ttf"
+"Noto Sans Gurmukhi SemiCondensed Light (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-SemiCondensedLight.ttf"
+"Noto Sans Gurmukhi SemiCondensed Medium (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-SemiCondensedMedium.ttf"
+"Noto Sans Gurmukhi SemiCondensed SemiBold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-SemiCondensedSemiBold.ttf"
+"Noto Sans Gurmukhi SemiCondensed Thin (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-SemiCondensedThin.ttf"
+"Noto Sans Gurmukhi Thin (TrueType)"="Z:\\usr\\share\\fonts\\google-noto\\NotoSansGurmukhi-Thin.ttf"
+"Noto Sans Italic (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSans-Italic-VF.ttf"
+"Noto Sans Mono CJK HK (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Regular.ttc"
+"Noto Sans Mono CJK HK Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Bold.ttc"
+"Noto Sans Mono CJK JP (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Regular.ttc"
+"Noto Sans Mono CJK JP Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Bold.ttc"
+"Noto Sans Mono CJK KR (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Regular.ttc"
+"Noto Sans Mono CJK KR Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Bold.ttc"
+"Noto Sans Mono CJK SC (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Regular.ttc"
+"Noto Sans Mono CJK SC Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Bold.ttc"
+"Noto Sans Mono CJK TC (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Regular.ttc"
+"Noto Sans Mono CJK TC Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Bold.ttc"
+"Noto Sans Mono Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansMono-VF.ttf"
+"Noto Sans Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSans-VF.ttf"
+"Noto Sans Sinhala Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSansSinhala-VF.ttf"
+"Noto Serif Italic (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSerif-Italic-VF.ttf"
+"Noto Serif Regular (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-vf\\NotoSerif-VF.ttf"
+"Nuosu SIL (TrueType)"="Z:\\usr\\share\\fonts\\sil-nuosu\\NuosuSIL-Regular.ttf"
+"OpenSymbol (TrueType)"="Z:\\usr\\share\\fonts\\opensymbol\\opens___.ttf"
+"P052-Bold (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\P052-Bold.otf"
+"P052-BoldItalic (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\P052-BoldItalic.otf"
+"P052-Italic (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\P052-Italic.otf"
+"P052-Roman (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\P052-Roman.otf"
+"Padauk (TrueType)"="Z:\\usr\\share\\fonts\\sil-padauk\\Padauk-Regular.ttf"
+"Padauk Bold (TrueType)"="Z:\\usr\\share\\fonts\\sil-padauk\\Padauk-Bold.ttf"
+"PakType Naskh Basic (TrueType)"="Z:\\usr\\share\\fonts\\paktype-naskh-basic\\PakTypeNaskhBasic.ttf"
+"Source Code Pro (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro\\SourceCodePro-Regular.otf"
+"Source Code Pro Black (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro\\SourceCodePro-Black.otf"
+"Source Code Pro Black Italic (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro\\SourceCodePro-BlackIt.otf"
+"Source Code Pro Bold (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro\\SourceCodePro-Bold.otf"
+"Source Code Pro Bold Italic (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro\\SourceCodePro-BoldIt.otf"
+"Source Code Pro ExtraLight (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro\\SourceCodePro-ExtraLight.otf"
+"Source Code Pro ExtraLight Italic (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro\\SourceCodePro-ExtraLightIt.otf"
+"Source Code Pro Italic (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro\\SourceCodePro-It.otf"
+"Source Code Pro Light (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro\\SourceCodePro-Light.otf"
+"Source Code Pro Light Italic (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro\\SourceCodePro-LightIt.otf"
+"Source Code Pro Medium (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro\\SourceCodePro-Medium.otf"
+"Source Code Pro Medium Italic (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro\\SourceCodePro-MediumIt.otf"
+"Source Code Pro Semibold (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro\\SourceCodePro-Semibold.otf"
+"Source Code Pro Semibold Italic (TrueType)"="Z:\\usr\\share\\fonts\\adobe-source-code-pro\\SourceCodePro-SemiboldIt.otf"
+"STIX Two Math (TrueType)"="Z:\\usr\\share\\fonts\\stix-fonts\\STIX2Math.otf"
+"STIX Two Text (TrueType)"="Z:\\usr\\share\\fonts\\stix-fonts\\STIX2Text-Regular.otf"
+"STIX Two Text Bold (TrueType)"="Z:\\usr\\share\\fonts\\stix-fonts\\STIX2Text-Bold.otf"
+"STIX Two Text Bold Italic (TrueType)"="Z:\\usr\\share\\fonts\\stix-fonts\\STIX2Text-BoldItalic.otf"
+"STIX Two Text Italic (TrueType)"="Z:\\usr\\share\\fonts\\stix-fonts\\STIX2Text-Italic.otf"
 "Symbol (TrueType)"="Z:\\opt\\wine-stable\\share\\wine\\fonts\\symbol.ttf"
+"Symbola (TrueType)"="Z:\\usr\\share\\fonts\\gdouros-symbola\\Symbola.ttf"
 "Tahoma (TrueType)"="Z:\\opt\\wine-stable\\share\\wine\\fonts\\tahoma.ttf"
 "Tahoma Bold (TrueType)"="Z:\\opt\\wine-stable\\share\\wine\\fonts\\tahomabd.ttf"
+"URWBookman-Demi (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\URWBookman-Demi.otf"
+"URWBookman-DemiItalic (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\URWBookman-DemiItalic.otf"
+"URWBookman-Light (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\URWBookman-Light.otf"
+"URWBookman-LightItalic (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\URWBookman-LightItalic.otf"
+"URWGothic-Book (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\URWGothic-Book.otf"
+"URWGothic-BookOblique (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\URWGothic-BookOblique.otf"
+"URWGothic-Demi (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\URWGothic-Demi.otf"
+"URWGothic-DemiOblique (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\URWGothic-DemiOblique.otf"
+"Waree (TrueType)"="Z:\\usr\\share\\fonts\\thai-scalable\\Waree.otf"
+"Waree Bold (TrueType)"="Z:\\usr\\share\\fonts\\thai-scalable\\Waree-Bold.otf"
+"Waree Bold Oblique (TrueType)"="Z:\\usr\\share\\fonts\\thai-scalable\\Waree-BoldOblique.otf"
+"Waree Oblique (TrueType)"="Z:\\usr\\share\\fonts\\thai-scalable\\Waree-Oblique.otf"
 "Webdings (TrueType)"="Z:\\opt\\wine-stable\\share\\wine\\fonts\\webdings.ttf"
 "Wingdings (TrueType)"="Z:\\opt\\wine-stable\\share\\wine\\fonts\\wingding.ttf"
+"Z003-MediumItalic (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\Z003-MediumItalic.otf"
 
-[Software\\Wine\\MenuFiles] 1662002901
-#time=1d8bdb2e2d1c874
-"\\\\?\\Z:\\root\\.config\\menus\\applications-merged\\wine-Programs-Python 3.10-IDLE (Python 3.10 64-bit).menu"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\IDLE (Python 3.10 64-bit).lnk"
-"\\\\?\\Z:\\root\\.config\\menus\\applications-merged\\wine-Programs-Python 3.10-Python 3.10 (64-bit).menu"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\Python 3.10 (64-bit).lnk"
-"\\\\?\\Z:\\root\\.config\\menus\\applications-merged\\wine-Programs-Python 3.10-Python 3.10 Manuals (64-bit).menu"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\Python 3.10 Manuals (64-bit).lnk"
-"\\\\?\\Z:\\root\\.config\\menus\\applications-merged\\wine-Programs-Python 3.10-Python 3.10 Module Docs (64-bit).menu"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\Python 3.10 Module Docs (64-bit).lnk"
-"\\\\?\\Z:\\root\\.local\\share\\applications\\wine\\Programs\\Python 3.10\\IDLE (Python 3.10 64-bit).desktop"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\IDLE (Python 3.10 64-bit).lnk"
-"\\\\?\\Z:\\root\\.local\\share\\applications\\wine\\Programs\\Python 3.10\\Python 3.10 (64-bit).desktop"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\Python 3.10 (64-bit).lnk"
-"\\\\?\\Z:\\root\\.local\\share\\applications\\wine\\Programs\\Python 3.10\\Python 3.10 Manuals (64-bit).desktop"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\Python 3.10 Manuals (64-bit).lnk"
-"\\\\?\\Z:\\root\\.local\\share\\applications\\wine\\Programs\\Python 3.10\\Python 3.10 Module Docs (64-bit).desktop"="C:\\users\\root\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\Python 3.10 Module Docs (64-bit).lnk"
+[Software\\Wine\\MenuFiles] 1662919149
+#time=1d8c6083162e72c
+"\\\\?\\Z:\\home\\cmedi97\\.config\\menus\\applications-merged\\wine-Programs-MetaTrader 5-MetaEditor.menu"="C:\\users\\cmedi97\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\MetaTrader 5\\MetaEditor.lnk"
+"\\\\?\\Z:\\home\\cmedi97\\.config\\menus\\applications-merged\\wine-Programs-MetaTrader 5-MetaTrader 5.menu"="C:\\users\\cmedi97\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\MetaTrader 5\\MetaTrader 5.lnk"
+"\\\\?\\Z:\\home\\cmedi97\\.config\\menus\\applications-merged\\wine-Programs-MetaTrader 5-Uninstall.menu"="C:\\users\\cmedi97\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\MetaTrader 5\\Uninstall.lnk"
+"\\\\?\\Z:\\home\\cmedi97\\.config\\menus\\applications-merged\\wine-Programs-Python 3.10-IDLE (Python 3.10 64-bit).menu"="C:\\users\\cmedi97\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\IDLE (Python 3.10 64-bit).lnk"
+"\\\\?\\Z:\\home\\cmedi97\\.config\\menus\\applications-merged\\wine-Programs-Python 3.10-Python 3.10 (64-bit).menu"="C:\\users\\cmedi97\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\Python 3.10 (64-bit).lnk"
+"\\\\?\\Z:\\home\\cmedi97\\.config\\menus\\applications-merged\\wine-Programs-Python 3.10-Python 3.10 Manuals (64-bit).menu"="C:\\users\\cmedi97\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\Python 3.10 Manuals (64-bit).lnk"
+"\\\\?\\Z:\\home\\cmedi97\\.config\\menus\\applications-merged\\wine-Programs-Python 3.10-Python 3.10 Module Docs (64-bit).menu"="C:\\users\\cmedi97\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\Python 3.10 Module Docs (64-bit).lnk"
+"\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine\\Programs\\MetaTrader 5\\MetaEditor.desktop"="C:\\users\\cmedi97\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\MetaTrader 5\\MetaEditor.lnk"
+"\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine\\Programs\\MetaTrader 5\\MetaTrader 5.desktop"="C:\\users\\cmedi97\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\MetaTrader 5\\MetaTrader 5.lnk"
+"\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine\\Programs\\MetaTrader 5\\Uninstall.desktop"="C:\\users\\cmedi97\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\MetaTrader 5\\Uninstall.lnk"
+"\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine\\Programs\\Python 3.10\\IDLE (Python 3.10 64-bit).desktop"="C:\\users\\cmedi97\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\IDLE (Python 3.10 64-bit).lnk"
+"\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine\\Programs\\Python 3.10\\Python 3.10 (64-bit).desktop"="C:\\users\\cmedi97\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\Python 3.10 (64-bit).lnk"
+"\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine\\Programs\\Python 3.10\\Python 3.10 Manuals (64-bit).desktop"="C:\\users\\cmedi97\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\Python 3.10 Manuals (64-bit).lnk"
+"\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine\\Programs\\Python 3.10\\Python 3.10 Module Docs (64-bit).desktop"="C:\\users\\cmedi97\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.10\\Python 3.10 Module Docs (64-bit).lnk"
+"C:\\users\\cmedi97\\Desktop\\MetaEditor 5.desktop"="C:\\users\\Public\\Desktop\\MetaEditor 5.lnk"
+"C:\\users\\cmedi97\\Desktop\\MetaTrader 5.desktop"="C:\\users\\Public\\Desktop\\MetaTrader 5.lnk"
 
-[Volatile Environment] 1662784864
-#time=1d8c4cf891a5b88
-"APPDATA"="C:\\users\\root\\AppData\\Roaming"
+[Volatile Environment] 1662919130
+#time=1d8c60825ba3d6c
+"APPDATA"="C:\\users\\cmedi97\\AppData\\Roaming"
 "CLIENTNAME"="Console"
 "HOMEDRIVE"="C:"
-"HOMEPATH"="\\users\\root"
+"HOMEPATH"="\\users\\cmedi97"
 "HOMESHARE"=""
-"LOCALAPPDATA"="C:\\users\\root\\AppData\\Local"
-"LOGONSERVER"="\\\\2476B6B984D8"
+"LOCALAPPDATA"="C:\\users\\cmedi97\\AppData\\Local"
+"LOGONSERVER"="\\\\FEDORA"
 "SESSIONNAME"="Console"
-"USERDOMAIN"="2476B6B984D8"
-"USERNAME"="root"
-"USERPROFILE"="C:\\users\\root"
+"USERDOMAIN"="FEDORA"
+"USERNAME"="cmedi97"
+"USERPROFILE"="C:\\users\\cmedi97"

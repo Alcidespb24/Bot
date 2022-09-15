@@ -1,7 +1,9 @@
 from mt5linux import MetaTrader5
 
+mt5 = MetaTrader5()
+
 def init():
-    mt5 = MetaTrader5()
+    
     mt5.initialize()
 
     login = 1051286908
@@ -16,7 +18,5 @@ def init():
             print("  {}={}".format(prop, account_info_dict[prop]))
     else:
         print(
-            "failed to connect at account #{}, error code: {}".format(
-                account, mt5.last_error()
-            )
+            "failed to connect at account #"
         )

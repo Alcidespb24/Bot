@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-import MetaTrader5 as mt5
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
 from pylab import mpl, plt
