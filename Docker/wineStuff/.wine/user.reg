@@ -253,16 +253,16 @@ WINE REGISTRY Version 2
 [Software\\Classes\\Installer\\Dependencies\\{C91F8E4B-F9C1-4FD1-BCF3-4A91CDAD4B72}\\Dependents\\{1fab56ed-b241-47a3-9abc-d51dc01b8dff}] 1662919144
 #time=1d8c6082e226cfe
 
-[Software\\MetaQuotes Software] 1662930843
-#time=1d8c6236b1ff890
-"AP"="api1.mql5.net=122;api4.mql5.net=149;api8.mql5.net=186;api10.mql5.net=199;api13.mql5.net=267;api3.mql5.net=268;api7.mql5.net=269;api2.mql5.net=360;api9.mql5.net=404;api5.mql5.net=413;api6.mql5.net=416;api11.mql5.net=431;api12.mql5.net=614"
-"AP.Time"="1662792636"
+[Software\\MetaQuotes Software] 1663299884
+#time=1d8c97ea915509c
+"AP"="api7.mql5.net=53;api13.mql5.net=301;api4.mql5.net=316;api1.mql5.net=372;api8.mql5.net=389;api9.mql5.net=405;api11.mql5.net=407;api12.mql5.net=408;api6.mql5.net=435;api5.mql5.net=454;api3.mql5.net=565;api2.mql5.net=615;api10.mql5.net=5356"
+"AP.Time"="1663299821"
 "Cloud.Servers"="agent1=134;agent2=42;agent4=42"
-"Hosting.Ping"="118"
-"Hosting.Server"="MQL5 Amsterdam 11 (MQL5.community)"
+"Hosting.Ping"="1890"
+"Hosting.Server"="MQL5 New York NY4 21 (MQL5.community)"
 "ID"="4982575260931433870"
 "Install.Time"="1662792590"
-"Trade.Server"="MetaQuotes-Demo"
+"Trade.Server"="FTMO-Demo"
 "VideoAdapters"="Intel(R) HD Graphics 4000"
 
 [Software\\MetaQuotes Software\\MetaTrader 5] 1662792620
@@ -877,17 +877,17 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\SystemCertificates\\Trust\\CTLs] 1662792591
 #time=1d8c4e1867a6488
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1662792554
-#time=1d8c4e170ebcc24
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1663299795
+#time=1d8c97e73baccc4
 "Administrative Tools"="C:\\users\\cmedi97\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools"
-"AppData"="C:\\users\\cmedi97\\AppData\\Roaming"
-"Cache"="C:\\users\\cmedi97\\AppData\\Local\\Microsoft\\Windows\\INetCache"
-"Cookies"="C:\\users\\cmedi97\\AppData\\Local\\Microsoft\\Windows\\INetCookies"
-"Desktop"="C:\\users\\cmedi97\\Desktop"
+"AppData"="C:\\users\\root\\AppData\\Roaming"
+"Cache"="C:\\users\\root\\AppData\\Local\\Microsoft\\Windows\\INetCache"
+"Cookies"="C:\\users\\root\\AppData\\Local\\Microsoft\\Windows\\INetCookies"
+"Desktop"="C:\\users\\root\\Desktop"
 "Favorites"="C:\\users\\cmedi97\\Favorites"
 "Fonts"="C:\\windows\\Fonts"
-"History"="C:\\users\\cmedi97\\AppData\\Local\\Microsoft\\Windows\\History"
-"Local AppData"="C:\\users\\cmedi97\\AppData\\Local"
+"History"="C:\\users\\root\\AppData\\Local\\Microsoft\\Windows\\History"
+"Local AppData"="C:\\users\\root\\AppData\\Local"
 "My Music"="C:\\users\\cmedi97\\Music"
 "My Pictures"="C:\\users\\cmedi97\\Pictures"
 "My Videos"="C:\\users\\cmedi97\\Videos"
@@ -1217,17 +1217,14 @@ WINE REGISTRY Version 2
 #time=1d8c4e175d490a4
 "ProgId"="https"
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\Devices] 1662919130
-#time=1d8c6082627238c
-"HP_Color_LaserJet_MFP_M477fnw_070B40"="wineps.drv,CUPS:HP_Color_LaserJet_MFP_M477fnw_070B40"
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Devices] 1663299795
+#time=1d8c97e73b7b282
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\PrinterPorts] 1662919130
-#time=1d8c608262724ae
-"HP_Color_LaserJet_MFP_M477fnw_070B40"="wineps.drv,CUPS:HP_Color_LaserJet_MFP_M477fnw_070B40,15,45"
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\PrinterPorts] 1663299795
+#time=1d8c97e73b7b46c
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows] 1662919130
-#time=1d8c6082627722e
-"device"="HP_Color_LaserJet_MFP_M477fnw_070B40,wineps.drv,CUPS:HP_Color_LaserJet_MFP_M477fnw_070B40"
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows] 1663299795
+#time=1d8c97e73b7bf20
 
 [Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon] 1662792563
 #time=1d8c4e175d37f70
@@ -1303,12 +1300,12 @@ WINE REGISTRY Version 2
 "OpenWithIcon"="D15F_hh.0"
 "ProgID"="chm.file"
 
-[Software\\Wine\\FileOpenAssociations\\.ex5] 1662792598
-#time=1d8c4e18afb9e50
+[Software\\Wine\\FileOpenAssociations\\.ex5] 1663299800
+#time=1d8c97e76a42d18
 "AppName"="MetaTrader 5 Client Terminal"
-"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-ex5.desktop"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-ex5.desktop"
 "MimeType"="application/x-wine-extension-ex5"
-"OpenWithIcon"="1967_terminal64.0"
+"OpenWithIcon"="4C86_terminal64.0"
 "ProgID"="EX5.File"
 
 [Software\\Wine\\FileOpenAssociations\\.gif] 1662792590
@@ -1359,20 +1356,20 @@ WINE REGISTRY Version 2
 "OpenWithIcon"="ECB7_iexplore.0"
 "ProgID"="jpegfile"
 
-[Software\\Wine\\FileOpenAssociations\\.mq5] 1662792598
-#time=1d8c4e18b146caa
+[Software\\Wine\\FileOpenAssociations\\.mq5] 1663299800
+#time=1d8c97e772cae0e
 "AppName"="MetaEditor"
-"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-mq5.desktop"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-mq5.desktop"
 "MimeType"="application/x-wine-extension-mq5"
-"OpenWithIcon"="3F42_metaeditor64.0"
+"OpenWithIcon"="1364_metaeditor64.0"
 "ProgID"="MQL5.File"
 
-[Software\\Wine\\FileOpenAssociations\\.mqh] 1662792598
-#time=1d8c4e18b171630
+[Software\\Wine\\FileOpenAssociations\\.mqh] 1663299801
+#time=1d8c97e773b7466
 "AppName"="MetaEditor"
-"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-mqh.desktop"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-mqh.desktop"
 "MimeType"="application/x-wine-extension-mqh"
-"OpenWithIcon"="3F42_metaeditor64.0"
+"OpenWithIcon"="1364_metaeditor64.0"
 "ProgID"="MQL5.Header"
 
 [Software\\Wine\\FileOpenAssociations\\.msp] 1662792590
@@ -1383,12 +1380,12 @@ WINE REGISTRY Version 2
 "OpenWithIcon"="D23E_msiexec.0"
 "ProgID"="Msi.Patch"
 
-[Software\\Wine\\FileOpenAssociations\\.mt5] 1662792598
-#time=1d8c4e18b1d0a40
+[Software\\Wine\\FileOpenAssociations\\.mt5] 1663299801
+#time=1d8c97e77566e06
 "AppName"="MetaTrader 5 Client Terminal"
-"DesktopFile"="\\\\?\\Z:\\home\\cmedi97\\.local\\share\\applications\\wine-extension-mt5.desktop"
+"DesktopFile"="\\\\?\\Z:\\root\\.local\\share\\applications\\wine-extension-mt5.desktop"
 "MimeType"="application/x-wine-extension-mt5"
-"OpenWithIcon"="1967_terminal64.0"
+"OpenWithIcon"="4C86_terminal64.0"
 "ProgID"="MetaTrader 5 Export File"
 
 [Software\\Wine\\FileOpenAssociations\\.pdf] 1662792590
@@ -1495,13 +1492,13 @@ WINE REGISTRY Version 2
 "OpenWithIcon"="81F5_winebrowser.0"
 "ProgID"="xmlfile"
 
-[Software\\Wine\\Fonts] 1662930832
-#time=1d8c62364ea8972
+[Software\\Wine\\Fonts] 1663299792
+#time=1d8c97e72394c5e
 "Codepages"="1252,437"
 "LogPixels"=dword:00000060
 
-[Software\\Wine\\Fonts\\External Fonts] 1662930832
-#time=1d8c62364eb326e
+[Software\\Wine\\Fonts\\External Fonts] 1663299792
+#time=1d8c97e723aa7ca
 "@Droid Sans Fallback (TrueType)"="Z:\\usr\\share\\fonts\\google-droid-sans-fonts\\DroidSansFallbackFull.ttf"
 "@Noto Sans CJK HK (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Regular.ttc"
 "@Noto Sans CJK HK Black (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Black.ttc"
@@ -1667,7 +1664,6 @@ WINE REGISTRY Version 2
 "NimbusSansNarrow-BoldOblique (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusSansNarrow-BoldOblique.otf"
 "NimbusSansNarrow-Oblique (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusSansNarrow-Oblique.otf"
 "NimbusSansNarrow-Regular (TrueType)"="Z:\\usr\\share\\fonts\\urw-base35\\NimbusSansNarrow-Regular.otf"
-"Noto Color Emoji"="Z:\\usr\\share\\fonts\\google-noto-emoji\\NotoColorEmoji.ttf"
 "Noto Sans CJK HK (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Regular.ttc"
 "Noto Sans CJK HK Black (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Black.ttc"
 "Noto Sans CJK HK Bold (TrueType)"="Z:\\usr\\share\\fonts\\google-noto-cjk\\NotoSansCJK-Bold.ttc"
@@ -1822,16 +1818,16 @@ WINE REGISTRY Version 2
 "C:\\users\\cmedi97\\Desktop\\MetaEditor 5.desktop"="C:\\users\\Public\\Desktop\\MetaEditor 5.lnk"
 "C:\\users\\cmedi97\\Desktop\\MetaTrader 5.desktop"="C:\\users\\Public\\Desktop\\MetaTrader 5.lnk"
 
-[Volatile Environment] 1662919130
-#time=1d8c60825ba3d6c
-"APPDATA"="C:\\users\\cmedi97\\AppData\\Roaming"
+[Volatile Environment] 1663299794
+#time=1d8c97e733ca33a
+"APPDATA"="C:\\users\\root\\AppData\\Roaming"
 "CLIENTNAME"="Console"
 "HOMEDRIVE"="C:"
-"HOMEPATH"="\\users\\cmedi97"
+"HOMEPATH"="\\users\\root"
 "HOMESHARE"=""
-"LOCALAPPDATA"="C:\\users\\cmedi97\\AppData\\Local"
+"LOCALAPPDATA"="C:\\users\\root\\AppData\\Local"
 "LOGONSERVER"="\\\\FEDORA"
 "SESSIONNAME"="Console"
 "USERDOMAIN"="FEDORA"
-"USERNAME"="cmedi97"
-"USERPROFILE"="C:\\users\\cmedi97"
+"USERNAME"="root"
+"USERPROFILE"="C:\\users\\root"
