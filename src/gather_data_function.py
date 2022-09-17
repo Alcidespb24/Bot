@@ -43,8 +43,8 @@ def gather_data(symbol, start_from):
             return momentum_down
 
     df['momentum'] = df.apply(conditions, axis=1)
-    df.loc[df['range_price'] > 6, 'candle_clasification' ] = 'Significant G Candle'
-    df.loc[df['range_price'] < -6, 'candle_clasification' ] = 'Significant R Candle'
+    df.loc[df['range_price'] > 5, 'candle_clasification' ] = 'Significant G Candle'
+    df.loc[df['range_price'] < -5, 'candle_clasification' ] = 'Significant R Candle'
 
     df['rel_volume'] = df.tick_volume > 625
 
