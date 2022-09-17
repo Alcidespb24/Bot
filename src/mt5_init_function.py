@@ -4,13 +4,9 @@ from mt5linux import MetaTrader5
 
 mt5 = MetaTrader5()
 
-def init():
-    retryCounter:int = 0
-    
-    while retryCounter < 3 and not mt5.initialize(path="/root/.wine/drive_c/Program Files/MetaTrader 5/terminal64.exe"):
-        retryCounter = retryCounter + 1
-        sleep(3)
-    
+def init():    
+    mt5.initialize(path="/root/.wine/drive_c/Program Files/MetaTrader 5/terminal64.exe")
+
     if mt5.terminal_info() != None:
         quit()
         

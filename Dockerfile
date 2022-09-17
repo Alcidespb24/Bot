@@ -45,4 +45,4 @@ COPY ./src ./app
 
 
 #CMD ./root/init.sh
-CMD /bin/bash
+CMD ./root/init.sh
