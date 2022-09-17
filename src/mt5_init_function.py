@@ -1,10 +1,19 @@
+from operator import eq
+from time import sleep
 from mt5linux import MetaTrader5
 
 mt5 = MetaTrader5()
 
 def init():
+    retryCounter:int = 0
     
-    mt5.initialize()
+    while retryCounter < 3 and not mt5.initialize(path="/root/.wine/drive_c/Program Files/MetaTrader 5/terminal64.exe"):
+        retryCounter = retryCounter + 1
+        sleep(3)
+    
+    if mt5.terminal_info() != None:
+        quit()
+        
 
     login = 1051286908
     password = "G6NEWUYDL5"
