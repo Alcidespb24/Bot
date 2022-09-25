@@ -91,8 +91,8 @@ def reading_state ():
                     states = get_states(df, f"{symbol}")
                     if states == "Buy":
                         print("Order Type: " + states)
-                        open_position(f"{symbol}", "Buy", lots, df.tp.iloc[-1], df.sl.iloc[-1], "Buy_Order")
+                        open_position(f"{symbol}", "Buy", lots, df.tp.iloc[-1], df.sl.iloc[-1], "Buy_Updated")
                     elif states == "Sell":
                         print('Order Type: ' + states)
-                        open_position(f"{symbol}", "Sell", lots, df.tp.iloc[-1], df.sl.iloc[-1],"Sell_Order")
+                        open_position(f"{symbol}", "Sell", lots, df.tp.iloc[-1], df.sl.iloc[-1],"Sell_Updated")
 reading_state()
