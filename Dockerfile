@@ -11,7 +11,7 @@ RUN mkdir /app
 COPY ./src ./app
 
 RUN apt update && \ 
-    apt-get -yq install xserver-xorg-video-dummy
+    apt-get -yq install xserver-xorg-video-dummy ncat
 
 # install python dependencies 
 RUN pip install --no-cache-dir -r ./app/requirements.txt
@@ -19,12 +19,13 @@ RUN pip install --no-cache-dir -r ./app/requirements.txt
 # Copy helper Files
 COPY ./Docker/ /root
 
+#install python and wine
 RUN chmod u+x /root/installPython.sh && \
     ./root/installPython.sh
-    
+
 #copy MetaTrader 5 installation
 RUN unzip /root/MetaTrader\ 5.zip -d /root && \
-    mv /root/MetaTrader\ 5 /root/.wine64/drive_c/Program\ Files/ && \
+    mv /root/MetaTrader\ 5 /root/.wine/drive_c/Program\ Files/ && \
     rm /root/MetaTrader\ 5.zip
     
 

@@ -16,6 +16,9 @@ echo "------ Installing required apt packages ------"
 apt update
 apt install -y wget gnupg software-properties-common apt-utils
 
+echo "------ Downloading Gecko Package -----"
+wget -P ~/.cache/wine/ http://dl.winehq.org/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86_64.msi
+
 echo "------- Adding contib repo -------"
 apt-add-repository  'deb http://deb.debian.org/debian bullseye main contrib non-free'
 
@@ -41,7 +44,7 @@ echo "------ Download python ------"
 wget -P /root/ https://www.python.org/ftp/python/3.10.7/python-3.10.7-amd64.exe
 
 echo "------ Init wine prefix ------"
-WINEPREFIX=~/.wine64 WINARCH=win64 winetricks \
+WINEPREFIX=~/.wine WINARCH=win64 winetricks \
     corefonts \
     win10
 
@@ -50,11 +53,14 @@ Xvfb :0 -screen 0 1024x768x16 &
 jid=$!
 
 echo "------ Install python ------"
-DISPLAY=:0.0 WINEPREFIX=~/.wine64 wine cmd /c \
+DISPLAY=:0.0 WINEPREFIX=~/.wine wine cmd /c \
     /root/python-3.10.7-amd64.exe \
     /quiet \
     PrependPath=1 \
     && echo "Python Installation complete!"
+
+echo "----- Install windows python dependencies ------"
+WINEPREFIX=~/.wine wine cmd /c ~/.wine/drive_c/users/root/AppData/Local/Programs/Python/Python310/Scripts/pip.exe install rpyc MetaTrader5
 
 echo "---- Cleaning up.... -----"
 apt-get -y remove xvfb 
