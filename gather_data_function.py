@@ -38,18 +38,18 @@ def gather_data(symbol, start_from):
     momentum_down = 'Descending'
 
     def conditions(df):
-        if (df['ha_range_price'] > 1) & (df['ha_range_price_movement'] > 1):
+        if (df['range_price'] > 1) & (df['range_price_movement'] > 1):
             return momentum_up
-        elif (df['ha_range_price'] < -1) & (df['ha_range_price_movement'] < -1):
+        elif (df['range_price'] < -1) & (df['range_price_movement'] < -1):
             return momentum_down
 
     df['momentum'] = df.apply(conditions, axis=1)
-    df.loc[df['ha_range_price'] >= 5,
+    df.loc[df['range_price'] >= 5,
            'candle_clasification'] = 'Significant G Candle'
-    df.loc[df['ha_range_price'] <= -5,
+    df.loc[df['range_price'] <= -5,
            'candle_clasification'] = 'Significant R Candle'
 
-    df['rel_volume'] = df.tick_volume > 600
+    df['rel_volume'] = df.tick_volume > 400
 
     median_move_up = 'Increasing'
     median_move_down = 'Decreasing'
@@ -62,17 +62,17 @@ def gather_data(symbol, start_from):
             return median_move_down
     df['median_price_move'] = df.apply(median_move, axis=1)
 
-    df.loc[df['range_price'] >= 9, 'abnormal_candle'] = 'Abnormal G Candle'
-    df.loc[df['range_price'] <= -9, 'abnormal_candle'] = 'Abnormal R Candle' 
+    df.loc[df['range_price'] >= 7, 'abnormal_candle'] = 'Abnormal G Candle'
+    df.loc[df['range_price'] <= -7, 'abnormal_candle'] = 'Abnormal R Candle'
 
     long = 'LONG'
     short = 'SHORT'
     none = 'No Entry'
 
     def checking(df):
-        if (df['rel_volume']) & (df['momentum'] == 'Ascending') & (df['candle_clasification'] == 'Significant G Candle') & (df['median_price_move'] == 'Increasing'):
+        if (df['rel_volume']) & (df['momentum'] == 'Ascending') & (df['candle_clasification'] == 'Significant G Candle'):
             return long
-        elif (df['rel_volume']) & (df['momentum'] == 'Descending') & (df['candle_clasification'] == 'Significant R Candle') & (df['median_price_move'] == 'Decreasing'):
+        elif (df['rel_volume']) & (df['momentum'] == 'Descending') & (df['candle_clasification'] == 'Significant R Candle'):
             return short
         elif (df['abnormal_candle'] == 'Abnormal G Candle'):
             return long
