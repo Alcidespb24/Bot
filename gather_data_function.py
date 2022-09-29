@@ -86,14 +86,14 @@ def gather_data(symbol, start_from):
     df['ha_range_price_movement'] = df.ha_range_price.mean()
     df['std'] = df.ha_range_price.std()
 
-    df.loc[df['entry_type'] == 'LONG', 'entry_price'] = df.ha_close
-    df.loc[df['entry_type'] == 'SHORT', 'entry_price'] = df.ha_close
+    df.loc[df['entry_type'] == 'LONG', 'entry_price'] = df.close
+    df.loc[df['entry_type'] == 'SHORT', 'entry_price'] = df.close
 
-    df.loc[df['entry_type'] == 'LONG', 'sl'] = df.ha_open
-    df.loc[df['entry_type'] == 'SHORT', 'sl'] = df.ha_open
+    df.loc[df['entry_type'] == 'LONG', 'sl'] = df.open
+    df.loc[df['entry_type'] == 'SHORT', 'sl'] = df.open
 
-    df.loc[df['entry_type'] == 'LONG', 'tp'] = df.ha_close + 10
-    df.loc[df['entry_type'] == 'SHORT', 'tp'] = df.ha_close - 10
+    df.loc[df['entry_type'] == 'LONG', 'tp'] = df.close + 10
+    df.loc[df['entry_type'] == 'SHORT', 'tp'] = df.close - 10
 
     df['returns'] = (np.log(df.ha_close/df.ha_close.shift(-1)))
 
