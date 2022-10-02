@@ -18,6 +18,7 @@ apt install -y wget gnupg software-properties-common apt-utils
 
 echo "------ Downloading Gecko Package -----"
 wget -P ~/.cache/wine/ http://dl.winehq.org/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86_64.msi
+wget -P ~/.cache/wine/ http://dl.winehq.org/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86.msi
 
 echo "------- Adding contib repo -------"
 apt-add-repository  'deb http://deb.debian.org/debian bullseye main contrib non-free'
@@ -38,6 +39,7 @@ echo "-------- Install wine-dev ------"
 apt install -y \
     winehq-devel \
     winetricks \
+    winbind \
     xvfb        # This is for making a dummy X server disply 
 
 echo "------ Download python ------"
@@ -45,7 +47,6 @@ wget -P /root/ https://www.python.org/ftp/python/3.10.7/python-3.10.7-amd64.exe
 
 echo "------ Init wine prefix ------"
 WINEPREFIX=~/.wine WINARCH=win64 winetricks \
-    corefonts \
     win10
 
 # Setup dummy screen

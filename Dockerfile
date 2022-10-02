@@ -4,17 +4,13 @@ FROM python:3
 ENV DEBIAN_FRONTEND noninteractive
 ENV DISPLAY :2
 
-#create App directory
-RUN mkdir /app
-
-# Copy Script
-COPY ./src ./app
-
 RUN apt update && \ 
     apt-get -yq install xserver-xorg-video-dummy ncat
 
+COPY requirements.txt /root/
+
 # install python dependencies 
-RUN pip install --no-cache-dir -r ./app/requirements.txt
+RUN pip install --no-cache-dir -r ./root/requirements.txt
 
 # Copy helper Files
 COPY ./Docker/ /root

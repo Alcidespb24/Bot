@@ -6,6 +6,12 @@ IS_XORG_RUNNING=`pgrep Xorg`
 XORG_FILE="/usr/share/X11/xorg.conf.d"
 XORG_LOCK_FILE="/tmp/.X2-lock"
 
+if ! [ -d "/app" ]; then
+    echo "APP Volume not mounted....."
+    echo "Please Run the contianer with -v /path/in/local/machine/to/app:/app"
+    exit 1
+fi
+
 if ! [ -z "$IS_XORG_RUNNING" ] ; then
     echo "Killing Xorg..."
     pgrep Xorg | xargs kill
@@ -13,7 +19,7 @@ if ! [ -z "$IS_XORG_RUNNING" ] ; then
     rm "$XORG_LOCK_FILE"
 
 else
-    if [ -d "$XORG_FILE"  ] ; then
+    if [ -d "$XORG_FILE"  ] ; then  
         rm -rf "$XORG_FILE"       
     fi
 
@@ -21,6 +27,7 @@ else
          rm "$XORG_LOCK_FILE"
     fi
 fi
+
 sleep 2s
 Xorg -noreset +extension GLX +extension RANDR +extension RENDER -config /root/xorg.conf :2 &
 
@@ -34,7 +41,7 @@ if ! [ -z "$IS_MT5_RUNNING" ] ; then
     `wineserver -k9`
 fi
 
-DISPLAY=:2 python -m mt5linux -w wine /root/.wine/drive_c/users/root/AppData/Local/Programs/Python/Python310/python.exe >/dev/null & 
+DISPLAY=:2 WINEDLLOVERRIDES=mscoree=d;mshtml=d python -m mt5linux -w wine /root/.wine/drive_c/users/root/AppData/Local/Programs/Python/Python310/python.exe >/dev/null & 
 
 while ! [[ "$SERVER_STATUS" == *"succeeded!"* || "$SERVER_STATUS" == *"Connected"* ]]
 do
@@ -44,6 +51,4 @@ do
     sleep 2s
 done
 
-kill "$(pgrep ncat)"
-
-DISPLAY=:2 python /app/main.py
+DISPLAY=:2 WINEDLLOVERRIDES=mshtml= python /app/main.py

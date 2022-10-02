@@ -7,7 +7,7 @@ mt5 = MetaTrader5()
 def init():    
     mt5.initialize(path="/root/.wine/drive_c/Program Files/MetaTrader 5/terminal64.exe")
 
-    if mt5.terminal_info() != None:
+    if mt5.terminal_info() == None:
         quit()
         
 
