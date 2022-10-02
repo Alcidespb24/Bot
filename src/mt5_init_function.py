@@ -5,7 +5,7 @@ from mt5linux import MetaTrader5
 mt5 = MetaTrader5()
 
 def init():    
-    mt5.initialize(path="/root/.wine/drive_c/Program Files/MetaTrader 5/terminal64.exe")
+    mt5.initialize()
 
     if mt5.terminal_info() == None:
         quit()

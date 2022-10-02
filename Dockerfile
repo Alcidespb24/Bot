@@ -22,8 +22,8 @@ RUN chmod u+x /root/installPython.sh && \
 #copy MetaTrader 5 installation
 RUN unzip /root/MetaTrader\ 5.zip -d /root && \
     mv /root/MetaTrader\ 5 /root/.wine/drive_c/Program\ Files/ && \
-    rm /root/MetaTrader\ 5.zip
-    
+    rm /root/MetaTrader\ 5.zip && \
+    cp /root/.wine/drive_c/Program\ Files/MetaTrader\ 5/Config/defaultInitDemo.ini /root/.wine/drive_c/
 
 #CMD ./root/init.sh
 CMD /bin/bash ./root/init.sh
