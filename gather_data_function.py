@@ -44,9 +44,9 @@ def gather_data(symbol, start_from):
             return momentum_down
 
     df['momentum'] = df.apply(conditions, axis=1)
-    df.loc[df['range_price'] >= 5,
+    df.loc[df['range_price'] >= 4,
            'candle_clasification'] = 'Significant G Candle'
-    df.loc[df['range_price'] <= -5,
+    df.loc[df['range_price'] <= -4,
            'candle_clasification'] = 'Significant R Candle'
 
     df['rel_volume'] = df.tick_volume > 400
@@ -70,13 +70,9 @@ def gather_data(symbol, start_from):
     none = 'No Entry'
 
     def checking(df):
-        if (df['rel_volume']) & (df['momentum'] == 'Ascending') & (df['candle_clasification'] == 'Significant G Candle'):
+        if (df['rel_volume']) & (df['momentum'] == 'Ascending') & (df['candle_clasification'] == 'Significant G Candle')| (df['abnormal_candle'] == 'Abnormal G Candle') :
             return long
-        elif (df['rel_volume']) & (df['momentum'] == 'Descending') & (df['candle_clasification'] == 'Significant R Candle'):
-            return short
-        elif (df['abnormal_candle'] == 'Abnormal G Candle'):
-            return long
-        elif (df['abnormal_candle'] == 'Abnormal R Candle'):
+        elif (df['rel_volume']) & (df['momentum'] == 'Descending') & (df['candle_clasification'] == 'Significant R Candle') | (df['abnormal_candle'] == 'Abnormal R Candle'):
             return short
         else:
             return none
