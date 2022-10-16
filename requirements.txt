@@ -1,0 +1,8 @@
+numpy
+pandas
+pandas_ta
+pytz
+mt5linux
+matplotlib
+sklearn
+binance
