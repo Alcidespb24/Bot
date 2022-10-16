@@ -50,6 +50,7 @@ def gather_data(symbol, start_from):
            'candle_clasification'] = 'Significant R Candle'
 
     df['rel_volume'] = df.tick_volume > 400
+    df['v_price'] = df['range_price']*df['tick_volume']
 
     median_move_up = 'Increasing'
     median_move_down = 'Decreasing'
@@ -70,7 +71,7 @@ def gather_data(symbol, start_from):
     none = 'No Entry'
 
     def checking(df):
-        if (df['rel_volume']) & (df['momentum'] == 'Ascending') & (df['candle_clasification'] == 'Significant G Candle')| (df['abnormal_candle'] == 'Abnormal G Candle') :
+        if (df['rel_volume']) & (df['momentum'] == 'Ascending') & (df['candle_clasification'] == 'Significant G Candle') | (df['abnormal_candle'] == 'Abnormal G Candle'):
             return long
         elif (df['rel_volume']) & (df['momentum'] == 'Descending') & (df['candle_clasification'] == 'Significant R Candle') | (df['abnormal_candle'] == 'Abnormal R Candle'):
             return short
