@@ -1,8 +1,9 @@
 from operator import eq
 from time import sleep
-from mt5linux import MetaTrader5
+import MetaTrader5 as mt5
+#from mt5linux import MetaTrader5
 
-mt5 = MetaTrader5()
+#mt5 = MetaTrader5()
 
 def init():    
     mt5.initialize()
