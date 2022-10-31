@@ -6,3 +6,6 @@ mt5linux
 matplotlib
 sklearn
 binance
+seaborn
+datetime
+cbpro
