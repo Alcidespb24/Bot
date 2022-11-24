@@ -60,8 +60,14 @@ def update_graph_live(n):
 #     fig.update_layout(autosize=True)
 #     fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='Gray')
 
-    fig_v = px.scatter(df_5m, x='volume', y='average price', trendline="ols", text='change_in_price',
-                       color='time', template="plotly_dark", size='volume', title='Volume Distribution & Average Price')
+    fig_v = px.scatter(df_5m, x='volume', y='average price',
+                        trendline="ols", text='change_in_price',
+                        color='time',
+                        template="plotly_dark",
+                        size='volume',
+                        title='Volume Distribution & Average Price',
+                        hover_name="time",
+                        )
 
     fig_p = px.scatter(df_5m, x='time',
                        y='average price',
@@ -70,7 +76,9 @@ def update_graph_live(n):
                        size='volume',
                        color='time',
                        template="plotly_dark",
-                       title='Price v Change Time')
+                       title='Price v Change Time',
+                       hover_name="time",
+                       )
     fig_v.update_layout(plot_bgcolor='#212121', paper_bgcolor='#212121')
     fig_v.update_yaxes(showgrid=False)
     fig_v.update_xaxes(showgrid=False)
