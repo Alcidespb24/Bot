@@ -77,7 +77,7 @@ def update_graph_live(n):
                        color='time',
                        template="plotly_dark",
                        title='Price v Change Time',
-                       hover_name="time",
+                       hover_name="volume",
                        )
     fig_v.update_layout(plot_bgcolor='#212121', paper_bgcolor='#212121')
     fig_v.update_yaxes(showgrid=False)
