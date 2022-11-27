@@ -12,7 +12,7 @@ def trades():
 
     get_trades = client.get_product_trades(product_id=f'{symbol}')
 
-    df = list(itertools.islice(get_trades, 50000))
+    df = list(itertools.islice(get_trades, 25000))
 
     df = pd.DataFrame(df[:-1])
 
@@ -34,10 +34,6 @@ def trades():
 
     df.loc[df['side'] == 'buy', 'size'] = df['size'] * -1
     df.loc[df['side'] == 'sell', 'size'] = df['size'] * 1
-
-#     df.to_csv(r"D:\Trading\Bot\Docs/ETHUSD Trades.csv",index=False)
-
-#     df = pd.read_csv("D:\Trading\Bot\Docs/ETHUSD Trades.csv")
 
     df['time'] = df['time'].values.astype('datetime64[s]')
 

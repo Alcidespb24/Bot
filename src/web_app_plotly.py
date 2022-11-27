@@ -11,7 +11,7 @@ warnings.filterwarnings('ignore')
 warnings.simplefilter('ignore')
 
 df_5m = trades()
-df_5m
+df_5m.dropna()
 
 app = dash.Dash(__name__)
 
@@ -22,7 +22,14 @@ app.layout = html.Div(
         html.H1('Live Update'),
         html.Div(id='live-update-text'),
         dcc.Graph(id='fig_v',
-                  responsive=True),
+                  responsive=True,
+                   config={'editable':True,
+                              'scrollZoom':True,
+                              'staticPlot':False,
+                              'doubleClick': 'reset',
+                              'displayModeBar': False,
+                              'watermark':True
+                      }),
         dcc.Interval(
             id='fig_1_update',
             interval=1*5000,  # in milliseconds
@@ -33,7 +40,14 @@ app.layout = html.Div(
         html.Div([
             html.Div(id='live-update-text'),
             dcc.Graph(id='fig_p',
-                      responsive=True),
+                      responsive=True,
+                      config={'editable':True,
+                              'scrollZoom':True,
+                              'staticPlot':False,
+                              'doubleClick': 'reset',
+                              'displayModeBar': False,
+                              'watermark':True
+                      }),
             dcc.Interval(
                 id='fig_2_update',
                 interval=1*5000,  # in milliseconds
@@ -49,7 +63,7 @@ app.layout = html.Div(
 def update_graph_live(n):
 
     df_5m = trades()
-    df_5m = df_5m.round(2)
+    df_5m = df_5m.dropna().round(1)
 
 #     fig = px.scatter(df_5m, x='sum of size',
 #                      y='average price',
@@ -60,8 +74,9 @@ def update_graph_live(n):
 #     fig.update_layout(autosize=True)
 #     fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='Gray')
 
-    fig_v = px.scatter(df_5m, x='volume', y='average price',
-                        trendline="ols", text='change_in_price',
+    fig_v = px.scatter(df_5m, x='volume', 
+                        y='average price', 
+                        text='change_in_price',
                         color='time',
                         template="plotly_dark",
                         size='volume',
@@ -71,7 +86,6 @@ def update_graph_live(n):
 
     fig_p = px.scatter(df_5m, x='time',
                        y='average price',
-                       trendline="ols",
                        text='sum of size',
                        size='volume',
                        color='time',
@@ -80,10 +94,12 @@ def update_graph_live(n):
                        hover_name="volume",
                        )
     fig_v.update_layout(plot_bgcolor='#212121', paper_bgcolor='#212121')
+    fig_v.update_traces(textposition="bottom right")
     fig_v.update_yaxes(showgrid=False)
     fig_v.update_xaxes(showgrid=False)
 
     fig_p.update_layout(plot_bgcolor='#212121', paper_bgcolor='#212121')
+    fig_p.update_traces(textposition="bottom right")
     fig_p.update_yaxes(showgrid=False)
     fig_p.update_xaxes(showgrid=False)
 
