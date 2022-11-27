@@ -96,13 +96,15 @@ def update_graph_live(n, figure):
                        title='Price v Change Time',
                        hover_name="volume",
                        )
-    fig_v['layout']['yaxis'].update(autorange = True),
+    fig_v['layout']['yaxis'].update(autorange = True)
+    fig_p['layout']['xaxis'].update(autorange = True)
     fig_v.update_layout(plot_bgcolor='#212121', paper_bgcolor='#212121')
     fig_v.update_traces(textposition="bottom right")
     fig_v.update_yaxes(showgrid=False)
     fig_v.update_xaxes(showgrid=False)
 
-    fig_p['layout']['yaxis'].update(autorange = True)    
+    fig_p['layout']['yaxis'].update(autorange = True)
+    fig_p['layout']['xaxis'].update(autorange = True)    
     fig_p.update_layout(plot_bgcolor='#212121', paper_bgcolor='#212121')
     fig_p.update_traces(textposition="bottom right")
     fig_p.update_yaxes(showgrid=False)
