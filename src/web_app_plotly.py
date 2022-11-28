@@ -66,7 +66,7 @@ app.layout = html.Div(
 def update_graph_live(n, figure):
 
     df_5m = trades()
-    df_5m = df_5m.dropna().round(1)
+    df_5m = df_5m.round(1)
 
 #     fig = px.scatter(df_5m, x='sum of size',
 #                      y='average price',
@@ -79,6 +79,9 @@ def update_graph_live(n, figure):
 
     fig_v = px.scatter(df_5m, x='volume',
                        y='average price',
+                       trendline='ols',
+                       trendline_scope="overall",
+                       trendline_color_override='white',
                        text='change_in_price',
                        color='time',
                        template="plotly_dark",
@@ -96,19 +99,19 @@ def update_graph_live(n, figure):
                        title='Price v Change Time',
                        hover_name="volume",
                        )
-    fig_v['layout']['yaxis'].update(autorange = True)
-    fig_p['layout']['xaxis'].update(autorange = True)
+    fig_v['layout']['yaxis'].update(autorange=True)
+    fig_v['layout']['xaxis'].update(autorange=True)
     fig_v.update_layout(plot_bgcolor='#212121', paper_bgcolor='#212121')
     fig_v.update_traces(textposition="bottom right")
-    fig_v.update_yaxes(showgrid=False)
-    fig_v.update_xaxes(showgrid=False)
+    fig_v.update_yaxes(showgrid=True, gridwidth=1, gridcolor='Gray')
+    fig_v.update_xaxes(showgrid=True, gridwidth=1, gridcolor='Gray')
 
-    fig_p['layout']['yaxis'].update(autorange = True)
-    fig_p['layout']['xaxis'].update(autorange = True)    
+    fig_p['layout']['yaxis'].update(autorange=True)
+    fig_p['layout']['xaxis'].update(autorange=True)
     fig_p.update_layout(plot_bgcolor='#212121', paper_bgcolor='#212121')
     fig_p.update_traces(textposition="bottom right")
-    fig_p.update_yaxes(showgrid=False)
-    fig_p.update_xaxes(showgrid=False)
+    fig_p.update_yaxes(showgrid=True, gridwidth=1, gridcolor='Gray')
+    fig_p.update_xaxes(showgrid=True, gridwidth=1, gridcolor='Gray')
 
 #     fig = go.Figure(go.Waterfall(x=df_5m['time'],
 #                              y=df_5m['change_in_price'],

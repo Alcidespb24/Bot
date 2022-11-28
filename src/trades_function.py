@@ -12,7 +12,7 @@ def trades():
 
     get_trades = client.get_product_trades(product_id=f'{symbol}')
 
-    df = list(itertools.islice(get_trades, 25000))
+    df = list(itertools.islice(get_trades, 50000))
 
     df = pd.DataFrame(df[:-1])
 
