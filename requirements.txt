@@ -9,3 +9,4 @@ binance
 seaborn
 datetime
 cbpro
+dash
