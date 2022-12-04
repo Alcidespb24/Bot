@@ -5,7 +5,6 @@ import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
 from dash import Dash, html, dcc
-import dash_bootstrap_components as dbc
 import warnings
 warnings.filterwarnings('ignore')
 warnings.simplefilter('ignore')
