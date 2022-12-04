@@ -1,5 +1,4 @@
 from trades_function import trades
-import datetime as datetime
 import plotly.express as px
 import dash
 from dash import dcc, html
