@@ -2,7 +2,6 @@ import cbpro
 import pandas as pd
 import itertools
 
-
 def trades():
 
     client = cbpro.PublicClient()
@@ -32,8 +31,8 @@ def trades():
 
     df.drop(['trade_id'], axis=1)
 
-    df.loc[df['side'] == 'buy', 'size'] = df['size'] * -1
-    df.loc[df['side'] == 'sell', 'size'] = df['size'] * 1
+    df.loc[df['side'] == 'buy', 'size'] = df['size'] * 1
+    df.loc[df['side'] == 'sell', 'size'] = df['size'] * -1
 
     df['time'] = df['time'].values.astype('datetime64[s]')
 

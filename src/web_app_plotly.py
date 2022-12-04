@@ -68,15 +68,6 @@ def update_graph_live(n, figure):
     df_5m = trades()
     df_5m = df_5m.round(1)
 
-#     fig = px.scatter(df_5m, x='sum of size',
-#                      y='average price',
-#                      text='change_in_price',
-#                      size='volume',color='time',
-#                      template="plotly_dark",
-#                      title='Size v Price')
-#     fig.update_layout(autosize=True)
-#     fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='Gray')
-
     fig_v = px.scatter(df_5m, x='volume',
                        y='average price',
                        trendline='ols',
@@ -112,27 +103,6 @@ def update_graph_live(n, figure):
     fig_p.update_traces(textposition="bottom right")
     fig_p.update_yaxes(showgrid=True, gridwidth=1, gridcolor='Gray')
     fig_p.update_xaxes(showgrid=True, gridwidth=1, gridcolor='Gray')
-
-#     fig = go.Figure(go.Waterfall(x=df_5m['time'],
-#                              y=df_5m['change_in_price'],
-#                              orientation = 'v',
-#                              textposition = 'outside',
-#                              text = df_5m['sum of size'],
-#                              hovertext = ['x','y'],
-#                              decreasing = {"marker":{"line":{"color":"red", "width":2}}},
-#                              increasing = {"marker":{"color":"Green"}},
-#                          ))
-#     fig.update_layout(autosize=True)
-
-#     fig.add_trace(go.Bar(x=df_5m['time'], y=df_5m['volume']))
-
-#     fig.append_trace({
-#         'x': df_5m['time'],
-#         'y': df_5m['change_in_price'],
-#         'name': 'Volume',
-#         'mode': 'lines+markers',
-#         'type': 'scatter'
-#     }, 1, 1)
 
     return (fig_v, fig_p)
 
