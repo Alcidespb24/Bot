@@ -31,7 +31,7 @@ app.layout = html.Div(
                           }),
         dcc.Interval(
             id='fig_1_update',
-            interval=1*5000,  # in milliseconds
+            interval=1*1000,  # in milliseconds
             n_intervals=0
         )
     ]),
@@ -50,7 +50,7 @@ app.layout = html.Div(
                               }),
             dcc.Interval(
                 id='fig_2_update',
-                interval=1*5000,  # in milliseconds
+                interval=1*1000,  # in milliseconds
                 n_intervals=0
             )
         ])]

@@ -14,7 +14,8 @@ def convert_iso_format_to_datetime(iso_format_time: str) -> datetime:
 def get_posix_time(datetime_obj: datetime) -> time:
     return time.mktime(datetime_obj.timetuple()) 
 
-def get_trades_in_last_xmins (mins: int) -> list:  
+def get_trades_in_last_xmins (mins: int) -> list:
+    client = cbpro.PublicClient()  
     current_date = datetime.now().utcnow()
     date_five_mins_ago = current_date - timedelta(minutes = mins)
     date_five_mins_ago_posix = get_posix_time(date_five_mins_ago)
@@ -32,10 +33,12 @@ def get_trades_in_last_xmins (mins: int) -> list:
 
 
 def trades():
+
+    client = cbpro.PublicClient()
     
     global _full_list
 
-    get_trades = get_trades_in_last_xmins(mins=20)
+    get_trades = get_trades_in_last_xmins(mins=30)
 
     _full_list += get_trades
 
