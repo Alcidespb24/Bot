@@ -1,8 +1,13 @@
-from operator import eq
-from time import sleep
-from mt5linux import MetaTrader5
+import os
 
-mt5 = MetaTrader5()
+if os.name == 'nt':
+    import MetaTrader5 as mt5
+    
+else:
+    from mt5linux import MetaTrader5
+    mt5 = MetaTrader5()
+
+
 
 def init():    
     mt5.initialize()
@@ -10,7 +15,6 @@ def init():
     if mt5.terminal_info() == None:
         quit()
         
-
     login = 1051286908
     password = "G6NEWUYDL5"
     server = "FTMO-Demo"
