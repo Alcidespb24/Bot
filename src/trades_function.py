@@ -25,6 +25,7 @@ def get_trades_in_last_xmins (mins: int) -> list:
     buffer = []
 
     while get_posix_time(convert_iso_format_to_datetime(current_element['time'])) > date_five_mins_ago_posix:
+        client = cbpro.PublicClient()
         buffer.append(current_element)
         current_element = get_trades_latest.__next__()
 

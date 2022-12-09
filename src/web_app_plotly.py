@@ -18,6 +18,7 @@ color = '#F3ECB0',
 app.layout = html.Div(
     [html.Div([
         html.H1('Live'),
+        html.Div(html.Span('Volume: ' , style={'border':'10px solid'})),
         html.Div(id='live-update-text'),
         dcc.Graph(id='fig_v',
                   animate=True,
