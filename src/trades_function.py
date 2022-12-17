@@ -39,7 +39,7 @@ def trades():
     
     global _full_list
 
-    get_trades = get_trades_in_last_xmins(mins=30)
+    get_trades = get_trades_in_last_xmins(mins=60)
 
     _full_list += get_trades
 
@@ -61,8 +61,8 @@ def trades():
 
     df[['price', 'size', 'trade_dollar_size', 'change_in_price']].describe()
 
-    df.loc[df['side'] == 'buy', 'size'] = df['size'] * 1
-    df.loc[df['side'] == 'sell', 'size'] = df['size'] * -1
+    df.loc[df['side'] == 'buy', 'size'] = df['size'] * -1
+    df.loc[df['side'] == 'sell', 'size'] = df['size'] * 1
 
     df['time'] = df['time'].values.astype('datetime64[s]')
 

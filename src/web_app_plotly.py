@@ -13,13 +13,39 @@ df_5m.dropna()
 
 app = dash.Dash(__name__)
 
+volume_txt_style = {'border': '40px',
+         'color': 'white',
+         'font-size': '20px',
+         'background-color': 'black',
+         'borderRadius': '45px',
+         'overflow': 'hidden',
+         'padding': '20px',
+         'margin': '0px 0px 50px 0px',
+         'display':'inline-block',
+         'float':'left'
+         }
+chp_txt_style = {'border': '40px',
+         'color': 'white',
+         'font-size': '20px',
+         'background-color': 'black',
+         'borderRadius': '45px',
+         'overflow': 'hidden',
+         'padding': '20px',
+         'margin': '0px 0px 50px 20px',
+         'display':'inline-block',
+         }
+
 color = '#F3ECB0',
 
 app.layout = html.Div(
     [html.Div([
         html.H1('Live'),
-        html.Div(html.Span('Volume: ' , style={'border':'10px solid'})),
-        html.Div(id='live-update-text'),
+        html.Div(html.Span('Volume: ' + df_5m['volume'].map(str).iloc[-1],
+                           id='live_update_volume',
+                           style=volume_txt_style)),
+        html.Div(html.Span('Change In Price: ' + df_5m['change_in_price'].map(str).iloc[-1],
+                           id='live_update_pricech',
+                           style=chp_txt_style)),
         dcc.Graph(id='fig_v',
                   animate=True,
                   responsive=True,
