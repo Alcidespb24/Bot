@@ -47,7 +47,7 @@ class TradeManager:
 
     def get_trades_in_5m_intervals(self):    
         df = pd.DataFrame(self._list_of_all_trades)
-        
+
         df['price'] = pd.to_numeric(df['price'])
         df['size'] = pd.to_numeric(df['size'])
 
@@ -70,7 +70,7 @@ class TradeManager:
         df_5m = df.resample('5min', on='time').agg({'price': 'mean', 'size': 'sum', 'side': 'count'}).rename(
             columns={'price': 'average price', 'size': 'sum of size', 'side': 'volume'})
 
-        df_5m.round(4)
+        df_5m = df_5m.round(4)
         df_5m.reset_index(inplace=True)
         
         df_5m['time'] = df_5m['time'].astype(str)
