@@ -34,6 +34,7 @@ class TradeManager:
         buffer = []
 
         while get_posix_time(convert_iso_format_to_datetime(current_element['time'])) > date_x_secs_ago_posix:
+            client = cbpro.PublicClient()
             buffer.append(current_element)
             current_element = get_trades_latest.__next__()
 
@@ -66,7 +67,7 @@ class TradeManager:
 
         df['time'] = df['time'].values.astype('datetime64[s]')
 
-        df_5m = df.resample('1min', on='time').agg({'price': 'mean', 'size': 'sum', 'side': 'count'}).rename(
+        df_5m = df.resample('5min', on='time').agg({'price': 'mean', 'size': 'sum', 'side': 'count'}).rename(
             columns={'price': 'average price', 'size': 'sum of size', 'side': 'volume'})
 
         df_5m.round(4)
