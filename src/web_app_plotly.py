@@ -8,92 +8,68 @@ import warnings
 warnings.filterwarnings('ignore')
 warnings.simplefilter('ignore')
 
+
 df_5m = trades()
-df_5m.dropna()
+
+def get_all_trades():
+    global df_5m
+    df_5m = trades()
+    df_5m.dropna()
+    df_5m = df_5m.round(4)
 
 app = dash.Dash(__name__)
 
-volume_txt_style = {'border': '40px',
+live_update_text_style = {
          'color': 'white',
          'font-size': '20px',
          'background-color': 'black',
          'borderRadius': '45px',
-         'overflow': 'hidden',
-         'padding': '20px',
-         'margin': '0px 0px 50px 0px',
-         'display':'inline-block',
-         'float':'left'
+         'margin': '0px 10px 0px 10px',
+         'padding': '10px',
          }
-chp_txt_style = {'border': '40px',
-         'color': 'white',
-         'font-size': '20px',
-         'background-color': 'black',
-         'borderRadius': '45px',
-         'overflow': 'hidden',
-         'padding': '20px',
-         'margin': '0px 0px 50px 20px',
-         'display':'inline-block',
-         }
-
-color = '#F3ECB0',
 
 app.layout = html.Div(
-    [html.Div([
-        html.H1('Live'),
-        html.Div(html.Span('Volume: ' + df_5m['volume'].map(str).iloc[-1],
-                           id='live_update_volume',
-                           style=volume_txt_style)),
-        html.Div(html.Span('Change In Price: ' + df_5m['change_in_price'].map(str).iloc[-1],
-                           id='live_update_pricech',
-                           style=chp_txt_style)),
-        dcc.Graph(id='fig_v',
-                  animate=True,
-                  responsive=True,
-                  config={'editable': True,
-                          'scrollZoom': True,
-                          'staticPlot': False,
-                          'doubleClick': 'reset',
-                          'displayModeBar': False,
-                          'watermark': True
-                          }),
-        dcc.Interval(
-            id='fig_1_update',
-            interval=1*5000,  # in milliseconds
-            n_intervals=0
-        )
-    ]),
+    html.Div([
+        html.Div(id='live_update_volume', style={'margin': '50px 0px 40px 0px'}),
 
         html.Div([
-            html.Div(id='live-update-text'),
-            dcc.Graph(id='fig_p',
-                      animate=True,
-                      responsive=True,
-                      config={'editable': True,
-                              'scrollZoom': True,
-                              'staticPlot': False,
-                              'doubleClick': 'reset',
-                              'displayModeBar': False,
-                              'watermark': True
-                              }),
-            dcc.Interval(
-                id='fig_2_update',
-                interval=1*5000,  # in milliseconds
-                n_intervals=0
-            )
-        ])]
+            dcc.Graph(id='volume_average_price_figure',
+                    animate=True,
+                    responsive=True,
+                    config={'editable': True,
+                            'scrollZoom': True,
+                            'staticPlot': False,
+                            'doubleClick': 'reset',
+                            'displayModeBar': False,
+                            }),
+
+            html.Hr(),
+
+            dcc.Graph(id='time_average_price_figure',
+                    animate=True,
+                    responsive=True,
+                    config={'editable': True,
+                            'scrollZoom': True,
+                            'staticPlot': False,
+                            'doubleClick': 'reset',
+                            'displayModeBar': False,
+                            }),
+        ]),
+        dcc.Interval(
+            id='live_update_interval',
+            interval=1*5000,  # in milliseconds
+            n_intervals=0
+        ),
+    ],)
 )
 
-
-@app.callback(Output('fig_v', 'figure'),
-              Output('fig_p', 'figure'),
-              Input('fig_1_update', 'n_intervals'),
-              Input('fig_2_update', 'n_intervals'))
-def update_graph_live(n, figure):
-
-    df_5m = trades()
-    df_5m = df_5m.round(1)
-
-    fig_v = px.scatter(df_5m, x='volume',
+@app.callback(Output('volume_average_price_figure', 'figure'),
+              Input('live_update_interval', 'n_intervals'))
+def volume_average_price_figure_callback(n):
+    global df_5m
+    volume_average_price_figure = px.scatter(
+                       df_5m, 
+                       x='volume',
                        y='average price',
                        trendline='ols',
                        trendline_scope="overall",
@@ -106,7 +82,23 @@ def update_graph_live(n, figure):
                        hover_name="time",
                        )
 
-    fig_p = px.scatter(df_5m, x='time',
+    volume_average_price_figure['layout']['yaxis'].update(autorange=True)
+    volume_average_price_figure['layout']['xaxis'].update(autorange=True)
+    volume_average_price_figure.update_layout(plot_bgcolor='#212121', paper_bgcolor='#212121')
+    volume_average_price_figure.update_traces(textposition="bottom right")
+    volume_average_price_figure.update_yaxes(showgrid=True, gridwidth=1, gridcolor='Gray')
+    volume_average_price_figure.update_xaxes(showgrid=True, gridwidth=1, gridcolor='Gray')
+
+    return volume_average_price_figure
+
+@app.callback(Output('time_average_price_figure', 'figure'),
+              Input('live_update_interval', 'n_intervals'))
+def time_average_price_figure_callback(n):
+    global df_5m
+
+    time_average_price_figure = px.scatter(
+                       df_5m, 
+                       x='time',
                        y='average price',
                        text='sum of size',
                        size='volume',
@@ -115,22 +107,30 @@ def update_graph_live(n, figure):
                        title='Price v Change Time',
                        hover_name="volume",
                        )
-    fig_v['layout']['yaxis'].update(autorange=True)
-    fig_v['layout']['xaxis'].update(autorange=True)
-    fig_v.update_layout(plot_bgcolor='#212121', paper_bgcolor='#212121')
-    fig_v.update_traces(textposition="bottom right")
-    fig_v.update_yaxes(showgrid=True, gridwidth=1, gridcolor='Gray')
-    fig_v.update_xaxes(showgrid=True, gridwidth=1, gridcolor='Gray')
 
-    fig_p['layout']['yaxis'].update(autorange=True)
-    fig_p['layout']['xaxis'].update(autorange=True)
-    fig_p.update_layout(plot_bgcolor='#212121', paper_bgcolor='#212121')
-    fig_p.update_traces(textposition="bottom right")
-    fig_p.update_yaxes(showgrid=True, gridwidth=1, gridcolor='Gray')
-    fig_p.update_xaxes(showgrid=True, gridwidth=1, gridcolor='Gray')
+    time_average_price_figure['layout']['yaxis'].update(autorange=True)
+    time_average_price_figure['layout']['xaxis'].update(autorange=True)
+    time_average_price_figure.update_layout(plot_bgcolor='#212121', paper_bgcolor='#212121')
+    time_average_price_figure.update_traces(textposition="bottom right")
+    time_average_price_figure.update_yaxes(showgrid=True, gridwidth=1, gridcolor='Gray')
+    time_average_price_figure.update_xaxes(showgrid=True, gridwidth=1, gridcolor='Gray')
 
-    return (fig_v, fig_p)
+    return time_average_price_figure
 
+@app.callback(Output('live_update_volume', 'children'),
+              Input('live_update_interval', 'n_intervals'))
+def live_text_update_callback(n):
+    get_all_trades()
+    global df_5m
+
+    return (
+            [
+                html.Span('Volume: ' + df_5m['volume'].map(str).iloc[-1],
+                            style=live_update_text_style),
+                html.Span('Change In Price: ' + df_5m['change_in_price'].map(str).iloc[-1],
+                            style=live_update_text_style)
+            ]
+        )
 
 if __name__ == '__main__':
     app.run_server(debug=True)
