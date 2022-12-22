@@ -8,7 +8,7 @@ import warnings
 warnings.filterwarnings('ignore')
 warnings.simplefilter('ignore')
 
-
+# TODO: Please change this, we need to remove this global variable 
 df_5m = trades()
 
 def get_all_trades():
