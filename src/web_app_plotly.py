@@ -8,7 +8,14 @@ import warnings
 warnings.filterwarnings('ignore')
 warnings.simplefilter('ignore')
 
-trade_mgr = TradeManager()
+
+df_5m = trades()
+
+def get_all_trades():
+    global df_5m
+    df_5m = trades()
+    df_5m.dropna()
+    df_5m = df_5m.round(4)
 
 app = dash.Dash(__name__)
 
