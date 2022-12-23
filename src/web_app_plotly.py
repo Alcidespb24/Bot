@@ -1,4 +1,4 @@
-from trades_function import TradeManager
+from trades_function import trades
 import plotly.express as px
 import dash
 from dash import dcc, html
@@ -66,7 +66,7 @@ app.layout = html.Div(
 @app.callback(Output('volume_average_price_figure', 'figure'),
               Input('live_update_interval', 'n_intervals'))
 def volume_average_price_figure_callback(n):
-    df_5m = trade_mgr.get_trades_in_5m_intervals()
+    global df_5m
     volume_average_price_figure = px.scatter(
                        df_5m, 
                        x='volume',
@@ -94,7 +94,7 @@ def volume_average_price_figure_callback(n):
 @app.callback(Output('time_average_price_figure', 'figure'),
               Input('live_update_interval', 'n_intervals'))
 def time_average_price_figure_callback(n):
-    df_5m = trade_mgr.get_trades_in_5m_intervals()
+    global df_5m
 
     time_average_price_figure = px.scatter(
                        df_5m, 
@@ -120,7 +120,8 @@ def time_average_price_figure_callback(n):
 @app.callback(Output('live_update_volume', 'children'),
               Input('live_update_interval', 'n_intervals'))
 def live_text_update_callback(n):
-    df_5m = trade_mgr.get_trades_in_5m_intervals()
+    get_all_trades()
+    global df_5m
 
     return (
             [
@@ -132,5 +133,4 @@ def live_text_update_callback(n):
         )
 
 if __name__ == '__main__':
-    trade_mgr.start_periodic_polling()
     app.run_server(debug=True)
