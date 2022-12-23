@@ -1,4 +1,4 @@
-from trades_function import trades
+from trades_function import TradeManager
 import plotly.express as px
 import dash
 from dash import dcc, html
@@ -8,14 +8,7 @@ import warnings
 warnings.filterwarnings('ignore')
 warnings.simplefilter('ignore')
 
-# TODO: Please change this, we need to remove this global variable 
-df_5m = trades()
-
-def get_all_trades():
-    global df_5m
-    df_5m = trades()
-    df_5m.dropna()
-    df_5m = df_5m.round(4)
+trade_mgr = TradeManager()
 
 app = dash.Dash(__name__)
 
@@ -66,7 +59,7 @@ app.layout = html.Div(
 @app.callback(Output('volume_average_price_figure', 'figure'),
               Input('live_update_interval', 'n_intervals'))
 def volume_average_price_figure_callback(n):
-    global df_5m
+    df_5m = trade_mgr.get_trades_in_5m_intervals()
     volume_average_price_figure = px.scatter(
                        df_5m, 
                        x='volume',
@@ -94,7 +87,7 @@ def volume_average_price_figure_callback(n):
 @app.callback(Output('time_average_price_figure', 'figure'),
               Input('live_update_interval', 'n_intervals'))
 def time_average_price_figure_callback(n):
-    global df_5m
+    df_5m = trade_mgr.get_trades_in_5m_intervals()
 
     time_average_price_figure = px.scatter(
                        df_5m, 
@@ -120,8 +113,7 @@ def time_average_price_figure_callback(n):
 @app.callback(Output('live_update_volume', 'children'),
               Input('live_update_interval', 'n_intervals'))
 def live_text_update_callback(n):
-    get_all_trades()
-    global df_5m
+    df_5m = trade_mgr.get_trades_in_5m_intervals()
 
     return (
             [
@@ -133,4 +125,5 @@ def live_text_update_callback(n):
         )
 
 if __name__ == '__main__':
+    trade_mgr.start_periodic_polling()
     app.run_server(debug=True)
