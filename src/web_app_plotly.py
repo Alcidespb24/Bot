@@ -123,18 +123,6 @@ def live_text_update_callback(n):
     get_all_trades()
     global df_5m
 
-    return (
-            [
-                html.Span('Volume: ' + df_5m['volume'].map(str).iloc[-1],
-                            style=live_update_text_style),
-                html.Span('Change In Price: ' + df_5m['change_in_price'].map(str).iloc[-1],
-                            style=live_update_text_style),
-                html.Span('Average Price: ' + df_5m['average price'].map(str).iloc[-1],
-                            style=live_update_text_style),
-                html.Span('Size: ' + df_5m['sum of size'].map(str).iloc[-1],
-                            style=live_update_text_style)
-            ]
-        )
 
 if __name__ == '__main__':
     app.run_server(debug=True)
