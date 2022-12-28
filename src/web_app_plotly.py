@@ -3,7 +3,7 @@ import plotly.express as px
 import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
-from dash import Dash, html, dcc
+from dash import Dash, html, dcc, dash_table
 import warnings
 warnings.filterwarnings('ignore')
 warnings.simplefilter('ignore')
@@ -28,40 +28,140 @@ live_update_text_style = {
     'border-radius': '50%',
     'display': 'inline-block',
     'box-shadow': 'rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px',
-    'margin': '10px',
-    'padding': '20px',
+    'margin': '20px',
+    'padding': '25px',
     'width': '50px',
     'height': '50px',
     'text-align': 'center',
     'align-items': 'center'
 }
 
+style_cell = style_cell = {
+    'color': 'white',
+    'backgroundColor': '#212121',
+    'textAlign': 'center'
+    }
+
+style_data_conditional = [
+    {
+        'if': {
+            'filter_query': '{volume} > 2500',
+            'column_id': 'volume'
+        },
+        'backgroundColor': '#B3FFAE',
+        'color': 'white',
+    },
+    {
+        'if': {
+            'filter_query': '{volume} > 3000',
+            'column_id': 'volume'
+        },
+        'backgroundColor': '#4E9F3D',
+        'color': 'white',
+    },
+    {
+        'if': {
+            'filter_query': '{volume} > 5000',
+            'column_id': 'volume'
+        },
+        'backgroundColor': '#82CD47',
+        'color': 'white',
+    },
+    {
+        'if': {
+            'filter_query': '{change_in_price} > 5',
+            'column_id': 'change_in_price'
+        },
+        'backgroundColor': '#519872',
+        'color': 'white',
+    },
+    {
+        'if': {
+            'filter_query': '{change_in_price} > 10',
+            'column_id': 'change_in_price'
+        },
+        'backgroundColor': '#4E9F3D',
+        'color': 'white',
+    },
+    {
+        'if': {
+            'filter_query': '{change_in_price} < -5',
+            'column_id': 'change_in_price'
+        },
+        'backgroundColor': '#519872',
+        'color': 'red'
+
+    },
+    {
+        'if': {
+            'filter_query': '{change_in_price} < -10',
+            'column_id': 'change_in_price'
+        },
+        'backgroundColor': '#4E9F3D',
+        'color': 'red',
+    }, 
+    {
+        'if': {
+            'filter_query': '{change_in_size} < 0',
+            'column_id': 'change_in_size'
+        },
+        'backgroundColor': '#FF0000',
+        'color': 'white',
+    },
+    {
+        'if': {
+            'filter_query': '{change_in_size} > 0',
+            'column_id': 'change_in_size'
+        },
+        'backgroundColor': '#4E9F3D',
+        'color': 'white',
+    },
+    ]
+
 app.layout = html.Div(
     html.Div([
-        html.Div(id='live_update_volume', style={
-                 'margin-bottom': '2px', 'text-align': 'center','background-color': '#171717'}),
-
-        html.Div([
+        html.Div(
             dcc.Graph(id='volume_average_price_figure',
                       animate=True,
                       responsive=True,
+                      style={
+                          'width': '50%',
+                          'height': '100%',
+                          'float': 'left',
+                          'display': 'inline-block',
+                          'margin': '50px 0px 20px 0px'
+                      },
                       config={'editable': True,
                               'scrollZoom': True,
                               'staticPlot': False,
                               'doubleClick': 'reset',
                               'displayModeBar': False,
-                              }),
-                              
-            dcc.Graph(id='time_average_price_figure',
-                      animate=True,
-                      responsive=True,
-                      config={'editable': True,
-                              'scrollZoom': True,
-                              'staticPlot': False,
-                              'doubleClick': 'reset',
-                              'displayModeBar': False,
-                              }),
-        ]),
+                              })),
+
+        dcc.Graph(id='time_average_price_figure',
+                  animate=True,
+                  responsive=True,
+                  style={
+                      'width': '50%',
+                      'height': '100%',
+                      'float': 'left',
+                      'margin': '50px 0px 20px 0px',
+                      'display': 'inline-block'
+                  },
+                  config={'editable': True,
+                          'scrollZoom': True,
+                          'staticPlot': False,
+                          'doubleClick': 'reset',
+                          'displayModeBar': False,
+                          }),
+        html.Hr(),
+        html.Div(id='df_live_update'),
+        # html.Div([
+        #      html.Div(id='live_update_volume', style={
+        #          'padding': '20px',
+        #          'text-align': 'center',
+        #          'background-color': '#212121'}),
+        #      ]),
         dcc.Interval(
             id='live_update_interval',
             interval=1*5000,  # in milliseconds
@@ -79,9 +179,6 @@ def volume_average_price_figure_callback(n):
         df_5m,
         x='volume',
         y='average price',
-        trendline='ols',
-        trendline_scope="overall",
-        trendline_color_override='white',
         text='change_in_price',
         color='time',
         template="plotly_dark",
@@ -133,23 +230,37 @@ def time_average_price_figure_callback(n):
     return time_average_price_figure
 
 
-@app.callback(Output('live_update_volume', 'children'),
+# @app.callback(Output('live_update_volume', 'children'),
+#               Input('live_update_interval', 'n_intervals'))
+# def live_text_update_callback(n):
+#     get_all_trades()
+#     global df_5m
+
+#     return (
+#         [
+#             html.Span('Volume: ' + df_5m['volume'].map(str).iloc[-1],
+#                       style=live_update_text_style),
+#             html.Span('Change: ' + df_5m['change_in_price'].map(str).iloc[-1],
+#                       style=live_update_text_style),
+#             html.Span('Price: ' + df_5m['average price'].map(str).iloc[-1],
+#                       style=live_update_text_style),
+#             html.Span('Size: ' + df_5m['sum of size'].map(str).iloc[-1],
+#                       style=live_update_text_style)
+#         ]
+#     )
+
+
+@app.callback(Output('df_live_update', 'children'),
               Input('live_update_interval', 'n_intervals'))
-def live_text_update_callback(n):
+def data_table_update(n):
     get_all_trades()
     global df_5m
 
+    df_5m_lvalues = df_5m.tail(3)
+
     return (
-        [
-            html.Span('Volume: ' + df_5m['volume'].map(str).iloc[-1],
-                      style=live_update_text_style),
-            html.Span('Change In Price: ' + df_5m['change_in_price'].map(str).iloc[-1],
-                      style=live_update_text_style),
-            html.Span('Average Price: ' + df_5m['average price'].map(str).iloc[-1],
-                      style=live_update_text_style),
-            html.Span('Size: ' + df_5m['sum of size'].map(str).iloc[-1],
-                      style=live_update_text_style)
-        ]
+        dash_table.DataTable(df_5m_lvalues.to_dict('records'), style_cell=style_cell, editable=True,
+                             style_data_conditional=style_data_conditional),
     )
 
 
