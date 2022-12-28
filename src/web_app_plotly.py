@@ -153,7 +153,6 @@ app.layout = html.Div(
                       style={
                           'width': '50%',
                           'float': 'left',
-                          'display': 'inline-block',
                           'margin': '50px 0px 20px 0px'
                       },
                       config={'editable': True,
@@ -168,9 +167,8 @@ app.layout = html.Div(
                   responsive=True,
                   style={
                       'width': '50%',
-                      'float': 'left',
+                      'float': 'right',
                       'margin': '50px 0px 20px 0px',
-                      'display': 'inline-block'
                   },
                   config={'editable': True,
                           'scrollZoom': True,
@@ -179,12 +177,12 @@ app.layout = html.Div(
                           'displayModeBar': False,
                           }),
         html.Div(id='df_live_update'),
-        html.Div([
-             html.Div(id='live_update_volume', style={
-                 'padding': '20px',
-                 'text-align': 'center',
-                 'background-color': '#212121'}),
-             ]),
+        # html.Div([
+        #      html.Div(id='live_update_volume', style={
+        #          'padding': '20px',
+        #          'text-align': 'center',
+        #          'background-color': '#212121'}),
+        #      ]),
         dcc.Interval(
             id='live_update_interval',
             interval=1*5000,  # in milliseconds
@@ -253,24 +251,24 @@ def time_average_price_figure_callback(n):
     return time_average_price_figure
 
 
-@app.callback(Output('live_update_volume', 'children'),
-              Input('live_update_interval', 'n_intervals'))
-def live_text_update_callback(n):
-    get_all_trades()
-    global df_5m
+# @app.callback(Output('live_update_volume', 'children'),
+#               Input('live_update_interval', 'n_intervals'))
+# def live_text_update_callback(n):
+#     get_all_trades()
+#     global df_5m
 
-    return (
-        [
-            html.Span('Volume: ' + df_5m['volume'].map(str).iloc[-1],
-                      style=live_update_text_style),
-            html.Span('Change: ' + df_5m['change_in_price'].map(str).iloc[-1],
-                      style=live_update_text_style),
-            html.Span('Price: ' + df_5m['average price'].map(str).iloc[-1],
-                      style=live_update_text_style),
-            html.Span('Size: ' + df_5m['sum of size'].map(str).iloc[-1],
-                      style=live_update_text_style)
-        ]
-    )
+#     return (
+#         [
+#             html.Span('Volume: ' + df_5m['volume'].map(str).iloc[-1],
+#                       style=live_update_text_style),
+#             html.Span('Change: ' + df_5m['change_in_price'].map(str).iloc[-1],
+#                       style=live_update_text_style),
+#             html.Span('Price: ' + df_5m['average price'].map(str).iloc[-1],
+#                       style=live_update_text_style),
+#             html.Span('Size: ' + df_5m['sum of size'].map(str).iloc[-1],
+#                       style=live_update_text_style)
+#         ]
+#     )
 
 
 @app.callback(Output('df_live_update', 'children'),
