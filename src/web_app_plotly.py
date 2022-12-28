@@ -178,7 +178,6 @@ app.layout = html.Div(
                           'doubleClick': 'reset',
                           'displayModeBar': False,
                           }),
-        html.Hr(),
         html.Div(id='df_live_update'),
         # html.Div([
         #      html.Div(id='live_update_volume', style={
