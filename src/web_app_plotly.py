@@ -67,6 +67,14 @@ style_data_conditional = [
         'backgroundColor': '#82CD47',
         'color': 'white',
     },
+     {
+        'if': {
+            'filter_query': '{change_in_price} > 1',
+            'column_id': 'change_in_price'
+        },
+        'backgroundColor': '#B6E2A1',
+        'color': 'white',
+    },
     {
         'if': {
             'filter_query': '{change_in_price} > 5',
@@ -83,13 +91,21 @@ style_data_conditional = [
         'backgroundColor': '#4E9F3D',
         'color': 'white',
     },
+     {
+        'if': {
+            'filter_query': '{change_in_price} < -1',
+            'column_id': 'change_in_price'
+        },
+        'backgroundColor': '#FF6464',
+        'color': 'white',
+    },
     {
         'if': {
             'filter_query': '{change_in_price} < -5',
             'column_id': 'change_in_price'
         },
         'backgroundColor': '#519872',
-        'color': 'red'
+        'color': 'red',
 
     },
     {
@@ -102,16 +118,16 @@ style_data_conditional = [
     }, 
     {
         'if': {
-            'filter_query': '{change_in_size} < 0',
-            'column_id': 'change_in_size'
+            'filter_query': '{sum of size} < 0',
+            'column_id': 'sum of size'
         },
         'backgroundColor': '#FF0000',
         'color': 'white',
     },
     {
         'if': {
-            'filter_query': '{change_in_size} > 0',
-            'column_id': 'change_in_size'
+            'filter_query': '{sum of size} > 0',
+            'column_id': 'sum of size'
         },
         'backgroundColor': '#4E9F3D',
         'color': 'white',
@@ -256,7 +272,7 @@ def data_table_update(n):
     get_all_trades()
     global df_5m
 
-    df_5m_lvalues = df_5m.tail(3)
+    df_5m_lvalues = df_5m.dropna().tail(5)
 
     return (
         dash_table.DataTable(df_5m_lvalues.to_dict('records'), style_cell=style_cell, editable=True,
