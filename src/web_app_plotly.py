@@ -1,10 +1,12 @@
+import warnings
+from dash import Dash, html, dcc, dash_table
+from dash.dependencies import Input, Output
+from dash import dcc, html
+import dash
 from trades_function import trades
 import plotly.express as px
-import dash
-from dash import dcc, html
-from dash.dependencies import Input, Output
-from dash import Dash, html, dcc, dash_table
-import warnings
+import plotly.io as pio
+pio.templates
 warnings.filterwarnings('ignore')
 warnings.simplefilter('ignore')
 
@@ -40,7 +42,7 @@ style_cell = style_cell = {
     'color': 'white',
     'backgroundColor': '#212121',
     'textAlign': 'center'
-    }
+}
 
 style_data_conditional = [
     {
@@ -75,7 +77,7 @@ style_data_conditional = [
         'backgroundColor': '#82CD47',
         'color': 'white',
     },
-     {
+    {
         'if': {
             'filter_query': '{change_in_price} > 1',
             'column_id': 'change_in_price'
@@ -99,7 +101,7 @@ style_data_conditional = [
         'backgroundColor': '#4E9F3D',
         'color': 'white',
     },
-     {
+    {
         'if': {
             'filter_query': '{change_in_price} < -1',
             'column_id': 'change_in_price'
@@ -123,7 +125,7 @@ style_data_conditional = [
         },
         'backgroundColor': '#4E9F3D',
         'color': 'red',
-    }, 
+    },
     {
         'if': {
             'filter_query': '{sum of size} < 0',
@@ -140,7 +142,7 @@ style_data_conditional = [
         'backgroundColor': '#4E9F3D',
         'color': 'white',
     },
-    ]
+]
 
 app.layout = html.Div(
     html.Div([
@@ -150,7 +152,6 @@ app.layout = html.Div(
                       responsive=True,
                       style={
                           'width': '50%',
-                          'height': '100%',
                           'float': 'left',
                           'display': 'inline-block',
                           'margin': '50px 0px 20px 0px'
@@ -167,7 +168,6 @@ app.layout = html.Div(
                   responsive=True,
                   style={
                       'width': '50%',
-                      'height': '100%',
                       'float': 'left',
                       'margin': '50px 0px 20px 0px',
                       'display': 'inline-block'
@@ -279,7 +279,7 @@ def data_table_update(n):
     get_all_trades()
     global df_5m
 
-    df_5m_lvalues = df_5m.dropna().tail(5)
+    df_5m_lvalues = df_5m.tail(3)
 
     return (
         dash_table.DataTable(df_5m_lvalues.to_dict('records'), style_cell=style_cell, editable=True,
