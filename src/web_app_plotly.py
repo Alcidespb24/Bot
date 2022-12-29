@@ -20,7 +20,7 @@ df_5m = trades(minutes=5)
 
 def get_all_trades():
     global df_5m
-    df_5m = trades(minutes=1)
+    df_5m = trades(minutes=5)
     df_5m.dropna()
     df_5m = df_5m.round(2)
 
