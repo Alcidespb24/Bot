@@ -12,12 +12,12 @@ warnings.filterwarnings('ignore')
 warnings.simplefilter('ignore')
 
 
-df_5m = trades(minutes=5)
+df_5m = trades(minutes=15)
 
 
 def get_all_trades():
     global df_5m
-    df_5m = trades(minutes=5)
+    df_5m = trades(minutes=15)
     df_5m.dropna()
     df_5m = df_5m.round(2)
 
@@ -163,7 +163,6 @@ def data_table_update(n):
                                      style_data_conditional=style_data_conditional)
 
     return dataFrame
-
 
 if __name__ == '__main__':
     app.run_server(debug=True)
