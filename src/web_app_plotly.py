@@ -12,12 +12,15 @@ warnings.filterwarnings('ignore')
 warnings.simplefilter('ignore')
 
 
+graph_style = {'display': 'inline-block','width': '48%', 'margin-left':'1vw'}
+graph_div_style = {'display': 'inline-block','width': '100%', 'margin-left':'1vw'}
+
 df_5m = trades(minutes=5)
 
 
 def get_all_trades():
     global df_5m
-    df_5m = trades(minutes=5)
+    df_5m = trades(minutes=1)
     df_5m.dropna()
     df_5m = df_5m.round(2)
 
@@ -26,43 +29,38 @@ app = dash.Dash(__name__)
 
 app.layout = html.Div(
     html.Div([
-        html.Div(
-            dcc.Graph(id='volume_average_price_figure',
-                      animate=True,
-                      responsive=True,
-                      style={
-                          'width': '50%',
-                          'float': 'left',
-                          'margin': '50px 0px 20px 0px'
-                      },
-                      config={'editable': True,
-                              'scrollZoom': True,
-                              'staticPlot': False,
-                              'doubleClick': 'reset',
-                              'displayModeBar': False,
-                              })),
+        html.Div([
+            html.Div([
+                dcc.Graph(id='volume_average_price_figure',
+                          animate=True,
+                          responsive=True,
+                          config={'editable': True,
+                                  'scrollZoom': True,
+                                  'staticPlot': False,
+                                  'doubleClick': 'reset',
+                                  'displayModeBar': False,
+                                  })
+            ], style= graph_style
+            ),
+            html.Div([
+                dcc.Graph(id='time_average_price_figure',
+                          animate=True,
+                          responsive=True,
 
-        dcc.Graph(id='time_average_price_figure',
-                  animate=True,
-                  responsive=True,
-                  style={
-                      'width': '50%',
-                      'float': 'right',
-                      'margin': '50px 0px 20px 0px',
-                  },
-                  config={'editable': True,
-                          'scrollZoom': True,
-                          'staticPlot': False,
-                          'doubleClick': 'reset',
-                          'displayModeBar': False,
-                          }),
-        html.Div([html.Div(id='df_live_update')]),
-        # html.Div([
-        #      html.Div(id='live_update_volume', style={
-        #          'padding': '20px',
-        #          'text-align': 'center',
-        #          'background-color': '#212121'}),
-        #      ]),
+                          config={'editable': True,
+                                  'scrollZoom': True,
+                                  'staticPlot': False,
+                                  'doubleClick': 'reset',
+                                  'displayModeBar': False,
+                                  })
+            ], style= graph_style
+            )
+        ],style = graph_div_style),
+
+        html.Div([
+            dash_table.DataTable(id='df_live_update', style_cell=style_cell, editable=True,
+                                       style_data_conditional=style_data_conditional)
+                                       ],style={'display':'inline-block', 'width':'98%', 'padding': '40px'}),
         dcc.Interval(
             id='live_update_interval',
             interval=1*5000,  # in milliseconds
@@ -104,6 +102,7 @@ def volume_average_price_figure_callback(n):
 @app.callback(Output('time_average_price_figure', 'figure'),
               Input('live_update_interval', 'n_intervals'))
 def time_average_price_figure_callback(n):
+    get_all_trades()
     global df_5m
 
     time_average_price_figure = px.scatter(
@@ -131,38 +130,11 @@ def time_average_price_figure_callback(n):
     return time_average_price_figure
 
 
-# @app.callback(Output('live_update_volume', 'children'),
-#               Input('live_update_interval', 'n_intervals'))
-# def live_text_update_callback(n):
-#     get_all_trades()
-#     global df_5m
-
-#     return (
-#         [
-#             html.Span('Volume: ' + df_5m['volume'].map(str).iloc[-1],
-#                       style=live_update_text_style),
-#             html.Span('Change: ' + df_5m['change_in_price'].map(str).iloc[-1],
-#                       style=live_update_text_style),
-#             html.Span('Price: ' + df_5m['average price'].map(str).iloc[-1],
-#                       style=live_update_text_style),
-#             html.Span('Size: ' + df_5m['sum of size'].map(str).iloc[-1],
-#                       style=live_update_text_style)
-#         ]
-#     )
-
-
-@app.callback(Output('df_live_update', 'children'),
+@app.callback(Output('df_live_update', 'data'),
               Input('live_update_interval', 'n_intervals'))
 def data_table_update(n):
-    get_all_trades()
     global df_5m
-
-    # df_5m_lvalues = df_5m.tail(3)
-
-    dataFrame = dash_table.DataTable(df_5m.to_dict('records'), style_cell=style_cell, editable=True,
-                                     style_data_conditional=style_data_conditional)
-
-    return dataFrame
+    return df_5m.to_dict('records')
 
 
 if __name__ == '__main__':

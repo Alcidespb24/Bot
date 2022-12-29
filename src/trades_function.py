@@ -66,7 +66,7 @@ def trades(minutes):
 
     df['time'] = df['time'].values.astype('datetime64[s]')
 
-    df_5m = df.resample('5min', on='time').agg({'price': 'mean', 'size': 'sum', 'side': 'count'}).rename(
+    df_5m = df.resample(str(minutes) + 'min', on='time').agg({'price': 'mean', 'size': 'sum', 'side': 'count'}).rename(
         columns={'price': 'average price', 'size': 'sum of size', 'side': 'volume'})
 
     df_5m.reset_index(inplace=True)
