@@ -22,7 +22,7 @@ graph_div_style = {'display': 'inline-block',
 
 style_cell = {
     'color': 'white',
-    'backgroundColor': '#212121',
+    'backgroundColor': 'black',
     'textAlign': 'center'
 }
 

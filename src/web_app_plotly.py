@@ -17,7 +17,7 @@ df_5m = trades(minutes=15)
 
 def get_all_trades():
     global df_5m
-    df_5m = trades(minutes=30)
+    df_5m = trades(minutes=60)
     df_5m.dropna()
     df_5m = df_5m.round(2)
 
@@ -57,7 +57,7 @@ app.layout = html.Div(
         html.Div([
             dash_table.DataTable(id='df_live_update', style_cell=style_cell, editable=True,
                                  style_data_conditional=style_data_conditional)
-        ], style={'display': 'inline-block', 'width': '98%', 'padding': '40px'}),
+        ], style={'display': 'inline-block', 'width': '96%', 'padding': '0px 50px 0px 50px'}),
         dcc.Interval(
             id='live_update_interval',
             interval=1*5000,  # in milliseconds
@@ -86,12 +86,12 @@ def volume_average_price_figure_callback(n):
     volume_average_price_figure['layout']['yaxis'].update(autorange=True)
     volume_average_price_figure['layout']['xaxis'].update(autorange=True)
     volume_average_price_figure.update_layout(
-        plot_bgcolor='#212121', paper_bgcolor='#212121')
+        plot_bgcolor='black', paper_bgcolor='black')
     volume_average_price_figure.update_traces(textposition="bottom right")
     volume_average_price_figure.update_yaxes(
-        showgrid=True, gridwidth=1, gridcolor='Gray')
+        showgrid=True, gridwidth=1, gridcolor='#00C834')
     volume_average_price_figure.update_xaxes(
-        showgrid=True, gridwidth=1, gridcolor='Gray')
+        showgrid=True, gridwidth=1, gridcolor='#00C834')
 
     return volume_average_price_figure
 
@@ -116,12 +116,12 @@ def time_average_price_figure_callback(n):
     time_average_price_figure['layout']['yaxis'].update(autorange=True)
     time_average_price_figure['layout']['xaxis'].update(autorange=True)
     time_average_price_figure.update_layout(
-        plot_bgcolor='#212121', paper_bgcolor='#212121')
+        plot_bgcolor='black', paper_bgcolor='black')
     time_average_price_figure.update_traces(textposition="bottom right")
     time_average_price_figure.update_yaxes(
-        showgrid=True, gridwidth=1, gridcolor='Gray')
+        showgrid=True, gridwidth=1, gridcolor='#00C834')
     time_average_price_figure.update_xaxes(
-        showgrid=True, gridwidth=1, gridcolor='Gray')
+        showgrid=True, gridwidth=1, gridcolor='#00C834')
 
     return time_average_price_figure
 
