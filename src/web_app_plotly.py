@@ -17,7 +17,7 @@ df_5m = trades(minutes=15)
 
 def get_all_trades():
     global df_5m
-    df_5m = trades(minutes=60)
+    df_5m = trades(minutes=5)
     df_5m.dropna()
     df_5m = df_5m.round(2)
 
@@ -57,13 +57,22 @@ app.layout = html.Div(
         html.Div([
             dash_table.DataTable(id='df_live_update', style_cell=style_cell, editable=True,
                                  style_data_conditional=style_data_conditional)
-        ], style={'display': 'inline-block', 'width': '96%', 'padding': '0px 50px 0px 50px'}),
+        ], style=data_table_div),
+        html.Div([
+            html.Div([html.Button('BUY', id='buy_button', n_clicks=0,
+                     style={'background-color': 'green', 'display': 'inline-block', 'width': '25%', 'margin-top': '10px'})],),
+            html.Div([html.Button('SELL', id='buy_button', n_clicks=0,
+                     style={'background-color': 'red', 'display': 'inline-block', 'width': '25%', 'margin-top': '10px'})],),
+        ], style={
+            'margin': '25px 50px 0px 50px',
+            'text-align': 'center',
+            'align-items': 'center'}),
         dcc.Interval(
             id='live_update_interval',
-            interval=1*5000,  # in milliseconds
+            interval=1*1000,  # in milliseconds
             n_intervals=0
         ),
-    ],)
+    ], style=container_style)
 )
 
 
@@ -83,15 +92,15 @@ def volume_average_price_figure_callback(n):
         hover_name="time",
     )
 
-    volume_average_price_figure['layout']['yaxis'].update(autorange=True)
-    volume_average_price_figure['layout']['xaxis'].update(autorange=True)
+    # volume_average_price_figure['layout']['yaxis'].update(autorange=True)
+    # volume_average_price_figure['layout']['xaxis'].update(autorange=True)
     volume_average_price_figure.update_layout(
-        plot_bgcolor='black', paper_bgcolor='black')
+        plot_bgcolor='#040303', paper_bgcolor='#040303')
     volume_average_price_figure.update_traces(textposition="bottom right")
     volume_average_price_figure.update_yaxes(
-        showgrid=True, gridwidth=1, gridcolor='#00C834')
+        showgrid=True, gridwidth=1, gridcolor='#2C3639')
     volume_average_price_figure.update_xaxes(
-        showgrid=True, gridwidth=1, gridcolor='#00C834')
+        showgrid=True, gridwidth=1, gridcolor='#2C3639')
 
     return volume_average_price_figure
 
@@ -113,15 +122,15 @@ def time_average_price_figure_callback(n):
         hover_name="volume",
     )
 
-    time_average_price_figure['layout']['yaxis'].update(autorange=True)
-    time_average_price_figure['layout']['xaxis'].update(autorange=True)
+    # time_average_price_figure['layout']['yaxis'].update(autorange=True)
+    # time_average_price_figure['layout']['xaxis'].update(autorange=True)
     time_average_price_figure.update_layout(
-        plot_bgcolor='black', paper_bgcolor='black')
+        plot_bgcolor='#040303', paper_bgcolor='#040303')
     time_average_price_figure.update_traces(textposition="bottom right")
     time_average_price_figure.update_yaxes(
-        showgrid=True, gridwidth=1, gridcolor='#00C834')
+        showgrid=True, gridwidth=1, gridcolor='#2C3639')
     time_average_price_figure.update_xaxes(
-        showgrid=True, gridwidth=1, gridcolor='#00C834')
+        showgrid=True, gridwidth=1, gridcolor='#2C3639')
 
     return time_average_price_figure
 
@@ -151,7 +160,7 @@ def time_average_price_figure_callback(n):
 def data_table_update(n):
     get_all_trades()
     global df_5m
-    df_5m_lvalues = df_5m.tail(2)
+    df_5m_lvalues = df_5m.tail(5)
     return df_5m_lvalues.to_dict('records')
 
 

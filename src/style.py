@@ -13,17 +13,28 @@
 #     'align-items': 'center'
 # }
 
+container_style = {'background-color': 'black',
+                   'height': '100%',
+                   'width': '100%',
+                   'position': 'absolute',
+                   'left':'0',
+                   'right':'0',
+                   'bottom':'0'
+                   }
+
 graph_style = {'display': 'inline-block',
-               'width': '48%',
-               'margin-left': '1vw'}
+               'width': '50%',
+               }
 graph_div_style = {'display': 'inline-block',
                    'width': '100%',
-                   'margin-left': '1vw'}
-
+                   }
+data_table_div = {'display': 'justify',
+                  'width': '100%',
+                  }
 style_cell = {
     'color': 'white',
-    'backgroundColor': 'black',
-    'textAlign': 'center'
+    'backgroundColor': '#040303',
+    'textAlign': 'center',
 }
 
 style_data_conditional = [
