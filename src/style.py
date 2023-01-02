@@ -17,19 +17,32 @@ container_style = {'background-color': 'black',
                    'height': '100%',
                    'width': '100%',
                    'position': 'absolute',
-                   'left':'0',
-                   'right':'0',
-                   'bottom':'0'
+                   'left': '0',
+                   'right': '0',
+                   'bottom': '0'
                    }
 
+graph_config = {'editable': True,
+                'scrollZoom': True,
+                'staticPlot': False,
+                'doubleClick': 'reset',
+                'displayModeBar': False, }
+
 graph_style = {'display': 'inline-block',
-               'width': '50%',
+               'width': '45%',
+               'margin-left': '65px'
                }
 graph_div_style = {'display': 'inline-block',
                    'width': '100%',
+                   'margin': '50px 0px 0px 0px',
                    }
-data_table_div = {'display': 'justify',
-                  'width': '100%',
+style_table = {
+    'margin-left': '65px',
+    'margin-right': '35px'
+}
+data_table_div = {'display': 'block',
+                  'width': '93.5%',
+                  'margin-top': '50px',
                   }
 style_cell = {
     'color': 'white',
@@ -136,3 +149,16 @@ style_data_conditional = [
         'color': 'white',
     },
 ]
+
+button_buy_style = {'background-color': 'green',
+                    'display': 'inline-block',
+                    'width': '25%',
+                    'margin-top': '10px'}
+
+button_sell_style = {'background-color': 'red',
+                     'display': 'inline-block',
+                     'width': '25%',
+                     'margin-top': '10px'}
+button_div_style = {'margin': '25px 50px 0px 50px',
+                    'text-align': 'center',
+                    'align-items': 'center'}
