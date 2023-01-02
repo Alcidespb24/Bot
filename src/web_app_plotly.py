@@ -1,10 +1,12 @@
 import warnings
-from dash import Dash, html, dcc, dash_table
+from dash import Dash, html, dcc, dash_table, ctx
 from dash.dependencies import Input, Output
 from dash import dcc, html
 import dash
 from trades_function import trades
 from style import *
+from mt5_init_function import *
+from main import open_position
 import plotly.express as px
 import plotly.io as pio
 pio.templates
@@ -12,7 +14,6 @@ warnings.filterwarnings('ignore')
 warnings.simplefilter('ignore')
 
 df_5m = trades(minutes=15)
-
 
 def get_all_trades():
     global df_5m
@@ -50,8 +51,9 @@ app.layout = html.Div(
         html.Div([
             html.Div([html.Button('BUY', id='buy_button', n_clicks=0,
                      style=button_buy_style)],),
-            html.Div([html.Button('SELL', id='buy_button', n_clicks=0,
+            html.Div([html.Button('SELL', id='sell_button', n_clicks=0,
                      style=button_sell_style)],),
+            html.Div(id='container-button-timestamp')
         ], style=button_div_style),
         dcc.Interval(
             id='live_update_interval',
@@ -148,6 +150,26 @@ def data_table_update(n):
     global df_5m
     df_5m_lvalues = df_5m.dropna().tail(5)
     return df_5m_lvalues.to_dict('records')
+
+
+@app.callback(
+    Output('container-button-timestamp', 'children'),
+    Input('buy_button', 'n_clicks'),
+    Input('sell_button', 'n_clicks'),
+)
+def displayClick(bb, sb):
+
+    if "buy_button" == ctx.triggered_id:
+        trade = open_position(Symbol='ETHUSD', order_type='Buy', size=20,
+                              tp_distance=1300, stop_distance=1200, comment='it worked')
+        print('I am trying to buy')
+    elif "sell_button" == ctx.triggered_id:
+        trade = open_position(Symbol='ETHUSD', order_type='Sell', size=20,
+                              tp_distance=1200, stop_distance=1300, comment='it worked')
+        print('I am trying to sell')
+    else:
+        'Something went wrong'
+    return trade
 
 
 if __name__ == '__main__':
