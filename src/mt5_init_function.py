@@ -1,5 +1,3 @@
-from operator import eq
-from time import sleep
 import os
 
 if os.name == 'nt':

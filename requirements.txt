@@ -2,10 +2,11 @@ numpy
 pandas
 pandas_ta
 pytz
-mt5linux
 matplotlib
 sklearn
 binance
 seaborn
 datetime
 cbpro
+mt5linux
+websocket-client>=0.40.0

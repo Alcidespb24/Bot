@@ -1,13 +1,3 @@
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-from datetime import datetime, timedelta
-from pylab import mpl, plt
-import pandas_ta as ta
-from sklearn import datasets, linear_model
-from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_error, r2_score
-from gather_data_function import *
 from mt5_init_function import *
 
 init()
@@ -55,43 +45,3 @@ def open_position(
     }
 
     result = mt5.order_send(request)
-
-    if result.retcode != mt5.TRADE_RETCODE_DONE:
-        print("Failed to send order :")
-    else:
-        print("Order successfully placed!")
-    if mt5.positions_total == 0:
-        result = mt5.order_send(request)
-
-def get_states(df, symbols):
-    df = gather_data(f'{symbol}',start_from)
-    states = {}
-    if (df['entry_type'].iloc[-1] == 'LONG'):
-        states = 'Buy'
-        print(states)
-    elif(df['entry_type'].iloc[-1] == 'SHORT') :
-        states = 'Sell'
-    elif df['entry_type'].iloc[-1] == 'No Entry':
-        states = 'No Entry'
-    else:
-        states = 'Nothing'
-    return states
-
-def reading_state ():
-    first = True
-    
-    while True:
-        if mt5.positions_total() == 0:
-            if (datetime.now().second % 2 == 0) or first:
-                if datetime.now().second % 1 == 0 or first:
-                    # Refresh Data
-                    first = False
-                    df = gather_data(f'{symbol}',start_from)
-                    states = get_states(df, f"{symbol}")
-                    if states == "Buy":
-                        print("Order Type: " + states)
-                        open_position(f"{symbol}", "Buy", lots, df.tp.iloc[-1], df.sl.iloc[-1], "Buy_Updated")
-                    elif states == "Sell":
-                        print('Order Type: ' + states)
-                        open_position(f"{symbol}", "Sell", lots, df.tp.iloc[-1], df.sl.iloc[-1],"Sell_Updated")
-reading_state()
