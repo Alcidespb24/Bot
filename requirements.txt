@@ -2,6 +2,9 @@ numpy
 pandas
 pandas_ta
 pytz
+dash
+plotly.express
+plotly.io
 matplotlib
 sklearn
 binance
