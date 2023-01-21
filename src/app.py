@@ -23,7 +23,6 @@ def get_all_trades():
 
 
 app = dash.Dash(__name__)
-
 server = app.server
 
 app.layout = html.Div(
