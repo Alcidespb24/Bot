@@ -5,8 +5,6 @@ pytz
 dash
 plotly.express
 matplotlib
-sklearn
-binance
 seaborn
 datetime
 cbpro
