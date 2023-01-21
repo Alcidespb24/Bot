@@ -1,73 +1,61 @@
-from trades_function import trades
-import plotly.express as px
-import dash
-from dash import dcc, html
-from dash.dependencies import Input, Output
-from dash import Dash, html, dcc
 import warnings
+from dash import Dash, html, dcc, dash_table, ctx
+from dash.dependencies import Input, Output
+from dash import dcc, html
+import dash
+from trades_function import trades
+from style import *
+import plotly.express as px
+import plotly.io as pio
+pio.templates
 warnings.filterwarnings('ignore')
 warnings.simplefilter('ignore')
 
-
-df_5m = trades()
+df_5m = trades(minutes=5)
 
 
 def get_all_trades():
     global df_5m
-    df_5m = trades()
+    df_5m = trades(minutes=5)
     df_5m.dropna()
     df_5m = df_5m.round(2)
 
 
 app = dash.Dash(__name__)
 
-live_update_text_style = {
-    'color': 'white',
-    'font-size': '15px',
-    'background-color': '#2A0944',
-    'border-radius': '50%',
-    'display': 'inline-block',
-    'box-shadow': 'rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px',
-    'margin': '10px',
-    'padding': '20px',
-    'width': '50px',
-    'height': '50px',
-    'text-align': 'center',
-    'align-items': 'center'
-}
-
 app.layout = html.Div(
     html.Div([
-        html.Div(id='live_update_volume', style={
-                 'margin-bottom': '2px', 'text-align': 'center','background-color': '#171717'}),
+        html.H1('ETH', style={'color': '#91D8E4',
+                              'text-align': 'left', 'margin': '50px 0px 0px 65px'}),
+        html.Div([
+            html.Div([
+                dcc.Graph(id='volume_average_price_figure',
+                          animate=True,
+                          responsive=True,
+                          config=graph_config)
+            ], style=graph_style
+            ),
+            html.Div([
+                dcc.Graph(id='time_average_price_figure',
+                          animate=True,
+                          responsive=True,
+                          config=graph_config)
+            ], style=graph_style
+            )
+        ], style=graph_div_style),
 
         html.Div([
-            dcc.Graph(id='volume_average_price_figure',
-                      animate=True,
-                      responsive=True,
-                      config={'editable': True,
-                              'scrollZoom': True,
-                              'staticPlot': False,
-                              'doubleClick': 'reset',
-                              'displayModeBar': False,
-                              }),
-                              
-            dcc.Graph(id='time_average_price_figure',
-                      animate=True,
-                      responsive=True,
-                      config={'editable': True,
-                              'scrollZoom': True,
-                              'staticPlot': False,
-                              'doubleClick': 'reset',
-                              'displayModeBar': False,
-                              }),
-        ]),
+            dash_table.DataTable(id='df_live_update', style_cell=style_cell, editable=True,
+                                 style_table=style_table,
+                                 style_data_conditional=style_data_conditional)
+        ], style=data_table_div),
+
         dcc.Interval(
             id='live_update_interval',
             interval=1*5000,  # in milliseconds
             n_intervals=0
         ),
-    ],)
+    ], style=container_style)
 )
 
 
@@ -79,9 +67,6 @@ def volume_average_price_figure_callback(n):
         df_5m,
         x='volume',
         y='average price',
-        trendline='ols',
-        trendline_scope="overall",
-        trendline_color_override='white',
         text='change_in_price',
         color='time',
         template="plotly_dark",
@@ -93,12 +78,12 @@ def volume_average_price_figure_callback(n):
     volume_average_price_figure['layout']['yaxis'].update(autorange=True)
     volume_average_price_figure['layout']['xaxis'].update(autorange=True)
     volume_average_price_figure.update_layout(
-        plot_bgcolor='#212121', paper_bgcolor='#212121')
+        plot_bgcolor='#040303', paper_bgcolor='#040303')
     volume_average_price_figure.update_traces(textposition="bottom right")
     volume_average_price_figure.update_yaxes(
-        showgrid=True, gridwidth=1, gridcolor='Gray')
+        showgrid=True, gridwidth=1, gridcolor='#2C3639')
     volume_average_price_figure.update_xaxes(
-        showgrid=True, gridwidth=1, gridcolor='Gray')
+        showgrid=True, gridwidth=1, gridcolor='#2C3639')
 
     return volume_average_price_figure
 
@@ -123,34 +108,23 @@ def time_average_price_figure_callback(n):
     time_average_price_figure['layout']['yaxis'].update(autorange=True)
     time_average_price_figure['layout']['xaxis'].update(autorange=True)
     time_average_price_figure.update_layout(
-        plot_bgcolor='#212121', paper_bgcolor='#212121')
+        plot_bgcolor='#040303', paper_bgcolor='#040303')
     time_average_price_figure.update_traces(textposition="bottom right")
     time_average_price_figure.update_yaxes(
-        showgrid=True, gridwidth=1, gridcolor='Gray')
+        showgrid=True, gridwidth=1, gridcolor='#2C3639')
     time_average_price_figure.update_xaxes(
-        showgrid=True, gridwidth=1, gridcolor='Gray')
+        showgrid=True, gridwidth=1, gridcolor='#2C3639')
 
     return time_average_price_figure
 
 
-@app.callback(Output('live_update_volume', 'children'),
+@app.callback(Output('df_live_update', 'data'),
               Input('live_update_interval', 'n_intervals'))
-def live_text_update_callback(n):
+def data_table_update(n):
     get_all_trades()
     global df_5m
-
-    return (
-        [
-            html.Span('Volume: ' + df_5m['volume'].map(str).iloc[-1],
-                      style=live_update_text_style),
-            html.Span('Change In Price: ' + df_5m['change_in_price'].map(str).iloc[-1],
-                      style=live_update_text_style),
-            html.Span('Average Price: ' + df_5m['average price'].map(str).iloc[-1],
-                      style=live_update_text_style),
-            html.Span('Size: ' + df_5m['sum of size'].map(str).iloc[-1],
-                      style=live_update_text_style)
-        ]
-    )
+    df_5m_lvalues = df_5m.dropna().tail(5)
+    return df_5m_lvalues.to_dict('records')
 
 
 if __name__ == '__main__':

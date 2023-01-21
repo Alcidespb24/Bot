@@ -33,13 +33,13 @@ def get_trades_in_last_xmins (mins: int) -> list:
     return buffer
 
 
-def trades():
+def trades(minutes):
 
     client = cbpro.PublicClient()
     
     global _full_list
 
-    get_trades = get_trades_in_last_xmins(mins=60)
+    get_trades = get_trades_in_last_xmins(minutes)
 
     _full_list += get_trades
 

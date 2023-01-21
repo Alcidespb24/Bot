@@ -45,10 +45,3 @@ def open_position(
     }
 
     result = mt5.order_send(request)
-
-    if result.retcode != mt5.TRADE_RETCODE_DONE:
-        print("Failed to send order :")
-    else:
-        print("Order successfully placed!")
-    if mt5.positions_total == 0:
-        result = mt5.order_send(request)
