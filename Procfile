@@ -1,1 +1,1 @@
-web: gunicorn web_app_plotly:servergit
+web: gunicorn web_app_plotly:server
