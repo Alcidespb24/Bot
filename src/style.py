@@ -1,18 +1,3 @@
-# live_update_text_style = {
-#     'color': 'white',
-#     'font-size': '15px',
-#     'background-color': '#2A0944',
-#     'border-radius': '50%',
-#     'display': 'inline-block',
-#     'box-shadow': 'rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px',
-#     'margin': '20px',
-#     'padding': '25px',
-#     'width': '50px',
-#     'height': '50px',
-#     'text-align': 'center',
-#     'align-items': 'center'
-# }
-
 container_style = {'background-color': 'black',
                    'height': '100%',
                    'width': '100%',
