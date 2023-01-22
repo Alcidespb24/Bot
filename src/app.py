@@ -11,7 +11,6 @@ import plotly.io as pio
 pio.templates
 warnings.filterwarnings('ignore')
 warnings.simplefilter('ignore')
-import app
 df_5m = trades(minutes=5)
 
 
