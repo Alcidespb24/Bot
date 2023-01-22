@@ -1,1 +1,1 @@
-web: gunicorn app:server --chdir=Bot\src\app.py
+web: gunicorn app:server
