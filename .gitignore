@@ -9,4 +9,3 @@ venv
 *.pyc
 .DS_Store
 .env
-db.sqlite3

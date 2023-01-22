@@ -11,7 +11,7 @@ import plotly.io as pio
 pio.templates
 warnings.filterwarnings('ignore')
 warnings.simplefilter('ignore')
-
+import app
 df_5m = trades(minutes=5)
 
 
@@ -23,8 +23,6 @@ def get_all_trades():
 
 
 app = dash.Dash(__name__)
-
-server = app.server
 
 app.layout = html.Div(
     html.Div([
