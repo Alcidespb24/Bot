@@ -4,8 +4,8 @@ from dash import Dash, html, dcc, dash_table, ctx
 from dash.dependencies import Input, Output
 from dash import dcc, html
 import dash
-from src.trades_function import trades
-from src.style import *
+from trades_function import trades
+from style import *
 import plotly.express as px
 import plotly.io as pio
 pio.templates
