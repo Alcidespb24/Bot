@@ -23,6 +23,8 @@ def get_all_trades():
 
 app = dash.Dash(__name__)
 
+server = app.server
+
 app.layout = html.Div(
     html.Div([
         html.H1('ETH', style={'color': '#91D8E4',
