@@ -41,7 +41,7 @@ style_data_conditional = [
             'filter_query': '{volume} > 2500',
             'column_id': 'volume'
         },
-        'backgroundColor': '#B3FFAE',
+        'backgroundColor': '#FFD369',
         'color': 'white',
     },
     {
@@ -49,7 +49,7 @@ style_data_conditional = [
             'filter_query': '{volume} < 2000',
             'column_id': 'volume'
         },
-        'backgroundColor': '#EC7272',
+        'backgroundColor': '#FF0000',
         'color': 'white',
     },
     {
@@ -65,7 +65,7 @@ style_data_conditional = [
             'filter_query': '{volume} > 5000',
             'column_id': 'volume'
         },
-        'backgroundColor': '#82CD47',
+        'backgroundColor': '#03C988',
         'color': 'white',
     },
     {
@@ -73,7 +73,7 @@ style_data_conditional = [
             'filter_query': '{change_in_price} > 1',
             'column_id': 'change_in_price'
         },
-        'backgroundColor': '#B6E2A1',
+        'backgroundColor': '#FFD369',
         'color': 'white',
     },
     {
@@ -81,7 +81,7 @@ style_data_conditional = [
             'filter_query': '{change_in_price} > 5',
             'column_id': 'change_in_price'
         },
-        'backgroundColor': '#519872',
+        'backgroundColor': '#4E9F3D',
         'color': 'white',
     },
     {
@@ -89,7 +89,7 @@ style_data_conditional = [
             'filter_query': '{change_in_price} > 10',
             'column_id': 'change_in_price'
         },
-        'backgroundColor': '#4E9F3D',
+        'backgroundColor': '#03C988',
         'color': 'white',
     },
     {
