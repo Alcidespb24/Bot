@@ -97,7 +97,7 @@ style_data_conditional = [
             'filter_query': '{change_in_price} < -1',
             'column_id': 'change_in_price'
         },
-        'backgroundColor': '#FF6464',
+        'backgroundColor': '#FFD369',
         'color': 'white',
     },
     {
