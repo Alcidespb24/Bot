@@ -49,7 +49,7 @@ style_data_conditional = [
             'filter_query': '{volume} < 2500',
             'column_id': 'volume'
         },
-        'backgroundColor': '#FF0000',
+        'backgroundColor': '#3F4E4F',
         'color': 'white',
     },
     {
