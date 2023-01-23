@@ -106,7 +106,7 @@ style_data_conditional = [
             'column_id': 'change_in_price'
         },
         'backgroundColor': '#519872',
-        'color': 'red',
+        'color': 'white',
 
     },
     {
@@ -115,7 +115,7 @@ style_data_conditional = [
             'column_id': 'change_in_price'
         },
         'backgroundColor': '#4E9F3D',
-        'color': 'red',
+        'color': 'white',
     },
     {
         'if': {
@@ -133,6 +133,22 @@ style_data_conditional = [
         'backgroundColor': '#4E9F3D',
         'color': 'white',
     },
+    {
+        'if': {
+            'filter_query': '{change_in_size} > 0',
+            'column_id': 'sum of size'
+        },
+        'backgroundColor': '#4E9F3D',
+        'color': 'white',
+    },
+    {
+        'if': {
+            'filter_query': '{change_in_size} < 0',
+            'column_id': 'sum of size'
+        },
+        'backgroundColor': '#519872',
+        'color': 'white',
+    }
 ]
 
 button_buy_style = {'background-color': 'green',
