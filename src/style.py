@@ -119,7 +119,7 @@ style_data_conditional = [
     },
     {
         'if': {
-            'filter_query': '{sum of size} < 0',
+            'filter_query': '{sum of size} < 1',
             'column_id': 'sum of size'
         },
         'backgroundColor': '#FF0000',
@@ -127,7 +127,7 @@ style_data_conditional = [
     },
     {
         'if': {
-            'filter_query': '{sum of size} > 0',
+            'filter_query': '{sum of size} > 1',
             'column_id': 'sum of size'
         },
         'backgroundColor': '#4E9F3D',
@@ -138,7 +138,7 @@ style_data_conditional = [
             'filter_query': '{change_in_size} < 1',
             'column_id': 'change_in_size'
         },
-        'backgroundColor': '#4E9F3D',
+        'backgroundColor': '#FF0000',
         'color': 'white',
     },
     {
