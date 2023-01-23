@@ -135,7 +135,7 @@ style_data_conditional = [
     },
     {
         'if': {
-            'filter_query': '{change_in_size} > 1',
+            'filter_query': '{change_in_size} < 1',
             'column_id': 'change_in_size'
         },
         'backgroundColor': '#4E9F3D',
@@ -143,7 +143,7 @@ style_data_conditional = [
     },
     {
         'if': {
-            'filter_query': '{change_in_size} < 1',
+            'filter_query': '{change_in_size} > 1',
             'column_id': 'change_in_size'
         },
         'backgroundColor': '#519872',
