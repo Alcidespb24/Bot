@@ -7,9 +7,6 @@ client = cbpro.PublicClient()
 symbol = 'ETH-USD'
 _full_list = []
 
-get_trades_latest = client.get_product_trades(product_id=f'{symbol}')
-
-
 def convert_iso_format_to_datetime(iso_format_time: str) -> datetime:
     return datetime.strptime(iso_format_time, '%Y-%m-%dT%H:%M:%S.%f%z')
 
