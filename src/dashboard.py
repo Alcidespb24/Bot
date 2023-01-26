@@ -120,6 +120,5 @@ def data_table_update(n):
     df_5m_lvalues = df_eth.round(2).tail(5)
     return df_5m_lvalues.to_dict('records')
 
-
 if __name__ == '__main__':
     app.run_server(debug=True)
