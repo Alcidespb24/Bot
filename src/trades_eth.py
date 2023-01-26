@@ -76,6 +76,6 @@ def trades_eth(minutes):
     df_eth = trades_eth(minutes=5)
     df_eth.dropna()
     df_eth = df_eth.round(2)
-    df_eth.style.format('{:,}')
+
     
     return df_eth

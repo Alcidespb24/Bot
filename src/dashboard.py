@@ -11,8 +11,8 @@ import plotly.io as pio
 pio.templates
 warnings.filterwarnings('ignore')
 warnings.simplefilter('ignore')
-
 df_eth = trades_eth(minutes=5)
+
 
 app = dash.Dash(__name__)
 
