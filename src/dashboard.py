@@ -14,13 +14,6 @@ warnings.simplefilter('ignore')
 df_eth = trades_eth(minutes=5)
 
 
-def get_all_trades():
-    global df_eth
-    df_eth = trades_eth(minutes=5)
-    df_eth.dropna()
-    df_eth = df_eth.round(2)
-
-
 app = dash.Dash(__name__)
 
 server = app.server
