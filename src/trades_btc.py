@@ -62,18 +62,15 @@ def trades_btc(minutes):
 
     df['time'] = df['time'].values.astype('datetime64[s]')
 
-    (df_btc) = df.resample('5min', on='time').agg({'price': 'mean', 'size': 'sum', 'side': 'count'}).rename(
+    df_btc = df.resample('5min', on='time').agg({'price': 'mean', 'size': 'sum', 'side': 'count'}).rename(
         columns={'price': 'average price', 'size': 'sum of size', 'side': 'volume'})
 
-    (df_btc).reset_index(inplace=True)
+    df_btc.reset_index(inplace=True)
     
-    (df_btc)['time'] = (df_btc)['time'].astype(str)
+    df_btc['time'] = df_btc['time'].astype(str)
 
-    (df_btc)['change_in_price'] = (df_btc)['average price'].diff()
-    (df_btc)['change_in_size'] = (df_btc)['sum of size'].diff()
-    (df_btc)['change_in_volume'] = (df_btc)['volume'].diff()
+    df_btc['change_in_price'] = df_btc['average price'].diff()
+    df_btc['change_in_size'] = df_btc['sum of size'].diff()
+    df_btc['change_in_volume'] = df_btc['volume'].diff()
 
-    (df_btc).dropna()
-    (df_btc) = (df_btc).round(2)
-
-    return (df_btc)
+    return df_btc
