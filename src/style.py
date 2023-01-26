@@ -42,7 +42,7 @@ style_data_conditional = [
             'column_id': 'volume'
         },
         'backgroundColor': '#FFD369',
-        'color': 'white',
+        'color': 'black',
     },
     {
         'if': {
@@ -74,7 +74,7 @@ style_data_conditional = [
             'column_id': 'change_in_price'
         },
         'backgroundColor': '#FFD369',
-        'color': 'white',
+        'color': 'black',
     },
     {
         'if': {
@@ -98,7 +98,7 @@ style_data_conditional = [
             'column_id': 'change_in_price'
         },
         'backgroundColor': '#FFD369',
-        'color': 'white',
+        'color': 'black',
     },
     {
         'if': {
