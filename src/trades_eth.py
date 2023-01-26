@@ -4,7 +4,7 @@ import cbpro
 import pandas as pd
 
 client = cbpro.PublicClient()
-symbol = 'ETH-USD'
+symbol = 'BTC-USD'
 _full_list = []
 
 def convert_iso_format_to_datetime(iso_format_time: str) -> datetime:
