@@ -13,13 +13,6 @@ warnings.filterwarnings('ignore')
 warnings.simplefilter('ignore')
 df_eth = trades_eth(minutes=5)
 
-def get_all_trades():
-    global df_eth
-    df_eth = trades_eth(minutes=5)
-    df_eth.dropna()
-    df_eth = df_eth.round(2)
-
-
 app = dash.Dash(__name__)
 
 server = app.server
@@ -122,9 +115,8 @@ def time_average_price_figure_callback(n):
 @app.callback(Output('df_live_update', 'data'),
               Input('live_update_interval', 'n_intervals'))
 def data_table_update(n):
-    get_all_trades()
     global df_eth
-    df_5m_lvalues = df_eth.dropna().tail(5)
+    df_5m_lvalues = df_eth.round(2).tail(5)
     return df_5m_lvalues.to_dict('records')
 
 
