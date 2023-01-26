@@ -15,6 +15,7 @@ def get_posix_time(datetime_obj: datetime) -> time:
     return time.mktime(datetime_obj.timetuple())
 
 def get_trades_in_last_xmins(mins: int) -> list:
+    client = cbpro.PublicClient()
     current_date = datetime.now().utcnow()
     date_five_mins_ago = current_date - timedelta(minutes=mins)
     date_five_mins_ago_posix = get_posix_time(date_five_mins_ago)
