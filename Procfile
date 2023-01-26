@@ -1,1 +1,1 @@
-web: gunicorn --chdir src dashboard:server
+web: gunicorn --chdir src dashboard:server --preload
