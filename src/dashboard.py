@@ -47,7 +47,7 @@ app.layout = html.Div(
 
         dcc.Interval(
             id='live_update_interval',
-            interval=1*1=5000,  # in milliseconds
+            interval=1*5000,  # in milliseconds
             n_intervals=0
         ),
     ], style=container_style)
