@@ -14,8 +14,7 @@ def convert_iso_format_to_datetime(iso_format_time: str) -> datetime:
 def get_posix_time(datetime_obj: datetime) -> time:
     return time.mktime(datetime_obj.timetuple()) 
 
-def get_trades_in_last_xmins (mins: int) -> list:
-    client = cbpro.PublicClient()  
+def get_trades_in_last_xmins (mins: int) -> list: 
     current_date = datetime.now().utcnow()
     date_five_mins_ago = current_date - timedelta(minutes = mins)
     date_five_mins_ago_posix = get_posix_time(date_five_mins_ago)
@@ -25,7 +24,6 @@ def get_trades_in_last_xmins (mins: int) -> list:
     buffer = []
 
     while get_posix_time(convert_iso_format_to_datetime(current_element['time'])) > date_five_mins_ago_posix:
-        client = cbpro.PublicClient()
         buffer.append(current_element)
         current_element = get_trades_latest.__next__()
 
@@ -33,10 +31,8 @@ def get_trades_in_last_xmins (mins: int) -> list:
     return buffer
 
 
-def trades(minutes):
+def trades_eth(minutes):
 
-    client = cbpro.PublicClient()
-    
     global _full_list
 
     get_trades = get_trades_in_last_xmins(minutes)
@@ -66,15 +62,15 @@ def trades(minutes):
 
     df['time'] = df['time'].values.astype('datetime64[s]')
 
-    df_5m = df.resample('5min', on='time').agg({'price': 'mean', 'size': 'sum', 'side': 'count'}).rename(
+    df_eth = df.resample('5min', on='time').agg({'price': 'mean', 'size': 'sum', 'side': 'count'}).rename(
         columns={'price': 'average price', 'size': 'sum of size', 'side': 'volume'})
 
-    df_5m.reset_index(inplace=True)
+    df_eth.reset_index(inplace=True)
     
-    df_5m['time'] = df_5m['time'].astype(str)
+    df_eth['time'] = df_eth['time'].astype(str)
 
-    df_5m['change_in_price'] = df_5m['average price'].diff()
-    df_5m['change_in_size'] = df_5m['sum of size'].diff()
-    df_5m['change_in_volume'] = df_5m['volume'].diff()
+    df_eth['change_in_price'] = df_eth['average price'].diff()
+    df_eth['change_in_size'] = df_eth['sum of size'].diff()
+    df_eth['change_in_volume'] = df_eth['volume'].diff()
 
-    return (df_5m)
+    return df_eth
