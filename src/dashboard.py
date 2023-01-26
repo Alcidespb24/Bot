@@ -123,7 +123,7 @@ def time_average_price_figure_callback(n):
 def data_table_update(n):
     get_all_trades()
     global df_eth
-    df_5m_lvalues = df_eth.dropna().tail(5)
+    df_5m_lvalues = df_eth.tail(5)
     return df_5m_lvalues.to_dict('records')
 
 
