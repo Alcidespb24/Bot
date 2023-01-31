@@ -11,12 +11,11 @@ pio.templates
 warnings.filterwarnings('ignore')
 warnings.simplefilter('ignore')
 
-df_eth = trades_eth(minutes=5)
+df_eth = trades_eth(minutes=1)
 
 def get_all_trades():
     global df_eth
-    df_eth = trades_eth(minutes=5)
-    df_eth.dropna()
+    df_eth = trades_eth(minutes=1)
     df_eth = df_eth.round(2)
 
 app = dash.Dash(__name__)
@@ -67,7 +66,7 @@ def volume_average_price_figure_callback(n):
         df_eth,
         x='volume',
         y='average price',
-        text='change_in_price',
+        text='sum of size',
         color='time',
         template="plotly_dark",
         size='volume',
@@ -97,7 +96,7 @@ def time_average_price_figure_callback(n):
         df_eth,
         x='time',
         y='average price',
-        text='sum of size',
+        text='change_in_price',
         size='volume',
         color='time',
         template="plotly_dark",

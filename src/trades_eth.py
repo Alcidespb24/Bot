@@ -41,7 +41,7 @@ def trades_eth(minutes):
 
     df = pd.DataFrame(_full_list)
 
-    df = df.drop_duplicates(subset='trade_id')
+    # df = df.drop_duplicates(subset='trade_id')
 
     df['price'] = pd.to_numeric(df['price'])
     df['size'] = pd.to_numeric(df['size'])
