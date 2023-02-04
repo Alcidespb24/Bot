@@ -15,7 +15,7 @@ def get_posix_time(datetime_obj: datetime) -> time:
     return time.mktime(datetime_obj.timetuple())
 
 def get_trades_in_last_xmins(mins: int) -> list:
-    client = cbpro.PublicClient()
+    client
     current_date = datetime.now().utcnow()
     date_five_mins_ago = current_date - timedelta(minutes=mins)
     date_five_mins_ago_posix = get_posix_time(date_five_mins_ago)
@@ -24,7 +24,7 @@ def get_trades_in_last_xmins(mins: int) -> list:
     buffer = []
 
     while get_posix_time(convert_iso_format_to_datetime(current_element['time'])) > date_five_mins_ago_posix:
-        client = cbpro.PublicClient()
+        client
         buffer.append(current_element)
         current_element = get_trades_latest.__next__()
 
@@ -41,7 +41,7 @@ def trades_eth(minutes):
 
     df = pd.DataFrame(_full_list)
 
-    # df = df.drop_duplicates(subset='trade_id')
+    df = df.drop_duplicates(subset='trade_id')
 
     df['price'] = pd.to_numeric(df['price'])
     df['size'] = pd.to_numeric(df['size'])
@@ -62,8 +62,8 @@ def trades_eth(minutes):
 
     df['time'] = df['time'].values.astype('datetime64[s]')
 
-    df_eth = df.resample('5min', on='time').agg({'price': 'mean', 'size': 'sum', 'side': 'count'}).rename(
-        columns={'price': 'average price', 'size': 'sum of size', 'side': 'volume'})
+    df_eth = df.resample('5min', on='time').agg({'price': 'mean', 'size': 'sum', 'trade_id': 'count'}).rename(
+        columns={'price': 'average price', 'size': 'sum of size', 'trade_id': 'volume'})
 
     df_eth.reset_index(inplace=True)
 

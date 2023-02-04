@@ -83,7 +83,7 @@ def volume_average_price_figure_callback(n):
         showgrid=True, gridwidth=1, gridcolor='#2C3639')
     volume_average_price_figure.update_xaxes(
         showgrid=True, gridwidth=1, gridcolor='#2C3639')
-
+    
     return volume_average_price_figure
 
 
