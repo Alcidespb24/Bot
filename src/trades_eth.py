@@ -2,7 +2,8 @@ from datetime import datetime, timedelta
 import time
 import cbpro
 import pandas as pd
-
+import numpy as np
+import statistics
 client = cbpro.PublicClient()
 symbol = 'BTC-USD'
 _full_list = []
