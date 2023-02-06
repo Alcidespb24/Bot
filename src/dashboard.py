@@ -11,7 +11,7 @@ pio.templates
 warnings.filterwarnings('ignore')
 warnings.simplefilter('ignore')
 
-df_eth = trades_eth(minutes=1)
+df_eth = trades_eth(minutes=5)
 
 def get_all_trades():
     global df_eth
