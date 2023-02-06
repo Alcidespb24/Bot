@@ -74,6 +74,8 @@ def trades_eth(minutes):
     df_eth['change_in_size'] = df_eth['sum of size'].diff()
     df_eth['change_in_volume'] = df_eth['volume'].diff()
 
+    df_eth['std dev'] = statistics.pstdev(df_eth['average price'])
+
     df_eth = df_eth.round(2)
 
     return df_eth
