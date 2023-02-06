@@ -17,6 +17,7 @@ def get_all_trades():
     global df_eth
     df_eth = trades_eth(minutes=1)
     df_eth = df_eth.round(2)
+    df_eth.dropna()
 
 app = dash.Dash(__name__)
 
