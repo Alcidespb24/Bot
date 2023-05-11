@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 import statistics
 client = cbpro.PublicClient()
-symbol = 'BTC-USD'
+symbol = 'ETH-USD'
 _full_list = []
 
 def convert_iso_format_to_datetime(iso_format_time: str) -> datetime:
@@ -75,6 +75,11 @@ def trades_eth(minutes):
     df_eth['change_in_volume'] = df_eth['volume'].diff()
 
     df_eth['std dev'] = statistics.pstdev(df_eth['average price'])
+
+    df_eth['status'] = "Normal"
+    
+    df_eth.loc[(df_eth['volume'] >= 2000) & (df_eth['change_in_price'] >= 3) & (df_eth['change_in_size'] >= 25), 'status'] = 'Opportunity to Buy'
+    df_eth.loc[(df_eth['volume'] <= 2000) & (df_eth['change_in_price'] <= -3) & (df_eth['change_in_size'] <= -25), 'status'] = 'Opportunity to Sell'
 
     df_eth = df_eth.round(2)
 

@@ -25,7 +25,7 @@ server = app.server
 
 app.layout = html.Div(
     html.Div([
-        html.H1('BTC', style={'color': '#91D8E4',
+        html.H1('ETH-USD', style={'color': '#91D8E4',
                               'text-align': 'left', 'margin': '50px 0px 0px 65px'}),
         html.Div([
             html.Div([
