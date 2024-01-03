@@ -1,4 +1,5 @@
 import warnings
+import winsound
 from dash import Dash, html, dcc, dash_table, ctx
 from dash.dependencies import Input, Output
 from dash import dcc, html
@@ -11,13 +12,18 @@ pio.templates
 warnings.filterwarnings('ignore')
 warnings.simplefilter('ignore')
 
-df_eth = trades_eth(minutes=5)
+df_eth = trades_eth(minutes=20)
 
 def get_all_trades():
     global df_eth
-    df_eth = trades_eth(minutes=1)
+    df_eth = trades_eth(minutes=20)
     df_eth = df_eth.round(2)
     df_eth.dropna()
+
+    if df_eth.volume.iloc[0] >= 2500 and df_eth.change_in_price.iloc[0] >= 3 and df_eth.change_in_size.iloc[0] >= 100:
+        winsound.PlaySound("beep.wav", winsound.SND_FILENAME)
+    elif df_eth.volume.iloc[0] >= 2500 and df_eth.change_in_price.iloc[0] <= -3 and df_eth.change_in_size.iloc[0] <= -100:
+        winsound.PlaySound("SystemExclamation.wav", winsound.SND_FILENAME)
 
 app = dash.Dash(__name__)
 
@@ -124,8 +130,8 @@ def data_table_update(n):
     get_all_trades()
     global df_eth
     df_5m_lvalues = df_eth.tail(5)
+    
     return df_5m_lvalues.to_dict('records')
-
 
 if __name__ == '__main__':
     app.run_server(debug=True)

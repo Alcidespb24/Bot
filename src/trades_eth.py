@@ -4,8 +4,9 @@ import cbpro
 import pandas as pd
 import numpy as np
 import statistics
+from scipy.stats import norm
 client = cbpro.PublicClient()
-symbol = 'BTC-USD'
+symbol = 'ETH-USD'
 _full_list = []
 
 def convert_iso_format_to_datetime(iso_format_time: str) -> datetime:
@@ -30,6 +31,20 @@ def get_trades_in_last_xmins(mins: int) -> list:
         current_element = get_trades_latest.__next__()
 
     return buffer
+
+def calculate_probability_of_price_change(df):
+    # Calculate daily price change percentage
+    df['percentage_change'] = df['average price'].pct_change() * 100
+    
+    # Calculate mean and standard deviation of daily price change
+    mean_change = df['percentage_change'].mean()
+    std_dev_change = df['percentage_change'].std()
+    
+    # Use cumulative distribution function (CDF) to calculate the probability of positive and negative changes
+    df['probability_up'] = norm.cdf(0, loc=mean_change, scale=std_dev_change)
+    df['probability_down'] = 1 - df['probability_up']
+    
+    return df
 
 
 def trades_eth(minutes):
@@ -75,6 +90,8 @@ def trades_eth(minutes):
     df_eth['change_in_volume'] = df_eth['volume'].diff()
 
     df_eth['std dev'] = statistics.pstdev(df_eth['average price'])
+
+    df_eth = calculate_probability_of_price_change(df_eth)
 
     df_eth = df_eth.round(2)
 

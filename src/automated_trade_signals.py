@@ -1,7 +1,11 @@
 import pandas as pd
 from main import *
-from trades_function import trades
-from web_app_plotly import *
+from trades_eth import *
 
-#def algo ():
-    
+trades = trades_eth(20)
+
+def automatic_trades():
+    if(trades.df_eth['probability_up'] > 0.80):
+        open_position("ETH-USD", "Buy", 100)
+    elif(trades.df_eth['probability_down'] > 0.80):
+        open_position("ETH-USD", "Sell", 100)
